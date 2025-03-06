@@ -1,0 +1,237 @@
+(* ****************************************************************** *)
+(* *****                                                        ***** *)
+(* *****  FeynRules model file: Flavoured Dark Matter           ***** *)
+(* *****                                                        ***** *)
+(* *****  Author: Lena Rathmann                                 ***** *)
+(* *****                                                        ***** *)
+(* ****************************************************************** *)
+
+(* ************************** *)
+(* *****  Information   ***** *)
+(* ************************** *)
+
+M$ModelName = "Real_d";
+
+M$Information = {Authors -> {"Lena Rathmann"},
+   Version -> "1.0"};
+
+(* Limits the Range of the Index type *)
+IndexRange[ Index[Colour] ] = Range[3]; 
+IndexStyle[Colour, col];					
+IndexStyle[Spin, spi];
+
+(* ************************** *)
+(* *****   Parameters   ***** *)
+(* ************************** *)
+
+M$Parameters = {
+
+  (* DM mediator coupling *)
+
+  RelFds11 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelFds12 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelFds13 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelFds21 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelFds22 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelFds23 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelFds31 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelFds32 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelFds33 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlFds11 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlFds12 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlFds13 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlFds21 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlFds22 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlFds23 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlFds31 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlFds32 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlFds33 == {
+    ParameterType -> External,
+    Value -> 1},
+
+  RelFds == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {RelFds[1,1] -> (RelFds11), RelFds[1,2] -> (RelFds12), RelFds[1,3] -> (RelFds13), 
+      RelFds[2,1] -> (RelFds21), RelFds[2,2] -> (RelFds22), RelFds[2,3] -> (RelFds23), 
+      RelFds[3,1] -> (RelFds31), RelFds[3,2] -> (RelFds32), RelFds[3,3] -> (RelFds33)},
+    Description -> "Fermion mediator coupling real scalar DM to right-handed down-quarks",
+    InteractionOrder -> {NP,1}},
+
+  ImlFds == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {ImlFds[1,1] -> (ImlFds11), ImlFds[1,2] -> (ImlFds12), ImlFds[1,3] -> (ImlFds13), 
+      ImlFds[2,1] -> (ImlFds21), ImlFds[2,2] -> (ImlFds22), ImlFds[2,3] -> (ImlFds23), 
+      ImlFds[3,1] -> (ImlFds31), ImlFds[3,2] -> (ImlFds32), ImlFds[3,3] -> (ImlFds33)},
+    Description -> "Fermion mediator coupling real scalar DM to right-handed down-quarks",
+    InteractionOrder -> {NP,1}},
+
+  (* Higgs coupling *)
+
+  RelHXs11 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelHXs12 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelHXs13 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelHXs22 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelHXs23 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelHXs33 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlHXs12 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlHXs13 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlHXs23 == {
+    ParameterType -> External,
+    Value -> 1},
+
+  RelHXs == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {RelHXs[1,1] -> (RelHXs11), RelHXs[1,2] -> (RelHXs12), RelHXs[1,3] -> (RelHXs13), 
+      RelHXs[2,1] -> (RelHXs12), RelHXs[2,2] -> (RelHXs22), RelHXs[2,3] -> (RelHXs23), 
+      RelHXs[3,1] -> (RelHXs13), RelHXs[3,2] -> (RelHXs23), RelHXs[3,3] -> (RelHXs33)},
+    Description -> "Coupling real scalar DM to Higgs",
+    InteractionOrder -> {NP,1}},
+
+  ImlHXs == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {ImlHXs[1,1] -> 0, ImlHXs[1,2] -> (ImlHXs12), ImlHXs[1,3] -> (ImlHXs13), 
+      ImlHXs[2,1] -> (-ImlHXs12), ImlHXs[2,2] -> 0, ImlHXs[2,3] -> (ImlHXs23), 
+      ImlHXs[3,1] -> (-ImlHXs13), ImlHXs[3,2] -> (-ImlHXs23), ImlHXs[3,3] -> 0},
+    Description -> "Coupling real scalar DM to Higgs",
+    InteractionOrder -> {NP,1}},
+
+  (* Scalar interactions *)
+
+  lam2Xs == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+  
+  (* Mass contributions through EWSB *)
+
+  mXs1 == {
+  PatameterType -> External,
+  Value -> 300},
+
+  MXs1 == {
+  ParameterType -> Internal,
+  Value -> Sqrt[mXs1^2 + vev^2/2 lamHXs1]},
+
+  mXs2 == {
+  PatameterType -> External,
+  Value -> 200},
+
+  MXs2 == {
+  ParameterType -> Internal,
+  Value -> Sqrt[mXs2^2 + vev^2/2 lamHXs2]},
+
+  mXs3 == {
+  PatameterType -> External,
+  Value -> 100},
+
+  MXs3 == {
+  ParameterType -> Internal,
+  Value -> Sqrt[mXs3^2 + vev^2/2 lamHXs3]}
+
+};
+
+(* ************************** *)
+(* *****     Fields     ***** *)
+(* ************************** *)
+
+M$ClassesDescription = {
+  
+  (* Dark matter *)
+
+  S[100] == {
+    ClassName -> Xs, 
+    ClassMembers -> {Xs1, Xs2, Xs3},
+    Mass -> {MXs, {MXs1, Internal}, {MXs2, Internal}, {MXs3, Internal}},
+    Indices -> {Index[Generation]},
+    FlavorIndex	-> Generation,
+    Width -> {{wXs1,1}, {wXs2,1}, {wXs3,0}},
+    ParticleName -> {"~Xs1","~Xs2","~Xs3"},
+    SelfConjugate -> True},
+
+  (* Mediators *)
+
+  F[204] == {
+    ClassName -> YFd,
+    SelfConjugate -> False,
+    QuantumNumbers -> {Q -> -1/3},
+    Mass -> {MYFd, 500},
+    Width -> {WYFd, 1},
+    ParticleName -> {"~YFd"},
+    AntiParticleName -> {"~YFd~"},
+    Indices -> {Index[Colour]}}
+
+};
+
+(* ************************** *)
+(* *****   Lagrangian   ***** *)
+(* ************************** *)
+
+LkinX = 1/2 (del[Xs[ii],mu] del[Xs[ii],mu] - MXs1^2 Xs1 Xs1 - MXs2^2 Xs2 Xs2 - MXs3^2 Xs3 Xs3)
+
+LkinY = I YFdbar.Ga[mu].DC[YFd, mu] - YFdbar.YFd MYFd
+
+Lint = (RelFds[f1, f2] + I*ImlFds[f1, f2]) dRbar[sp1, f1, c1].YFd[sp1, c1] Xs[f2]
+
+LintH = (RelHXs[f1, f2] + I*ImlHXs[f1, f2]) Xs[f1] Xs[f2] (HC[H] H/2 + HC[GP] GP + HC[G0] G0/2 + vev H)
+
+LintS = lam2Xs (Xs1^4 + Xs2^4 + Xs3^4)
+
+LNP = LkinX + LkinY + Lint + HC[Lint] + LintH + LintS;

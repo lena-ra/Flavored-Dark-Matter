@@ -1,0 +1,206 @@
+(* ****************************************************************** *)
+(* *****                                                        ***** *)
+(* *****  FeynRules model file: Flavoured Dark Matter           ***** *)
+(* *****                                                        ***** *)
+(* *****  Author: Lena Rathmann                                 ***** *)
+(* *****                                                        ***** *)
+(* ****************************************************************** *)
+
+(* ************************** *)
+(* *****  Information   ***** *)
+(* ************************** *)
+
+M$ModelName = "Majorana_q";
+
+M$Information = {Authors -> {"Lena Rathmann"},
+   Version -> "1.0"};
+
+(* Limits the Range of the Index type *)
+IndexRange[ Index[Colour] ] = Range[3]; 
+IndexStyle[Colour, col];					
+IndexStyle[Spin, spi];
+
+(* ************************** *)
+(* *****   Parameters   ***** *)
+(* ************************** *)
+
+M$Parameters = {
+
+  (* DM mediator coupling *)
+
+  RelSqm11 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSqm12 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSqm13 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSqm21 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSqm22 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSqm23 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSqm31 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSqm32 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSqm33 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSqm11 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSqm12 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSqm13 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSqm21 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSqm22 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSqm23 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSqm31 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSqm32 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSqm33 == {
+    ParameterType -> External,
+    Value -> 1},
+
+  RelSqm == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {RelSqm[1,1] -> (RelSqm11), RelSqm[1,2] -> (RelSqm12), RelSqm[1,3] -> (RelSqm13), 
+      RelSqm[2,1] -> (RelSqm21), RelSqm[2,2] -> (RelSqm22), RelSqm[2,3] -> (RelSqm23), 
+      RelSqm[3,1] -> (RelSqm31), RelSqm[3,2] -> (RelSqm32), RelSqm[3,3] -> (RelSqm33)},
+    Description -> "Scalar mediator coupling majorana DM to left-handed quarks",
+    InteractionOrder -> {NP,1}},
+
+  ImlSqm == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {ImlSqm[1,1] -> (ImlSqm11), ImlSqm[1,2] -> (ImlSqm12), ImlSqm[1,3] -> (ImlSqm13), 
+      ImlSqm[2,1] -> (ImlSqm21), ImlSqm[2,2] -> (ImlSqm22), ImlSqm[2,3] -> (ImlSqm23), 
+      ImlSqm[3,1] -> (ImlSqm31), ImlSqm[3,2] -> (ImlSqm32), ImlSqm[3,3] -> (ImlSqm33)},
+    Description -> "Scalar mediator coupling majorana DM to left-handed quarks",
+    InteractionOrder -> {NP,1}},
+
+  (* Higgs coupling *)
+
+  lamHSq1 == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+  lamHSq2 == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+
+  (* Scalar interactions *)
+
+  lam2Sq == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+
+  (* Mass contributions through EWSB *)
+
+  mYSq == {
+  PatameterType -> External,
+  Value -> 500},
+
+  MYSqu == {
+  ParameterType -> Internal,
+  Value -> Sqrt[mYSq^2 + vev^2/2 lamHSq1]},
+
+  MYSqd == {
+  ParameterType -> Internal,
+  Value -> Sqrt[mYSq^2 + vev^2/2 (lamHSq1+lamHSq2)]}
+
+};
+
+(* ************************** *)
+(* *****     Fields     ***** *)
+(* ************************** *)
+
+M$ClassesDescription = {
+  
+  (* Dark matter *)
+
+  F[100] == {
+    ClassName -> Xm, 
+    ClassMembers -> {Xm1, Xm2, Xm3},
+    Mass -> {MXm, {MXm1, 300}, {MXm2, 200}, {MXm3, 100}},
+    Indices -> {Index[Generation]},
+    FlavorIndex	-> Generation,
+    Width -> {{wXm1,1}, {wXm2,1}, {wXm3,0}},
+    ParticleName -> {"~Xm1","~Xm2","~Xm3"},
+    SelfConjugate -> True},
+
+  (* Mediators *)
+
+  S[200] == {
+    ClassName -> YSq,
+    Unphysical -> True, 
+    Indices -> {Index[SU2D], Index[Colour]},
+    FlavorIndex -> SU2D,
+    SelfConjugate -> False,
+    QuantumNumbers -> {Y -> 1/6},
+    Definitions -> {YSq[1,cc_] -> YSqu[cc], YSq[2,cc_] -> YSqd[cc]}},
+
+  S[201] == {
+    ClassName -> YSqu,
+    SelfConjugate -> False,
+    QuantumNumbers -> {Q -> 2/3},
+    Mass -> {MYSqu, Internal},
+    Width -> {WYSqu, 1},
+    ParticleName -> {"~YSqu"},
+    AntiParticleName -> {"~YSqu~"},
+    Indices -> {Index[Colour]}},
+
+  S[202] == {
+    ClassName -> YSqd,
+    SelfConjugate -> False,
+    QuantumNumbers -> {Q -> -1/3},
+    Mass -> {MYSqd, Internal},
+    Width -> {WYSqd, 1},
+    ParticleName -> {"~YSqd"},
+    AntiParticleName -> {"~YSqd~"},
+    Indices -> {Index[Colour]}}
+
+};
+
+(* ************************** *)
+(* *****   Lagrangian   ***** *)
+(* ************************** *)
+
+LkinX = 1/2 (I Xmbar.Ga[mu].del[Xm, mu] - Xm1bar Xm1 MXm1 - Xm2bar Xm2 MXm2 - Xm3bar Xm3 MXm3)
+
+LkinY = HC[DC[YSq[ii, c1], mu]] DC[YSq[ii, c1], mu] - MYSqu^2 HC[YSqu[c1]] YSqu[c1] - MYSqd^2 HC[YSqd[c1]] YSqd[c1]
+
+Lint = (RelSqm[f1, f2] + I*ImlSqm[f1, f2]) QLbar[sp1, ii, f1, c1].Xm[sp1, f2] YSq[ii, c1]
+
+LintH = (lamHSq1 YSqbar[ii, c1] YSq[ii, c1] (HC[H] H/2 + HC[GP] GP + HC[G0] G0/2 + vev H)
+  + lamHSq2 (YSqbar[1, c1] YSq[1, c1] HC[GP] GP - I/Sqrt[2] (vev + H - I G0) YSq[2, c1] YSqbar[1, c1] GP + I/Sqrt[2] HC[GP] YSq[1, c1] YSqbar[2, c1] (vev + H + I G0) + YSqbar[2, c1] YSq[2, c1] (vev H + H H/2 + G0 G0/2)));
+
+LintS = lam2Sq HC[YSq[ii, c1]] YSq[ii, c1] HC[YSq[ii, c1]] YSq[ii, c1] 
+
+LNP = LkinX + LkinY + Lint + HC[Lint] + LintH + LintS;

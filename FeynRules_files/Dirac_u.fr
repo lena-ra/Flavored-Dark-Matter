@@ -1,0 +1,179 @@
+(* ****************************************************************** *)
+(* *****                                                        ***** *)
+(* *****  FeynRules model file: Flavoured Dark Matter           ***** *)
+(* *****                                                        ***** *)
+(* *****  Author: Lena Rathmann                                 ***** *)
+(* *****                                                        ***** *)
+(* ****************************************************************** *)
+
+(* ************************** *)
+(* *****  Information   ***** *)
+(* ************************** *)
+
+M$ModelName = "Dirac_u";
+
+M$Information = {Authors -> {"Lena Rathmann"},
+   Version -> "1.0"};
+
+(* Limits the Range of the Index type *)
+IndexRange[ Index[Colour] ] = Range[3]; 
+IndexStyle[Colour, col];					
+IndexStyle[Spin, spi];
+
+(* ************************** *)
+(* *****   Parameters   ***** *)
+(* ************************** *)
+
+M$Parameters = {
+
+  (* DM mediator coupling *)
+
+  RelSud11 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSud12 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSud13 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSud21 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSud22 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSud23 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSud31 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSud32 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSud33 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSud11 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSud12 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSud13 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSud21 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSud22 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSud23 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSud31 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSud32 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSud33 == {
+    ParameterType -> External,
+    Value -> 1},
+
+  RelSud == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {RelSud[1,1] -> (RelSud11), RelSud[1,2] -> (RelSud12), RelSud[1,3] -> (RelSud13), 
+      RelSud[2,1] -> (RelSud21), RelSud[2,2] -> (RelSud22), RelSud[2,3] -> (RelSud23), 
+      RelSud[3,1] -> (RelSud31), RelSud[3,2] -> (RelSud32), RelSud[3,3] -> (RelSud33)},
+    Description -> "Scalar mediator coupling dirac DM to right-handed up-quarks",
+    InteractionOrder -> {NP,1}},
+
+  ImlSud == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {ImlSud[1,1] -> (ImlSud11), ImlSud[1,2] -> (ImlSud12), ImlSud[1,3] -> (ImlSud13), 
+      ImlSud[2,1] -> (ImlSud21), ImlSud[2,2] -> (ImlSud22), ImlSud[2,3] -> (ImlSud23), 
+      ImlSud[3,1] -> (ImlSud31), ImlSud[3,2] -> (ImlSud32), ImlSud[3,3] -> (ImlSud33)},
+    Description -> "Scalar mediator coupling dirac DM to right-handed up-quarks",
+    InteractionOrder -> {NP,1}},
+
+  (* Higgs coupling *)
+
+  lamHSu == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+
+  (* Scalar interactions *)
+
+  lam2Su == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+
+  (* Mass contributions through EWSB *)
+
+  mYSu == {
+  PatameterType -> External,
+  Value -> 500},
+
+  MYSu == {
+  ParameterType -> Internal,
+  Value -> Sqrt[mYSu^2 + vev^2/2 lamHSu]}
+
+};
+
+(* ************************** *)
+(* *****     Fields     ***** *)
+(* ************************** *)
+
+M$ClassesDescription = {
+  
+  (* Dark matter *)
+
+  F[101] == {
+    ClassName -> Xd,
+    ClassMembers -> {Xd1, Xd2, Xd3},
+    Mass -> {MXd, {MXd1, 300}, {MXd2, 200}, {MXd3, 100}},
+    Indices -> {Index[Generation]},
+    FlavorIndex	-> Generation,
+    Width -> {{wXd1,1}, {wXd2,1}, {wXd3,0}},
+    ParticleName -> {"~Xd1","~Xd2","~Xd3"},
+    AntiParticleName -> {"~Xd1~","~Xd2~","~Xd3~"},
+    SelfConjugate -> False},
+
+  (* Mediators *)
+
+  S[203] == {
+    ClassName -> YSu,
+    SelfConjugate -> False,
+    QuantumNumbers -> {Q -> 2/3},
+    Mass -> {MYSu, Internal},
+    Width -> {WYSu, 1},
+    ParticleName -> {"~YSu"},
+    AntiParticleName -> {"~YSu~"},
+    Indices -> {Index[Colour]}}
+
+};
+
+(* ************************** *)
+(* *****   Lagrangian   ***** *)
+(* ************************** *)
+
+LkinX = I Xdbar.Ga[mu].del[Xd, mu] - Xd1bar Xd1 MXd1 - Xd2bar Xd2 MXd2 - Xd3bar Xd3 MXd3
+
+LkinY = HC[DC[YSu[c1], mu]] DC[YSu[c1], mu] - MYSu^2 HC[YSu[c1]] YSu[c1]
+
+Lint = (RelSud[f1, f2] + I*ImlSud[f1, f2]) uRbar[sp1, f1, c1].Xd[sp1, f2] YSu[c1]
+
+LintH = lamHSu YSubar[c1] YSu[c1] (HC[H] H/2 + HC[GP] GP + HC[G0] G0/2 + vev H)
+
+LintS = lam2Su HC[YSu[c1]] YSu[c1] HC[YSu[c1]] YSu[c1]
+
+LNP = LkinX + LkinY + Lint + HC[Lint] + LintH + LintS;

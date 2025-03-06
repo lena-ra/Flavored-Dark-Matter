@@ -1,0 +1,223 @@
+(* ****************************************************************** *)
+(* *****                                                        ***** *)
+(* *****  FeynRules model file: Flavoured Dark Matter           ***** *)
+(* *****                                                        ***** *)
+(* *****  Author: Lena Rathmann                                 ***** *)
+(* *****                                                        ***** *)
+(* ****************************************************************** *)
+
+(* ************************** *)
+(* *****  Information   ***** *)
+(* ************************** *)
+
+M$ModelName = "Dirac_l";
+
+M$Information = {Authors -> {"Lena Rathmann"},
+   Version -> "1.0"};
+
+(* Limits the Range of the Index type *)
+IndexRange[ Index[Colour] ] = Range[3]; 
+IndexStyle[Colour, col];					
+IndexStyle[Spin, spi];
+
+(* ************************** *)
+(* *****   Parameters   ***** *)
+(* ************************** *)
+
+M$Parameters = {
+
+  (* DM mediator coupling *)
+
+  RelSld11 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSld12 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSld13 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSld21 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSld22 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSld23 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSld31 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSld32 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSld33 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSld11 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSld12 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSld13 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSld21 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSld22 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSld23 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSld31 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSld32 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSld33 == {
+    ParameterType -> External,
+    Value -> 1},
+
+  RelSld == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {RelSld[1,1] -> (RelSld11), RelSld[1,2] -> (RelSld12), RelSld[1,3] -> (RelSld13), 
+      RelSld[2,1] -> (RelSld21), RelSld[2,2] -> (RelSld22), RelSld[2,3] -> (RelSld23), 
+      RelSld[3,1] -> (RelSld31), RelSld[3,2] -> (RelSld32), RelSld[3,3] -> (RelSld33)},
+    Description -> "Scalar mediator coupling dirac DM to left-handed leptons",
+    InteractionOrder -> {NP,1}},
+
+  ImlSld == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {ImlSld[1,1] -> (ImlSld11), ImlSld[1,2] -> (ImlSld12), ImlSld[1,3] -> (ImlSld13), 
+      ImlSld[2,1] -> (ImlSld21), ImlSld[2,2] -> (ImlSld22), ImlSld[2,3] -> (ImlSld23), 
+      ImlSld[3,1] -> (ImlSld31), ImlSld[3,2] -> (ImlSld32), ImlSld[3,3] -> (ImlSld33)},
+    Description -> "Scalar mediator coupling dirac DM to left-handed leptons",
+    InteractionOrder -> {NP,1}},
+
+  (* Higgs coupling *)
+
+  lamHSl1 == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+  lamHSl2 == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+  lamHSl3 == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+
+  (* Scalar interactions *)
+
+  lam2Sl == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+
+  (* Mass contributions through EWSB *)
+
+  mYSl == {
+  PatameterType -> External,
+  Value -> 500},
+
+  MYSlvR == {
+  ParameterType -> Internal,
+  Value -> Sqrt[mYSl^2 + vev^2/2 (lamHSl1+lamHSl3)]},
+
+  MYSlvI == {
+  ParameterType -> Internal,
+  Value -> Sqrt[mYSl^2 + vev^2/2 (lamHSl1-lamHSl3)]},
+
+  MYSle == {
+  ParameterType -> Internal,
+  Value -> Sqrt[mYSl^2 + vev^2/2 (lamHSl1+lamHSl2)]}
+
+};
+
+(* ************************** *)
+(* *****     Fields     ***** *)
+(* ************************** *)
+
+M$ClassesDescription = {
+  
+  (* Dark matter *)
+
+  F[101] == {
+    ClassName -> Xd,
+    ClassMembers -> {Xd1, Xd2, Xd3},
+    Mass -> {MXd, {MXd1, 300}, {MXd2, 200}, {MXd3, 100}},
+    Indices -> {Index[Generation]},
+    FlavorIndex	-> Generation,
+    Width -> {{wXd1,1}, {wXd2,1}, {wXd3,0}},
+    ParticleName -> {"~Xd1","~Xd2","~Xd3"},
+    AntiParticleName -> {"~Xd1~","~Xd2~","~Xd3~"},
+    SelfConjugate -> False},
+
+  (* Mediators *)
+
+  S[205] == {
+    ClassName -> YSle,
+    SelfConjugate -> False,
+    QuantumNumbers -> {Q -> -1},
+    Mass -> {MYSle, Internal},
+    Width -> {WYSle, 1},
+    ParticleName -> {"~YSle"},
+    AntiParticleName -> {"~YSle~"}},
+
+  S[206] == {
+    ClassName -> YSlvR,
+    SelfConjugate -> True,
+    Mass -> {MYSlvR, Internal},
+    Width -> {WYSlvR, 1},
+    ParticleName -> {"~YSlvR"},
+    AntiParticleName -> {"~YSlvR~"}},
+
+  S[207] == {
+    ClassName -> YSlvI,
+    SelfConjugate -> True,
+    Mass -> {MYSlvI, Internal},
+    Width -> {WYSlvI, 1},
+    ParticleName -> {"~YSlvI"},
+    AntiParticleName -> {"~YSlvI~"}},
+
+  S[208] == {
+    ClassName -> YSl,
+    Unphysical -> True, 
+    Indices -> {Index[SU2D]},
+    FlavorIndex -> SU2D,
+    SelfConjugate -> False,
+    QuantumNumbers -> {Y -> -1/2},
+    Definitions -> {YSl[1] -> (YSlvR + I YSlvI)/Sqrt[2], YSl[2] -> YSle}}
+
+};
+
+(* ************************** *)
+(* *****   Lagrangian   ***** *)
+(* ************************** *)
+
+LkinX = I Xdbar.Ga[mu].del[Xd, mu] - Xd1bar Xd1 MXd1 - Xd2bar Xd2 MXd2 - Xd3bar Xd3 MXd3
+
+LkinY = HC[DC[YSl[ii], mu]] DC[YSl[ii], mu] - 1/2 (MYSlvR^2 YSlvR^2 + MYSlvI^2 YSlvI^2) - MYSle^2 HC[YSl[2]] YSl[2]
+
+Lint = (RelSld[f1, f2] + I*ImlSld[f1, f2]) LLbar[sp1, ii, f1].Xd[sp1, f2] YSl[ii]
+
+LPhi = 1/2 (-GP YSl[2] GP YSl[2] + I Sqrt[2] GP YSl[2] (vev + H + I G0) YSl[1] + 1/2 YSl[1]^2 (2 H vev + H^2 + 2 I G0 (vev + H) - G0^2))
+
+LintH = (lamHSl1 YSlbar[ii] YSl[ii] (HC[H] H/2 + HC[GP] GP + HC[G0] G0/2 + vev H)
+  + lamHSl2 (YSlbar[1] YSl[1] HC[GP] GP - I/Sqrt[2] (vev + H - I G0) YSl[2] YSlbar[1] GP + I/Sqrt[2] HC[GP] YSl[1] YSlbar[2] (vev + H + I G0) + YSlbar[2] YSl[2] (vev H + H H/2 + G0 G0/2))
+  + lamHSl3 (LPhi + HC[LPhi]));
+
+LintS = lam2Sl HC[YSl[ii]] YSl[ii] HC[YSl[ii]] YSl[ii]
+
+LNP = LkinX + LkinY + Lint + HC[Lint] + LintH + LintS;

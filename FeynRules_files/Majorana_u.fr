@@ -1,0 +1,178 @@
+(* ****************************************************************** *)
+(* *****                                                        ***** *)
+(* *****  FeynRules model file: Flavoured Dark Matter           ***** *)
+(* *****                                                        ***** *)
+(* *****  Author: Lena Rathmann                                 ***** *)
+(* *****                                                        ***** *)
+(* ****************************************************************** *)
+
+(* ************************** *)
+(* *****  Information   ***** *)
+(* ************************** *)
+
+M$ModelName = "Majorana_u";
+
+M$Information = {Authors -> {"Lena Rathmann"},
+   Version -> "1.0"};
+
+(* Limits the Range of the Index type *)
+IndexRange[ Index[Colour] ] = Range[3]; 
+IndexStyle[Colour, col];					
+IndexStyle[Spin, spi];
+
+(* ************************** *)
+(* *****   Parameters   ***** *)
+(* ************************** *)
+
+M$Parameters = {
+
+  (* DM mediator coupling *)
+
+  RelSum11 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSum12 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSum13 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSum21 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSum22 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSum23 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSum31 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSum32 == {
+    ParameterType -> External,
+    Value -> 1},
+  RelSum33 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSum11 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSum12 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSum13 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSum21 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSum22 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSum23 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSum31 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSum32 == {
+    ParameterType -> External,
+    Value -> 1},
+  ImlSum33 == {
+    ParameterType -> External,
+    Value -> 1},
+
+  RelSum == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {RelSum[1,1] -> (RelSum11), RelSum[1,2] -> (RelSum12), RelSum[1,3] -> (RelSum13), 
+      RelSum[2,1] -> (RelSum21), RelSum[2,2] -> (RelSum22), RelSum[2,3] -> (RelSum23), 
+      RelSum[3,1] -> (RelSum31), RelSum[3,2] -> (RelSum32), RelSum[3,3] -> (RelSum33)},
+    Description -> "Scalar mediator coupling majorana DM to right-handed up-quarks",
+    InteractionOrder -> {NP,1}},
+
+  ImlSum == {
+    ComplexParameter -> False,
+    ParameterType -> Internal,
+    Indices -> {Index[Generation], Index[Generation]},
+    Value -> {ImlSum[1,1] -> (ImlSum11), ImlSum[1,2] -> (ImlSum12), ImlSum[1,3] -> (ImlSum13), 
+      ImlSum[2,1] -> (ImlSum21), ImlSum[2,2] -> (ImlSum22), ImlSum[2,3] -> (ImlSum23), 
+      ImlSum[3,1] -> (ImlSum31), ImlSum[3,2] -> (ImlSum32), ImlSum[3,3] -> (ImlSum33)},
+    Description -> "Scalar mediator coupling majorana DM to right-handed up-quarks",
+    InteractionOrder -> {NP,1}},
+
+  (* Higgs coupling *)
+
+  lamHSu == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+
+  (* Scalar interactions *)
+
+  lam2Su == {
+    ParameterType -> External,
+    Value -> 0.1,
+    InteractionOrder -> {NP,1}},
+
+  (* Mass contributions through EWSB *)
+
+  mYSu == {
+  PatameterType -> External,
+  Value -> 500},
+
+  MYSu == {
+  ParameterType -> Internal,
+  Value -> Sqrt[mYSu^2 + vev^2/2 lamHSu]}
+
+};
+
+(* ************************** *)
+(* *****     Fields     ***** *)
+(* ************************** *)
+
+M$ClassesDescription = {
+  
+  (* Dark matter *)
+
+  F[100] == {
+    ClassName -> Xm, 
+    ClassMembers -> {Xm1, Xm2, Xm3},
+    Mass -> {MXm, {MXm1, 300}, {MXm2, 200}, {MXm3, 100}},
+    Indices -> {Index[Generation]},
+    FlavorIndex	-> Generation,
+    Width -> {{wXm1,1}, {wXm2,1}, {wXm3,0}},
+    ParticleName -> {"~Xm1","~Xm2","~Xm3"},
+    SelfConjugate -> True},
+
+  (* Mediators *)
+
+  S[203] == {
+    ClassName -> YSu,
+    SelfConjugate -> False,
+    QuantumNumbers -> {Q -> 2/3},
+    Mass -> {MYSu, Internal},
+    Width -> {WYSu, 1},
+    ParticleName -> {"~YSu"},
+    AntiParticleName -> {"~YSu~"},
+    Indices -> {Index[Colour]}}
+
+};
+
+(* ************************** *)
+(* *****   Lagrangian   ***** *)
+(* ************************** *)
+
+LkinX = 1/2 (I Xmbar.Ga[mu].del[Xm, mu] - Xm1bar Xm1 MXm1 - Xm2bar Xm2 MXm2 - Xm3bar Xm3 MXm3)
+
+LkinY = HC[DC[YSu[c1], mu]] DC[YSu[c1], mu] - MYSu^2 HC[YSu[c1]] YSu[c1]
+
+Lint = (RelSum[f1, f2] + I*ImlSum[f1, f2]) uRbar[sp1, f1, c1].Xm[sp1, f2] YSu[c1]
+
+LintH = lamHSu YSubar[c1] YSu[c1] (HC[H] H/2 + HC[GP] GP + HC[G0] G0/2 + vev H)
+
+LintS = lam2Su HC[YSu[c1]] YSu[c1] HC[YSu[c1]] YSu[c1]
+
+LNP = LkinX + LkinY + Lint + HC[Lint] + LintH + LintS;

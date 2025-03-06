@@ -1,0 +1,69 @@
+Real_d
+ Parameters
+  Name         | Value       |> Comment                                                                <|
+aEWM1          |127.9        |Inverse of the EW coupling constant at the Z pole                         |
+Gf             |0.0000116637 |Fermi constant                                                            |
+aS             |0.1184       |Strong coupling constant at the Z pole                                    |
+ymdo           |0.00504      |Down Yukawa mass                                                          |
+ymup           |0.00255      |Up Yukawa mass                                                            |
+yms            |0.101        |Strange Yukawa mass                                                       |
+ymc            |1.27         |Charm Yukawa mass                                                         |
+ymb            |4.7          |Bottom Yukawa mass                                                        |
+ymt            |172          |Top Yukawa mass                                                           |
+yme            |0.000511     |Electron Yukawa mass                                                      |
+ymm            |0.10566      |Muon Yukawa mass                                                          |
+ymtau          |1.777        |Tau Yukawa mass                                                           |
+cabi           |0.227736     |Cabibbo angle                                                             |
+RelFds11       |1            |RelFds11                                                                  |
+RelFds12       |1            |RelFds12                                                                  |
+RelFds13       |1            |RelFds13                                                                  |
+RelFds21       |1            |RelFds21                                                                  |
+RelFds22       |1            |RelFds22                                                                  |
+RelFds23       |1            |RelFds23                                                                  |
+RelFds31       |1            |RelFds31                                                                  |
+RelFds32       |1            |RelFds32                                                                  |
+RelFds33       |1            |RelFds33                                                                  |
+ImlFds11       |1            |ImlFds11                                                                  |
+ImlFds12       |1            |ImlFds12                                                                  |
+ImlFds13       |1            |ImlFds13                                                                  |
+ImlFds21       |1            |ImlFds21                                                                  |
+ImlFds22       |1            |ImlFds22                                                                  |
+ImlFds23       |1            |ImlFds23                                                                  |
+ImlFds31       |1            |ImlFds31                                                                  |
+ImlFds32       |1            |ImlFds32                                                                  |
+ImlFds33       |1            |ImlFds33                                                                  |
+RelHXs11       |1            |RelHXs11                                                                  |
+RelHXs12       |1            |RelHXs12                                                                  |
+RelHXs13       |1            |RelHXs13                                                                  |
+RelHXs22       |1            |RelHXs22                                                                  |
+RelHXs23       |1            |RelHXs23                                                                  |
+RelHXs33       |1            |RelHXs33                                                                  |
+ImlHXs12       |1            |ImlHXs12                                                                  |
+ImlHXs13       |1            |ImlHXs13                                                                  |
+ImlHXs23       |1            |ImlHXs23                                                                  |
+lam2Xs         |0.1          |lam2Xs                                                                    |
+mXs1           |300          |mXs1                                                                      |
+mXs2           |200          |mXs2                                                                      |
+mXs3           |100          |mXs3                                                                      |
+GG             |1.21977796370|Strong coupling constant at the Z pole   This value will be ignored and ca|
+MZ             |91.1876      |Mass of G0.                                                               |
+Me             |0.000511     |Mass of e.                                                                |
+MMU            |0.10566      |Mass of mu.                                                               |
+MTA            |1.777        |Mass of ta.                                                               |
+MU             |0.00255      |Mass of u.                                                                |
+MC             |1.27         |Mass of c.                                                                |
+MT             |172          |Mass of t.                                                                |
+MD             |0.00504      |Mass of d.                                                                |
+MS             |0.101        |Mass of s.                                                                |
+MB             |4.7          |Mass of b.                                                                |
+MH             |125          |Mass of H.                                                                |
+MYFd           |500          |Mass of YFd.                                                              |
+%WZ            |2.4952       |Width of G0.                                                              |
+%WW            |2.085        |Width of GP.                                                              |
+%WT            |1.50833649   |Width of t.                                                               |
+%WH            |0.00407      |Width of H.                                                               |
+%wXs1          |1            |Width of Xs1.                                                             |
+%wXs2          |1            |Width of Xs2.                                                             |
+%WYFd          |1            |Width of YFd.                                                             |
+E              |2.71828182845|The base of the natural logarithm.                                        |
+Pi             |3.14159265358|The circumference of a circle divided by the diameter.                    |

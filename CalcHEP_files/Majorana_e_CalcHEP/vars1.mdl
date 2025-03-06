@@ -1,0 +1,61 @@
+Majorana_e
+ Parameters
+  Name         | Value       |> Comment                                                                <|
+aEWM1          |127.9        |Inverse of the EW coupling constant at the Z pole                         |
+Gf             |0.0000116637 |Fermi constant                                                            |
+aS             |0.1184       |Strong coupling constant at the Z pole                                    |
+ymdo           |0.00504      |Down Yukawa mass                                                          |
+ymup           |0.00255      |Up Yukawa mass                                                            |
+yms            |0.101        |Strange Yukawa mass                                                       |
+ymc            |1.27         |Charm Yukawa mass                                                         |
+ymb            |4.7          |Bottom Yukawa mass                                                        |
+ymt            |172          |Top Yukawa mass                                                           |
+yme            |0.000511     |Electron Yukawa mass                                                      |
+ymm            |0.10566      |Muon Yukawa mass                                                          |
+ymtau          |1.777        |Tau Yukawa mass                                                           |
+cabi           |0.227736     |Cabibbo angle                                                             |
+RelSem11       |1            |RelSem11                                                                  |
+RelSem12       |1            |RelSem12                                                                  |
+RelSem13       |1            |RelSem13                                                                  |
+RelSem21       |1            |RelSem21                                                                  |
+RelSem22       |1            |RelSem22                                                                  |
+RelSem23       |1            |RelSem23                                                                  |
+RelSem31       |1            |RelSem31                                                                  |
+RelSem32       |1            |RelSem32                                                                  |
+RelSem33       |1            |RelSem33                                                                  |
+ImlSem11       |1            |ImlSem11                                                                  |
+ImlSem12       |1            |ImlSem12                                                                  |
+ImlSem13       |1            |ImlSem13                                                                  |
+ImlSem21       |1            |ImlSem21                                                                  |
+ImlSem22       |1            |ImlSem22                                                                  |
+ImlSem23       |1            |ImlSem23                                                                  |
+ImlSem31       |1            |ImlSem31                                                                  |
+ImlSem32       |1            |ImlSem32                                                                  |
+ImlSem33       |1            |ImlSem33                                                                  |
+lamHSe         |0.1          |lamHSe                                                                    |
+lam2Se         |0.1          |lam2Se                                                                    |
+mYSe           |500          |mYSe                                                                      |
+GG             |1.21977796370|Strong coupling constant at the Z pole   This value will be ignored and ca|
+MZ             |91.1876      |Mass of G0.                                                               |
+Me             |0.000511     |Mass of e.                                                                |
+MMU            |0.10566      |Mass of mu.                                                               |
+MTA            |1.777        |Mass of ta.                                                               |
+MU             |0.00255      |Mass of u.                                                                |
+MC             |1.27         |Mass of c.                                                                |
+MT             |172          |Mass of t.                                                                |
+MD             |0.00504      |Mass of d.                                                                |
+MS             |0.101        |Mass of s.                                                                |
+MB             |4.7          |Mass of b.                                                                |
+MH             |125          |Mass of H.                                                                |
+MXm1           |300          |Mass of Xm1.                                                              |
+MXm2           |200          |Mass of Xm2.                                                              |
+MXm3           |100          |Mass of Xm3.                                                              |
+%WZ            |2.4952       |Width of G0.                                                              |
+%WW            |2.085        |Width of GP.                                                              |
+%WT            |1.50833649   |Width of t.                                                               |
+%WH            |0.00407      |Width of H.                                                               |
+%wXm1          |1            |Width of Xm1.                                                             |
+%wXm2          |1            |Width of Xm2.                                                             |
+%WYSe          |1            |Width of ySe.                                                             |
+E              |2.71828182845|The base of the natural logarithm.                                        |
+Pi             |3.14159265358|The circumference of a circle divided by the diameter.                    |
