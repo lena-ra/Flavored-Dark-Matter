@@ -16,37 +16,34 @@ Real_q
 %yme           |if(slhaFound,if(slhaValExists("YUKAWA",1,11),slhaVal("YUKAWA",0,1,11),ymeDef),ymeDef)                          %Electron Yukawa mass                              
 %ymm           |if(slhaFound,if(slhaValExists("YUKAWA",1,13),slhaVal("YUKAWA",0,1,13),ymmDef),ymmDef)                          %Muon Yukawa mass                                  
 %ymtau         |if(slhaFound,if(slhaValExists("YUKAWA",1,15),slhaVal("YUKAWA",0,1,15),ymtauDef),ymtauDef)                      %Tau Yukawa mass                                   
-%RelFqs11      |if(slhaFound,if(slhaValExists("FRBlock",1,1),slhaVal("FRBlock",0,1,1),RelFqs11Def),RelFqs11Def)                %RelFqs11                                          
-%RelFqs12      |if(slhaFound,if(slhaValExists("FRBlock",1,2),slhaVal("FRBlock",0,1,2),RelFqs12Def),RelFqs12Def)                %RelFqs12                                          
-%RelFqs13      |if(slhaFound,if(slhaValExists("FRBlock",1,3),slhaVal("FRBlock",0,1,3),RelFqs13Def),RelFqs13Def)                %RelFqs13                                          
-%RelFqs21      |if(slhaFound,if(slhaValExists("FRBlock",1,4),slhaVal("FRBlock",0,1,4),RelFqs21Def),RelFqs21Def)                %RelFqs21                                          
-%RelFqs22      |if(slhaFound,if(slhaValExists("FRBlock",1,5),slhaVal("FRBlock",0,1,5),RelFqs22Def),RelFqs22Def)                %RelFqs22                                          
-%RelFqs23      |if(slhaFound,if(slhaValExists("FRBlock",1,6),slhaVal("FRBlock",0,1,6),RelFqs23Def),RelFqs23Def)                %RelFqs23                                          
-%RelFqs31      |if(slhaFound,if(slhaValExists("FRBlock",1,7),slhaVal("FRBlock",0,1,7),RelFqs31Def),RelFqs31Def)                %RelFqs31                                          
-%RelFqs32      |if(slhaFound,if(slhaValExists("FRBlock",1,8),slhaVal("FRBlock",0,1,8),RelFqs32Def),RelFqs32Def)                %RelFqs32                                          
-%RelFqs33      |if(slhaFound,if(slhaValExists("FRBlock",1,9),slhaVal("FRBlock",0,1,9),RelFqs33Def),RelFqs33Def)                %RelFqs33                                          
-%ImlFqs11      |if(slhaFound,if(slhaValExists("FRBlock",1,10),slhaVal("FRBlock",0,1,10),ImlFqs11Def),ImlFqs11Def)              %ImlFqs11                                          
-%ImlFqs12      |if(slhaFound,if(slhaValExists("FRBlock",1,11),slhaVal("FRBlock",0,1,11),ImlFqs12Def),ImlFqs12Def)              %ImlFqs12                                          
-%ImlFqs13      |if(slhaFound,if(slhaValExists("FRBlock",1,12),slhaVal("FRBlock",0,1,12),ImlFqs13Def),ImlFqs13Def)              %ImlFqs13                                          
-%ImlFqs21      |if(slhaFound,if(slhaValExists("FRBlock",1,13),slhaVal("FRBlock",0,1,13),ImlFqs21Def),ImlFqs21Def)              %ImlFqs21                                          
-%ImlFqs22      |if(slhaFound,if(slhaValExists("FRBlock",1,14),slhaVal("FRBlock",0,1,14),ImlFqs22Def),ImlFqs22Def)              %ImlFqs22                                          
-%ImlFqs23      |if(slhaFound,if(slhaValExists("FRBlock",1,15),slhaVal("FRBlock",0,1,15),ImlFqs23Def),ImlFqs23Def)              %ImlFqs23                                          
-%ImlFqs31      |if(slhaFound,if(slhaValExists("FRBlock",1,16),slhaVal("FRBlock",0,1,16),ImlFqs31Def),ImlFqs31Def)              %ImlFqs31                                          
-%ImlFqs32      |if(slhaFound,if(slhaValExists("FRBlock",1,17),slhaVal("FRBlock",0,1,17),ImlFqs32Def),ImlFqs32Def)              %ImlFqs32                                          
-%ImlFqs33      |if(slhaFound,if(slhaValExists("FRBlock",1,18),slhaVal("FRBlock",0,1,18),ImlFqs33Def),ImlFqs33Def)              %ImlFqs33                                          
-%RelHXs11      |if(slhaFound,if(slhaValExists("FRBlock",1,19),slhaVal("FRBlock",0,1,19),RelHXs11Def),RelHXs11Def)              %RelHXs11                                          
-%RelHXs12      |if(slhaFound,if(slhaValExists("FRBlock",1,20),slhaVal("FRBlock",0,1,20),RelHXs12Def),RelHXs12Def)              %RelHXs12                                          
-%RelHXs13      |if(slhaFound,if(slhaValExists("FRBlock",1,21),slhaVal("FRBlock",0,1,21),RelHXs13Def),RelHXs13Def)              %RelHXs13                                          
-%RelHXs22      |if(slhaFound,if(slhaValExists("FRBlock",1,22),slhaVal("FRBlock",0,1,22),RelHXs22Def),RelHXs22Def)              %RelHXs22                                          
-%RelHXs23      |if(slhaFound,if(slhaValExists("FRBlock",1,23),slhaVal("FRBlock",0,1,23),RelHXs23Def),RelHXs23Def)              %RelHXs23                                          
-%RelHXs33      |if(slhaFound,if(slhaValExists("FRBlock",1,24),slhaVal("FRBlock",0,1,24),RelHXs33Def),RelHXs33Def)              %RelHXs33                                          
-%ImlHXs12      |if(slhaFound,if(slhaValExists("FRBlock",1,25),slhaVal("FRBlock",0,1,25),ImlHXs12Def),ImlHXs12Def)              %ImlHXs12                                          
-%ImlHXs13      |if(slhaFound,if(slhaValExists("FRBlock",1,26),slhaVal("FRBlock",0,1,26),ImlHXs13Def),ImlHXs13Def)              %ImlHXs13                                          
-%ImlHXs23      |if(slhaFound,if(slhaValExists("FRBlock",1,27),slhaVal("FRBlock",0,1,27),ImlHXs23Def),ImlHXs23Def)              %ImlHXs23                                          
-%lam2Xs        |if(slhaFound,if(slhaValExists("FRBlock",1,28),slhaVal("FRBlock",0,1,28),lam2XsDef),lam2XsDef)                  %lam2Xs                                            
-%mXs1          |if(slhaFound,if(slhaValExists("FRBlock",1,29),slhaVal("FRBlock",0,1,29),mXs1Def),mXs1Def)                      %mXs1                                              
-%mXs2          |if(slhaFound,if(slhaValExists("FRBlock",1,30),slhaVal("FRBlock",0,1,30),mXs2Def),mXs2Def)                      %mXs2                                              
-%mXs3          |if(slhaFound,if(slhaValExists("FRBlock",1,31),slhaVal("FRBlock",0,1,31),mXs3Def),mXs3Def)                      %mXs3                                              
+%lamSqRe11     |if(slhaFound,if(slhaValExists("FRBlock",1,1),slhaVal("FRBlock",0,1,1),lamSqRe11Def),lamSqRe11Def)              %lamSqRe11                                         
+%lamSqRe12     |if(slhaFound,if(slhaValExists("FRBlock",1,2),slhaVal("FRBlock",0,1,2),lamSqRe12Def),lamSqRe12Def)              %lamSqRe12                                         
+%lamSqRe13     |if(slhaFound,if(slhaValExists("FRBlock",1,3),slhaVal("FRBlock",0,1,3),lamSqRe13Def),lamSqRe13Def)              %lamSqRe13                                         
+%lamSqRe21     |if(slhaFound,if(slhaValExists("FRBlock",1,4),slhaVal("FRBlock",0,1,4),lamSqRe21Def),lamSqRe21Def)              %lamSqRe21                                         
+%lamSqRe22     |if(slhaFound,if(slhaValExists("FRBlock",1,5),slhaVal("FRBlock",0,1,5),lamSqRe22Def),lamSqRe22Def)              %lamSqRe22                                         
+%lamSqRe23     |if(slhaFound,if(slhaValExists("FRBlock",1,6),slhaVal("FRBlock",0,1,6),lamSqRe23Def),lamSqRe23Def)              %lamSqRe23                                         
+%lamSqRe31     |if(slhaFound,if(slhaValExists("FRBlock",1,7),slhaVal("FRBlock",0,1,7),lamSqRe31Def),lamSqRe31Def)              %lamSqRe31                                         
+%lamSqRe32     |if(slhaFound,if(slhaValExists("FRBlock",1,8),slhaVal("FRBlock",0,1,8),lamSqRe32Def),lamSqRe32Def)              %lamSqRe32                                         
+%lamSqRe33     |if(slhaFound,if(slhaValExists("FRBlock",1,9),slhaVal("FRBlock",0,1,9),lamSqRe33Def),lamSqRe33Def)              %lamSqRe33                                         
+%lamSqIm11     |if(slhaFound,if(slhaValExists("FRBlock",1,10),slhaVal("FRBlock",0,1,10),lamSqIm11Def),lamSqIm11Def)            %lamSqIm11                                         
+%lamSqIm12     |if(slhaFound,if(slhaValExists("FRBlock",1,11),slhaVal("FRBlock",0,1,11),lamSqIm12Def),lamSqIm12Def)            %lamSqIm12                                         
+%lamSqIm13     |if(slhaFound,if(slhaValExists("FRBlock",1,12),slhaVal("FRBlock",0,1,12),lamSqIm13Def),lamSqIm13Def)            %lamSqIm13                                         
+%lamSqIm21     |if(slhaFound,if(slhaValExists("FRBlock",1,13),slhaVal("FRBlock",0,1,13),lamSqIm21Def),lamSqIm21Def)            %lamSqIm21                                         
+%lamSqIm22     |if(slhaFound,if(slhaValExists("FRBlock",1,14),slhaVal("FRBlock",0,1,14),lamSqIm22Def),lamSqIm22Def)            %lamSqIm22                                         
+%lamSqIm23     |if(slhaFound,if(slhaValExists("FRBlock",1,15),slhaVal("FRBlock",0,1,15),lamSqIm23Def),lamSqIm23Def)            %lamSqIm23                                         
+%lamSqIm31     |if(slhaFound,if(slhaValExists("FRBlock",1,16),slhaVal("FRBlock",0,1,16),lamSqIm31Def),lamSqIm31Def)            %lamSqIm31                                         
+%lamSqIm32     |if(slhaFound,if(slhaValExists("FRBlock",1,17),slhaVal("FRBlock",0,1,17),lamSqIm32Def),lamSqIm32Def)            %lamSqIm32                                         
+%lamSqIm33     |if(slhaFound,if(slhaValExists("FRBlock",1,18),slhaVal("FRBlock",0,1,18),lamSqIm33Def),lamSqIm33Def)            %lamSqIm33                                         
+%lamSHRe11     |if(slhaFound,if(slhaValExists("FRBlock",1,19),slhaVal("FRBlock",0,1,19),lamSHRe11Def),lamSHRe11Def)            %lamSHRe11                                         
+%lamSHRe12     |if(slhaFound,if(slhaValExists("FRBlock",1,20),slhaVal("FRBlock",0,1,20),lamSHRe12Def),lamSHRe12Def)            %lamSHRe12                                         
+%lamSHRe13     |if(slhaFound,if(slhaValExists("FRBlock",1,21),slhaVal("FRBlock",0,1,21),lamSHRe13Def),lamSHRe13Def)            %lamSHRe13                                         
+%lamSHRe22     |if(slhaFound,if(slhaValExists("FRBlock",1,22),slhaVal("FRBlock",0,1,22),lamSHRe22Def),lamSHRe22Def)            %lamSHRe22                                         
+%lamSHRe23     |if(slhaFound,if(slhaValExists("FRBlock",1,23),slhaVal("FRBlock",0,1,23),lamSHRe23Def),lamSHRe23Def)            %lamSHRe23                                         
+%lamSHRe33     |if(slhaFound,if(slhaValExists("FRBlock",1,24),slhaVal("FRBlock",0,1,24),lamSHRe33Def),lamSHRe33Def)            %lamSHRe33                                         
+%lamSHIm12     |if(slhaFound,if(slhaValExists("FRBlock",1,25),slhaVal("FRBlock",0,1,25),lamSHIm12Def),lamSHIm12Def)            %lamSHIm12                                         
+%lamSHIm13     |if(slhaFound,if(slhaValExists("FRBlock",1,26),slhaVal("FRBlock",0,1,26),lamSHIm13Def),lamSHIm13Def)            %lamSHIm13                                         
+%lamSHIm23     |if(slhaFound,if(slhaValExists("FRBlock",1,27),slhaVal("FRBlock",0,1,27),lamSHIm23Def),lamSHIm23Def)            %lamSHIm23                                         
+%lam2S         |if(slhaFound,if(slhaValExists("FRBlock",1,28),slhaVal("FRBlock",0,1,28),lam2SDef),lam2SDef)                    %lam2S                                             
 %MZ            |if(slhaFound,if(slhaValExists("MASS",1,23),slhaVal("MASS",0,1,23),MZDef),MZDef)                                %Mass of G0.                                       
 %Me            |if(slhaFound,if(slhaValExists("MASS",1,11),slhaVal("MASS",0,1,11),MeDef),MeDef)                                %Mass of e.                                        
 %MMU           |if(slhaFound,if(slhaValExists("MASS",1,13),slhaVal("MASS",0,1,13),MMUDef),MMUDef)                              %Mass of mu.                                       
@@ -58,14 +55,17 @@ Real_q
 %MS            |if(slhaFound,if(slhaValExists("MASS",1,3),slhaVal("MASS",0,1,3),MSDef),MSDef)                                  %Mass of s.                                        
 %MB            |if(slhaFound,if(slhaValExists("MASS",1,5),slhaVal("MASS",0,1,5),MBDef),MBDef)                                  %Mass of b.                                        
 %MH            |if(slhaFound,if(slhaValExists("MASS",1,25),slhaVal("MASS",0,1,25),MHDef),MHDef)                                %Mass of H.                                        
+%MXS1          |if(slhaFound,if(slhaValExists("MASS",1,9000005),slhaVal("MASS",0,1,9000005),MXS1Def),MXS1Def)                  %Mass of XS1.                                      
+%MXS2          |if(slhaFound,if(slhaValExists("MASS",1,9000006),slhaVal("MASS",0,1,9000006),MXS2Def),MXS2Def)                  %Mass of XS2.                                      
+%MXS3          |if(slhaFound,if(slhaValExists("MASS",1,9000007),slhaVal("MASS",0,1,9000007),MXS3Def),MXS3Def)                  %Mass of XS3.                                      
 %MYFqu         |if(slhaFound,if(slhaValExists("MASS",1,9000008),slhaVal("MASS",0,1,9000008),MYFquDef),MYFquDef)                %Mass of YFqu.                                     
 %MYFqd         |if(slhaFound,if(slhaValExists("MASS",1,9000009),slhaVal("MASS",0,1,9000009),MYFqdDef),MYFqdDef)                %Mass of YFqd.                                     
 %WZ            |if(slhaFound,if(1+slhaDecayExists(23),slhaWidth(23),WZDef),WZDef)                                              %Width of G0.                                      
 %WW            |if(slhaFound,if(1+slhaDecayExists(24),slhaWidth(24),WWDef),WWDef)                                              %Width of GP.                                      
 %WT            |if(slhaFound,if(1+slhaDecayExists(6),slhaWidth(6),WTDef),WTDef)                                                %Width of t.                                       
 %WH            |if(slhaFound,if(1+slhaDecayExists(25),slhaWidth(25),WHDef),WHDef)                                              %Width of H.                                       
-%wXs1          |if(slhaFound,if(1+slhaDecayExists(9000005),slhaWidth(9000005),wXs1Def),wXs1Def)                                %Width of Xs1.                                     
-%wXs2          |if(slhaFound,if(1+slhaDecayExists(9000006),slhaWidth(9000006),wXs2Def),wXs2Def)                                %Width of Xs2.                                     
+%wXS1          |if(slhaFound,if(1+slhaDecayExists(9000005),slhaWidth(9000005),wXS1Def),wXS1Def)                                %Width of XS1.                                     
+%wXS2          |if(slhaFound,if(1+slhaDecayExists(9000006),slhaWidth(9000006),wXS2Def),wXS2Def)                                %Width of XS2.                                     
 %WYFqu         |if(slhaFound,if(1+slhaDecayExists(9000008),slhaWidth(9000008),WYFquDef),WYFquDef)                              %Width of YFqu.                                    
 %WYFqd         |if(slhaFound,if(1+slhaDecayExists(9000009),slhaWidth(9000009),WYFqdDef),WYFqdDef)                              %Width of YFqd.                                    
 aEW            |pow(aEWM1,-1)                                                                                                  % Electroweak coupling contant                      
@@ -97,45 +97,42 @@ CKM2x3         |0                                                               
 CKM3x1         |0                                                                                                              % CKM-Matrix ( CKM3x1 )                             
 CKM3x2         |0                                                                                                              % CKM-Matrix ( CKM3x2 )                             
 CKM3x3         |1                                                                                                              % CKM-Matrix ( CKM3x3 )                             
-RelFqs1x1      |RelFqs11                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-RelFqs1x2      |RelFqs12                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-RelFqs1x3      |RelFqs13                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-RelFqs2x1      |RelFqs21                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-RelFqs2x2      |RelFqs22                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-RelFqs2x3      |RelFqs23                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-RelFqs3x1      |RelFqs31                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-RelFqs3x2      |RelFqs32                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-RelFqs3x3      |RelFqs33                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-ImlFqs1x1      |ImlFqs11                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-ImlFqs1x2      |ImlFqs12                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-ImlFqs1x3      |ImlFqs13                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-ImlFqs2x1      |ImlFqs21                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-ImlFqs2x2      |ImlFqs22                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-ImlFqs2x3      |ImlFqs23                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-ImlFqs3x1      |ImlFqs31                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-ImlFqs3x2      |ImlFqs32                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-ImlFqs3x3      |ImlFqs33                                                                                                       % Fermion mediator coupling real scalar DM to left-h
-RelHXs1x1      |RelHXs11                                                                                                       % Coupling real scalar DM to Higgs ( RelHXs1x1 )    
-RelHXs1x2      |RelHXs12                                                                                                       % Coupling real scalar DM to Higgs ( RelHXs1x2 )    
-RelHXs1x3      |RelHXs13                                                                                                       % Coupling real scalar DM to Higgs ( RelHXs1x3 )    
-RelHXs2x1      |RelHXs12                                                                                                       % Coupling real scalar DM to Higgs ( RelHXs2x1 )    
-RelHXs2x2      |RelHXs22                                                                                                       % Coupling real scalar DM to Higgs ( RelHXs2x2 )    
-RelHXs2x3      |RelHXs23                                                                                                       % Coupling real scalar DM to Higgs ( RelHXs2x3 )    
-RelHXs3x1      |RelHXs13                                                                                                       % Coupling real scalar DM to Higgs ( RelHXs3x1 )    
-RelHXs3x2      |RelHXs23                                                                                                       % Coupling real scalar DM to Higgs ( RelHXs3x2 )    
-RelHXs3x3      |RelHXs33                                                                                                       % Coupling real scalar DM to Higgs ( RelHXs3x3 )    
-ImlHXs1x1      |0                                                                                                              % Coupling real scalar DM to Higgs ( ImlHXs1x1 )    
-ImlHXs1x2      |ImlHXs12                                                                                                       % Coupling real scalar DM to Higgs ( ImlHXs1x2 )    
-ImlHXs1x3      |ImlHXs13                                                                                                       % Coupling real scalar DM to Higgs ( ImlHXs1x3 )    
-ImlHXs2x1      |-ImlHXs12                                                                                                      % Coupling real scalar DM to Higgs ( ImlHXs2x1 )    
-ImlHXs2x2      |0                                                                                                              % Coupling real scalar DM to Higgs ( ImlHXs2x2 )    
-ImlHXs2x3      |ImlHXs23                                                                                                       % Coupling real scalar DM to Higgs ( ImlHXs2x3 )    
-ImlHXs3x1      |-ImlHXs13                                                                                                      % Coupling real scalar DM to Higgs ( ImlHXs3x1 )    
-ImlHXs3x2      |-ImlHXs23                                                                                                      % Coupling real scalar DM to Higgs ( ImlHXs3x2 )    
-ImlHXs3x3      |0                                                                                                              % Coupling real scalar DM to Higgs ( ImlHXs3x3 )    
-MXs1           |pow(pow(mXs1,2)+(lamHXs1*pow(vev,2))/2.,0.5)                                                                   % MXs1                                              
-MXs2           |pow(pow(mXs2,2)+(lamHXs2*pow(vev,2))/2.,0.5)                                                                   % MXs2                                              
-MXs3           |pow(pow(mXs3,2)+(lamHXs3*pow(vev,2))/2.,0.5)                                                                   % MXs3                                              
+lamSqRe1x1     |lamSqRe11                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqRe1x2     |lamSqRe12                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqRe1x3     |lamSqRe13                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqRe2x1     |lamSqRe21                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqRe2x2     |lamSqRe22                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqRe2x3     |lamSqRe23                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqRe3x1     |lamSqRe31                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqRe3x2     |lamSqRe32                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqRe3x3     |lamSqRe33                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqIm1x1     |lamSqIm11                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqIm1x2     |lamSqIm12                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqIm1x3     |lamSqIm13                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqIm2x1     |lamSqIm21                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqIm2x2     |lamSqIm22                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqIm2x3     |lamSqIm23                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqIm3x1     |lamSqIm31                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqIm3x2     |lamSqIm32                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSqIm3x3     |lamSqIm33                                                                                                      % Fermion mediator coupling real scalar DM to left-h
+lamSHRe1x1     |lamSHRe11                                                                                                      % Coupling real scalar DM to Higgs ( lamSHRe1x1 )   
+lamSHRe1x2     |lamSHRe12                                                                                                      % Coupling real scalar DM to Higgs ( lamSHRe1x2 )   
+lamSHRe1x3     |lamSHRe13                                                                                                      % Coupling real scalar DM to Higgs ( lamSHRe1x3 )   
+lamSHRe2x1     |lamSHRe12                                                                                                      % Coupling real scalar DM to Higgs ( lamSHRe2x1 )   
+lamSHRe2x2     |lamSHRe22                                                                                                      % Coupling real scalar DM to Higgs ( lamSHRe2x2 )   
+lamSHRe2x3     |lamSHRe23                                                                                                      % Coupling real scalar DM to Higgs ( lamSHRe2x3 )   
+lamSHRe3x1     |lamSHRe13                                                                                                      % Coupling real scalar DM to Higgs ( lamSHRe3x1 )   
+lamSHRe3x2     |lamSHRe23                                                                                                      % Coupling real scalar DM to Higgs ( lamSHRe3x2 )   
+lamSHRe3x3     |lamSHRe33                                                                                                      % Coupling real scalar DM to Higgs ( lamSHRe3x3 )   
+lamSHIm1x1     |0                                                                                                              % Coupling real scalar DM to Higgs ( lamSHIm1x1 )   
+lamSHIm1x2     |lamSHIm12                                                                                                      % Coupling real scalar DM to Higgs ( lamSHIm1x2 )   
+lamSHIm1x3     |lamSHIm13                                                                                                      % Coupling real scalar DM to Higgs ( lamSHIm1x3 )   
+lamSHIm2x1     |-lamSHIm12                                                                                                     % Coupling real scalar DM to Higgs ( lamSHIm2x1 )   
+lamSHIm2x2     |0                                                                                                              % Coupling real scalar DM to Higgs ( lamSHIm2x2 )   
+lamSHIm2x3     |lamSHIm23                                                                                                      % Coupling real scalar DM to Higgs ( lamSHIm2x3 )   
+lamSHIm3x1     |-lamSHIm13                                                                                                     % Coupling real scalar DM to Higgs ( lamSHIm3x1 )   
+lamSHIm3x2     |-lamSHIm23                                                                                                     % Coupling real scalar DM to Higgs ( lamSHIm3x2 )   
+lamSHIm3x3     |0                                                                                                              % Coupling real scalar DM to Higgs ( lamSHIm3x3 )   
 x1x0           |-6*lam                                                                                                         % Z.f  Z.f  Z.f  Z.f   coupling.
 x2x0           |-2*lam                                                                                                         % Z.f  Z.f  W+.f W-.f  coupling.
 x3x0           |-4*lam                                                                                                         % W+.f W+.f W-.f W-.f  coupling.
@@ -145,9 +142,9 @@ x6x0           |-6*lam                                                          
 x7x0           |-2*lam*vev                                                                                                     % Z.f  Z.f  H     coupling.
 x8x0           |-2*lam*vev                                                                                                     % W+.f W-.f H     coupling.
 x9x0           |-6*lam*vev                                                                                                     % H    H    H     coupling.
-x10x0          |24*lam2Xs                                                                                                      % ~Xs1 ~Xs1 ~Xs1 ~Xs1  coupling.
-x11x0          |24*lam2Xs                                                                                                      % ~Xs2 ~Xs2 ~Xs2 ~Xs2  coupling.
-x12x0          |24*lam2Xs                                                                                                      % ~Xs3 ~Xs3 ~Xs3 ~Xs3  coupling.
+x10x0          |24*lam2S                                                                                                       % ~XS1 ~XS1 ~XS1 ~XS1  coupling.
+x11x0          |24*lam2S                                                                                                       % ~XS2 ~XS2 ~XS2 ~XS2  coupling.
+x12x0          |24*lam2S                                                                                                       % ~XS3 ~XS3 ~XS3 ~XS3  coupling.
 x13x0          |2                                                                                                              % a    a    W+.f W-.f  coupling.
 x14x0          |-1                                                                                                             % a    W+.f W-.f  coupling.
 x15x0          |1                                                                                                              % a.C  W-.c W+    coupling.
@@ -178,78 +175,78 @@ x39x0          |1                                                               
 x40x           |-pow(2,-0.5)                                                                                                   % g    g    g        coupling.
 x41x0          |-0.3333333333333333                                                                                            % a    ~YFqd~YFqd coupling.
 x42x0          |0.6666666666666666                                                                                             % a    ~YFqu~YFqu coupling.
-x43x0          |2                                                                                                              % Z.f  Z.f  ~Xs1 ~Xs1  coupling.
-x43x1          |RelHXs1x1                                                                                                      
-x43x2          |ImlHXs1x1                                                                                                      
-x44x0          |2                                                                                                              % W+.f W-.f ~Xs1 ~Xs1  coupling.
-x44x1          |RelHXs1x1                                                                                                      
-x44x2          |ImlHXs1x1                                                                                                      
-x45x0          |2                                                                                                              % H    H    ~Xs1 ~Xs1  coupling.
-x45x1          |RelHXs1x1                                                                                                      
-x45x2          |ImlHXs1x1                                                                                                      
-x46x0          |2*vev                                                                                                          % H    ~Xs1 ~Xs1  coupling.
-x46x1          |RelHXs1x1                                                                                                      
-x46x2          |ImlHXs1x1                                                                                                      
-x47x0          |1                                                                                                              % Z.f  Z.f  ~Xs1 ~Xs2  coupling.
-x47x1          |RelHXs1x2+RelHXs2x1                                                                                            
-x47x2          |ImlHXs1x2+ImlHXs2x1                                                                                            
-x48x0          |1                                                                                                              % W+.f W-.f ~Xs1 ~Xs2  coupling.
-x48x1          |RelHXs1x2+RelHXs2x1                                                                                            
-x48x2          |ImlHXs1x2+ImlHXs2x1                                                                                            
-x49x0          |1                                                                                                              % H    H    ~Xs1 ~Xs2  coupling.
-x49x1          |RelHXs1x2+RelHXs2x1                                                                                            
-x49x2          |ImlHXs1x2+ImlHXs2x1                                                                                            
-x50x0          |vev                                                                                                            % H    ~Xs1 ~Xs2  coupling.
-x50x1          |RelHXs1x2+RelHXs2x1                                                                                            
-x50x2          |ImlHXs1x2+ImlHXs2x1                                                                                            
-x51x0          |1                                                                                                              % Z.f  Z.f  ~Xs1 ~Xs3  coupling.
-x51x1          |RelHXs1x3+RelHXs3x1                                                                                            
-x51x2          |ImlHXs1x3+ImlHXs3x1                                                                                            
-x52x0          |1                                                                                                              % W+.f W-.f ~Xs1 ~Xs3  coupling.
-x52x1          |RelHXs1x3+RelHXs3x1                                                                                            
-x52x2          |ImlHXs1x3+ImlHXs3x1                                                                                            
-x53x0          |1                                                                                                              % H    H    ~Xs1 ~Xs3  coupling.
-x53x1          |RelHXs1x3+RelHXs3x1                                                                                            
-x53x2          |ImlHXs1x3+ImlHXs3x1                                                                                            
-x54x0          |vev                                                                                                            % H    ~Xs1 ~Xs3  coupling.
-x54x1          |RelHXs1x3+RelHXs3x1                                                                                            
-x54x2          |ImlHXs1x3+ImlHXs3x1                                                                                            
-x55x0          |2                                                                                                              % Z.f  Z.f  ~Xs2 ~Xs2  coupling.
-x55x1          |RelHXs2x2                                                                                                      
-x55x2          |ImlHXs2x2                                                                                                      
-x56x0          |2                                                                                                              % W+.f W-.f ~Xs2 ~Xs2  coupling.
-x56x1          |RelHXs2x2                                                                                                      
-x56x2          |ImlHXs2x2                                                                                                      
-x57x0          |2                                                                                                              % H    H    ~Xs2 ~Xs2  coupling.
-x57x1          |RelHXs2x2                                                                                                      
-x57x2          |ImlHXs2x2                                                                                                      
-x58x0          |2*vev                                                                                                          % H    ~Xs2 ~Xs2  coupling.
-x58x1          |RelHXs2x2                                                                                                      
-x58x2          |ImlHXs2x2                                                                                                      
-x59x0          |1                                                                                                              % Z.f  Z.f  ~Xs2 ~Xs3  coupling.
-x59x1          |RelHXs2x3+RelHXs3x2                                                                                            
-x59x2          |ImlHXs2x3+ImlHXs3x2                                                                                            
-x60x0          |1                                                                                                              % W+.f W-.f ~Xs2 ~Xs3  coupling.
-x60x1          |RelHXs2x3+RelHXs3x2                                                                                            
-x60x2          |ImlHXs2x3+ImlHXs3x2                                                                                            
-x61x0          |1                                                                                                              % H    H    ~Xs2 ~Xs3  coupling.
-x61x1          |RelHXs2x3+RelHXs3x2                                                                                            
-x61x2          |ImlHXs2x3+ImlHXs3x2                                                                                            
-x62x0          |vev                                                                                                            % H    ~Xs2 ~Xs3  coupling.
-x62x1          |RelHXs2x3+RelHXs3x2                                                                                            
-x62x2          |ImlHXs2x3+ImlHXs3x2                                                                                            
-x63x0          |2                                                                                                              % Z.f  Z.f  ~Xs3 ~Xs3  coupling.
-x63x1          |RelHXs3x3                                                                                                      
-x63x2          |ImlHXs3x3                                                                                                      
-x64x0          |2                                                                                                              % W+.f W-.f ~Xs3 ~Xs3  coupling.
-x64x1          |RelHXs3x3                                                                                                      
-x64x2          |ImlHXs3x3                                                                                                      
-x65x0          |2                                                                                                              % H    H    ~Xs3 ~Xs3  coupling.
-x65x1          |RelHXs3x3                                                                                                      
-x65x2          |ImlHXs3x3                                                                                                      
-x66x0          |2*vev                                                                                                          % H    ~Xs3 ~Xs3  coupling.
-x66x1          |RelHXs3x3                                                                                                      
-x66x2          |ImlHXs3x3                                                                                                      
+x43x0          |2                                                                                                              % Z.f  Z.f  ~XS1 ~XS1  coupling.
+x43x1          |lamSHRe1x1                                                                                                     
+x43x2          |lamSHIm1x1                                                                                                     
+x44x0          |2                                                                                                              % W+.f W-.f ~XS1 ~XS1  coupling.
+x44x1          |lamSHRe1x1                                                                                                     
+x44x2          |lamSHIm1x1                                                                                                     
+x45x0          |2                                                                                                              % H    H    ~XS1 ~XS1  coupling.
+x45x1          |lamSHRe1x1                                                                                                     
+x45x2          |lamSHIm1x1                                                                                                     
+x46x0          |2*vev                                                                                                          % H    ~XS1 ~XS1  coupling.
+x46x1          |lamSHRe1x1                                                                                                     
+x46x2          |lamSHIm1x1                                                                                                     
+x47x0          |1                                                                                                              % Z.f  Z.f  ~XS1 ~XS2  coupling.
+x47x1          |lamSHRe1x2+lamSHRe2x1                                                                                          
+x47x2          |lamSHIm1x2+lamSHIm2x1                                                                                          
+x48x0          |1                                                                                                              % W+.f W-.f ~XS1 ~XS2  coupling.
+x48x1          |lamSHRe1x2+lamSHRe2x1                                                                                          
+x48x2          |lamSHIm1x2+lamSHIm2x1                                                                                          
+x49x0          |1                                                                                                              % H    H    ~XS1 ~XS2  coupling.
+x49x1          |lamSHRe1x2+lamSHRe2x1                                                                                          
+x49x2          |lamSHIm1x2+lamSHIm2x1                                                                                          
+x50x0          |vev                                                                                                            % H    ~XS1 ~XS2  coupling.
+x50x1          |lamSHRe1x2+lamSHRe2x1                                                                                          
+x50x2          |lamSHIm1x2+lamSHIm2x1                                                                                          
+x51x0          |1                                                                                                              % Z.f  Z.f  ~XS1 ~XS3  coupling.
+x51x1          |lamSHRe1x3+lamSHRe3x1                                                                                          
+x51x2          |lamSHIm1x3+lamSHIm3x1                                                                                          
+x52x0          |1                                                                                                              % W+.f W-.f ~XS1 ~XS3  coupling.
+x52x1          |lamSHRe1x3+lamSHRe3x1                                                                                          
+x52x2          |lamSHIm1x3+lamSHIm3x1                                                                                          
+x53x0          |1                                                                                                              % H    H    ~XS1 ~XS3  coupling.
+x53x1          |lamSHRe1x3+lamSHRe3x1                                                                                          
+x53x2          |lamSHIm1x3+lamSHIm3x1                                                                                          
+x54x0          |vev                                                                                                            % H    ~XS1 ~XS3  coupling.
+x54x1          |lamSHRe1x3+lamSHRe3x1                                                                                          
+x54x2          |lamSHIm1x3+lamSHIm3x1                                                                                          
+x55x0          |2                                                                                                              % Z.f  Z.f  ~XS2 ~XS2  coupling.
+x55x1          |lamSHRe2x2                                                                                                     
+x55x2          |lamSHIm2x2                                                                                                     
+x56x0          |2                                                                                                              % W+.f W-.f ~XS2 ~XS2  coupling.
+x56x1          |lamSHRe2x2                                                                                                     
+x56x2          |lamSHIm2x2                                                                                                     
+x57x0          |2                                                                                                              % H    H    ~XS2 ~XS2  coupling.
+x57x1          |lamSHRe2x2                                                                                                     
+x57x2          |lamSHIm2x2                                                                                                     
+x58x0          |2*vev                                                                                                          % H    ~XS2 ~XS2  coupling.
+x58x1          |lamSHRe2x2                                                                                                     
+x58x2          |lamSHIm2x2                                                                                                     
+x59x0          |1                                                                                                              % Z.f  Z.f  ~XS2 ~XS3  coupling.
+x59x1          |lamSHRe2x3+lamSHRe3x2                                                                                          
+x59x2          |lamSHIm2x3+lamSHIm3x2                                                                                          
+x60x0          |1                                                                                                              % W+.f W-.f ~XS2 ~XS3  coupling.
+x60x1          |lamSHRe2x3+lamSHRe3x2                                                                                          
+x60x2          |lamSHIm2x3+lamSHIm3x2                                                                                          
+x61x0          |1                                                                                                              % H    H    ~XS2 ~XS3  coupling.
+x61x1          |lamSHRe2x3+lamSHRe3x2                                                                                          
+x61x2          |lamSHIm2x3+lamSHIm3x2                                                                                          
+x62x0          |vev                                                                                                            % H    ~XS2 ~XS3  coupling.
+x62x1          |lamSHRe2x3+lamSHRe3x2                                                                                          
+x62x2          |lamSHIm2x3+lamSHIm3x2                                                                                          
+x63x0          |2                                                                                                              % Z.f  Z.f  ~XS3 ~XS3  coupling.
+x63x1          |lamSHRe3x3                                                                                                     
+x63x2          |lamSHIm3x3                                                                                                     
+x64x0          |2                                                                                                              % W+.f W-.f ~XS3 ~XS3  coupling.
+x64x1          |lamSHRe3x3                                                                                                     
+x64x2          |lamSHIm3x3                                                                                                     
+x65x0          |2                                                                                                              % H    H    ~XS3 ~XS3  coupling.
+x65x1          |lamSHRe3x3                                                                                                     
+x65x2          |lamSHIm3x3                                                                                                     
+x66x0          |2*vev                                                                                                          % H    ~XS3 ~XS3  coupling.
+x66x1          |lamSHRe3x3                                                                                                     
+x66x2          |lamSHIm3x3                                                                                                     
 x67x0          |CKM2x3/2.                                                                                                      % W-.f b~   c     coupling.
 x67x1          |-yb+yc                                                                                                         % W-.f b~   c        coupling.
 x67x2          |yb+yc                                                                                                          % W-.f b~   c        coupling.
@@ -325,186 +322,186 @@ x102x0         |yup*pow(2,-0.5)                                                 
 x103x0         |-(yc*pow(2,-0.5))                                                                                              % H    c~   c     coupling.
 x104x0         |-(yt*pow(2,-0.5))                                                                                              % H    t~   t     coupling.
 x105x0         |-(yup*pow(2,-0.5))                                                                                             % H    u~   u     coupling.
-x106x0         |0.5                                                                                                            % ~Xs1 ~YFquu     coupling.
-x106x1         |RelFqs1x1                                                                                                      % ~Xs1 ~YFquu        coupling.
-x106x2         |-ImlFqs1x1                                                                                                     % ~Xs1 ~YFquu        coupling.
-x106x3         |-RelFqs1x1                                                                                                     % ~Xs1 ~YFquu        coupling.
-x106x4         |ImlFqs1x1                                                                                                      % ~Xs1 ~YFquu        coupling.
-x107x0         |0.5                                                                                                            % ~Xs1 ~YFqdb     coupling.
-x107x1         |CKM1x3*RelFqs1x1+CKM2x3*RelFqs2x1+CKM3x3*RelFqs3x1                                                             % ~Xs1 ~YFqdb        coupling.
-x107x2         |-(CKM1x3*ImlFqs1x1)-CKM2x3*ImlFqs2x1-CKM3x3*ImlFqs3x1                                                          % ~Xs1 ~YFqdb        coupling.
-x107x3         |-(CKM1x3*RelFqs1x1)-CKM2x3*RelFqs2x1-CKM3x3*RelFqs3x1                                                          % ~Xs1 ~YFqdb        coupling.
-x107x4         |CKM1x3*ImlFqs1x1+CKM2x3*ImlFqs2x1+CKM3x3*ImlFqs3x1                                                             % ~Xs1 ~YFqdb        coupling.
-x108x0         |0.5                                                                                                            % ~Xs1 ~YFqdd     coupling.
-x108x1         |CKM1x1*RelFqs1x1+CKM2x1*RelFqs2x1+CKM3x1*RelFqs3x1                                                             % ~Xs1 ~YFqdd        coupling.
-x108x2         |-(CKM1x1*ImlFqs1x1)-CKM2x1*ImlFqs2x1-CKM3x1*ImlFqs3x1                                                          % ~Xs1 ~YFqdd        coupling.
-x108x3         |-(CKM1x1*RelFqs1x1)-CKM2x1*RelFqs2x1-CKM3x1*RelFqs3x1                                                          % ~Xs1 ~YFqdd        coupling.
-x108x4         |CKM1x1*ImlFqs1x1+CKM2x1*ImlFqs2x1+CKM3x1*ImlFqs3x1                                                             % ~Xs1 ~YFqdd        coupling.
-x109x0         |0.5                                                                                                            % ~Xs1 ~YFqds     coupling.
-x109x1         |CKM1x2*RelFqs1x1+CKM2x2*RelFqs2x1+CKM3x2*RelFqs3x1                                                             % ~Xs1 ~YFqds        coupling.
-x109x2         |-(CKM1x2*ImlFqs1x1)-CKM2x2*ImlFqs2x1-CKM3x2*ImlFqs3x1                                                          % ~Xs1 ~YFqds        coupling.
-x109x3         |-(CKM1x2*RelFqs1x1)-CKM2x2*RelFqs2x1-CKM3x2*RelFqs3x1                                                          % ~Xs1 ~YFqds        coupling.
-x109x4         |CKM1x2*ImlFqs1x1+CKM2x2*ImlFqs2x1+CKM3x2*ImlFqs3x1                                                             % ~Xs1 ~YFqds        coupling.
-x110x0         |0.5                                                                                                            % ~Xs1 ~YFquc     coupling.
-x110x1         |RelFqs2x1                                                                                                      % ~Xs1 ~YFquc        coupling.
-x110x2         |-ImlFqs2x1                                                                                                     % ~Xs1 ~YFquc        coupling.
-x110x3         |-RelFqs2x1                                                                                                     % ~Xs1 ~YFquc        coupling.
-x110x4         |ImlFqs2x1                                                                                                      % ~Xs1 ~YFquc        coupling.
-x111x0         |0.5                                                                                                            % ~Xs1 ~YFqut     coupling.
-x111x1         |RelFqs3x1                                                                                                      % ~Xs1 ~YFqut        coupling.
-x111x2         |-ImlFqs3x1                                                                                                     % ~Xs1 ~YFqut        coupling.
-x111x3         |-RelFqs3x1                                                                                                     % ~Xs1 ~YFqut        coupling.
-x111x4         |ImlFqs3x1                                                                                                      % ~Xs1 ~YFqut        coupling.
-x112x0         |0.5                                                                                                            % ~Xs2 ~YFquu     coupling.
-x112x1         |RelFqs1x2                                                                                                      % ~Xs2 ~YFquu        coupling.
-x112x2         |-ImlFqs1x2                                                                                                     % ~Xs2 ~YFquu        coupling.
-x112x3         |-RelFqs1x2                                                                                                     % ~Xs2 ~YFquu        coupling.
-x112x4         |ImlFqs1x2                                                                                                      % ~Xs2 ~YFquu        coupling.
-x113x0         |0.5                                                                                                            % ~Xs2 ~YFqdb     coupling.
-x113x1         |CKM1x3*RelFqs1x2+CKM2x3*RelFqs2x2+CKM3x3*RelFqs3x2                                                             % ~Xs2 ~YFqdb        coupling.
-x113x2         |-(CKM1x3*ImlFqs1x2)-CKM2x3*ImlFqs2x2-CKM3x3*ImlFqs3x2                                                          % ~Xs2 ~YFqdb        coupling.
-x113x3         |-(CKM1x3*RelFqs1x2)-CKM2x3*RelFqs2x2-CKM3x3*RelFqs3x2                                                          % ~Xs2 ~YFqdb        coupling.
-x113x4         |CKM1x3*ImlFqs1x2+CKM2x3*ImlFqs2x2+CKM3x3*ImlFqs3x2                                                             % ~Xs2 ~YFqdb        coupling.
-x114x0         |0.5                                                                                                            % ~Xs2 ~YFqdd     coupling.
-x114x1         |CKM1x1*RelFqs1x2+CKM2x1*RelFqs2x2+CKM3x1*RelFqs3x2                                                             % ~Xs2 ~YFqdd        coupling.
-x114x2         |-(CKM1x1*ImlFqs1x2)-CKM2x1*ImlFqs2x2-CKM3x1*ImlFqs3x2                                                          % ~Xs2 ~YFqdd        coupling.
-x114x3         |-(CKM1x1*RelFqs1x2)-CKM2x1*RelFqs2x2-CKM3x1*RelFqs3x2                                                          % ~Xs2 ~YFqdd        coupling.
-x114x4         |CKM1x1*ImlFqs1x2+CKM2x1*ImlFqs2x2+CKM3x1*ImlFqs3x2                                                             % ~Xs2 ~YFqdd        coupling.
-x115x0         |0.5                                                                                                            % ~Xs2 ~YFqds     coupling.
-x115x1         |CKM1x2*RelFqs1x2+CKM2x2*RelFqs2x2+CKM3x2*RelFqs3x2                                                             % ~Xs2 ~YFqds        coupling.
-x115x2         |-(CKM1x2*ImlFqs1x2)-CKM2x2*ImlFqs2x2-CKM3x2*ImlFqs3x2                                                          % ~Xs2 ~YFqds        coupling.
-x115x3         |-(CKM1x2*RelFqs1x2)-CKM2x2*RelFqs2x2-CKM3x2*RelFqs3x2                                                          % ~Xs2 ~YFqds        coupling.
-x115x4         |CKM1x2*ImlFqs1x2+CKM2x2*ImlFqs2x2+CKM3x2*ImlFqs3x2                                                             % ~Xs2 ~YFqds        coupling.
-x116x0         |0.5                                                                                                            % ~Xs2 ~YFquc     coupling.
-x116x1         |RelFqs2x2                                                                                                      % ~Xs2 ~YFquc        coupling.
-x116x2         |-ImlFqs2x2                                                                                                     % ~Xs2 ~YFquc        coupling.
-x116x3         |-RelFqs2x2                                                                                                     % ~Xs2 ~YFquc        coupling.
-x116x4         |ImlFqs2x2                                                                                                      % ~Xs2 ~YFquc        coupling.
-x117x0         |0.5                                                                                                            % ~Xs2 ~YFqut     coupling.
-x117x1         |RelFqs3x2                                                                                                      % ~Xs2 ~YFqut        coupling.
-x117x2         |-ImlFqs3x2                                                                                                     % ~Xs2 ~YFqut        coupling.
-x117x3         |-RelFqs3x2                                                                                                     % ~Xs2 ~YFqut        coupling.
-x117x4         |ImlFqs3x2                                                                                                      % ~Xs2 ~YFqut        coupling.
-x118x0         |0.5                                                                                                            % ~Xs3 ~YFquu     coupling.
-x118x1         |RelFqs1x3                                                                                                      % ~Xs3 ~YFquu        coupling.
-x118x2         |-ImlFqs1x3                                                                                                     % ~Xs3 ~YFquu        coupling.
-x118x3         |-RelFqs1x3                                                                                                     % ~Xs3 ~YFquu        coupling.
-x118x4         |ImlFqs1x3                                                                                                      % ~Xs3 ~YFquu        coupling.
-x119x0         |0.5                                                                                                            % ~Xs3 ~YFqdb     coupling.
-x119x1         |CKM1x3*RelFqs1x3+CKM2x3*RelFqs2x3+CKM3x3*RelFqs3x3                                                             % ~Xs3 ~YFqdb        coupling.
-x119x2         |-(CKM1x3*ImlFqs1x3)-CKM2x3*ImlFqs2x3-CKM3x3*ImlFqs3x3                                                          % ~Xs3 ~YFqdb        coupling.
-x119x3         |-(CKM1x3*RelFqs1x3)-CKM2x3*RelFqs2x3-CKM3x3*RelFqs3x3                                                          % ~Xs3 ~YFqdb        coupling.
-x119x4         |CKM1x3*ImlFqs1x3+CKM2x3*ImlFqs2x3+CKM3x3*ImlFqs3x3                                                             % ~Xs3 ~YFqdb        coupling.
-x120x0         |0.5                                                                                                            % ~Xs3 ~YFqdd     coupling.
-x120x1         |CKM1x1*RelFqs1x3+CKM2x1*RelFqs2x3+CKM3x1*RelFqs3x3                                                             % ~Xs3 ~YFqdd        coupling.
-x120x2         |-(CKM1x1*ImlFqs1x3)-CKM2x1*ImlFqs2x3-CKM3x1*ImlFqs3x3                                                          % ~Xs3 ~YFqdd        coupling.
-x120x3         |-(CKM1x1*RelFqs1x3)-CKM2x1*RelFqs2x3-CKM3x1*RelFqs3x3                                                          % ~Xs3 ~YFqdd        coupling.
-x120x4         |CKM1x1*ImlFqs1x3+CKM2x1*ImlFqs2x3+CKM3x1*ImlFqs3x3                                                             % ~Xs3 ~YFqdd        coupling.
-x121x0         |0.5                                                                                                            % ~Xs3 ~YFqds     coupling.
-x121x1         |CKM1x2*RelFqs1x3+CKM2x2*RelFqs2x3+CKM3x2*RelFqs3x3                                                             % ~Xs3 ~YFqds        coupling.
-x121x2         |-(CKM1x2*ImlFqs1x3)-CKM2x2*ImlFqs2x3-CKM3x2*ImlFqs3x3                                                          % ~Xs3 ~YFqds        coupling.
-x121x3         |-(CKM1x2*RelFqs1x3)-CKM2x2*RelFqs2x3-CKM3x2*RelFqs3x3                                                          % ~Xs3 ~YFqds        coupling.
-x121x4         |CKM1x2*ImlFqs1x3+CKM2x2*ImlFqs2x3+CKM3x2*ImlFqs3x3                                                             % ~Xs3 ~YFqds        coupling.
-x122x0         |0.5                                                                                                            % ~Xs3 ~YFquc     coupling.
-x122x1         |RelFqs2x3                                                                                                      % ~Xs3 ~YFquc        coupling.
-x122x2         |-ImlFqs2x3                                                                                                     % ~Xs3 ~YFquc        coupling.
-x122x3         |-RelFqs2x3                                                                                                     % ~Xs3 ~YFquc        coupling.
-x122x4         |ImlFqs2x3                                                                                                      % ~Xs3 ~YFquc        coupling.
-x123x0         |0.5                                                                                                            % ~Xs3 ~YFqut     coupling.
-x123x1         |RelFqs3x3                                                                                                      % ~Xs3 ~YFqut        coupling.
-x123x2         |-ImlFqs3x3                                                                                                     % ~Xs3 ~YFqut        coupling.
-x123x3         |-RelFqs3x3                                                                                                     % ~Xs3 ~YFqut        coupling.
-x123x4         |ImlFqs3x3                                                                                                      % ~Xs3 ~YFqut        coupling.
-x124x0         |0.5                                                                                                            % ~Xs1 u~   ~YFqu coupling.
-x124x1         |RelFqs1x1                                                                                                      % ~Xs1 u~   ~YFqu    coupling.
-x124x2         |ImlFqs1x1                                                                                                      % ~Xs1 u~   ~YFqu    coupling.
-x124x3         |RelFqs1x1                                                                                                      % ~Xs1 u~   ~YFqu    coupling.
-x124x4         |ImlFqs1x1                                                                                                      % ~Xs1 u~   ~YFqu    coupling.
-x125x0         |0.5                                                                                                            % ~Xs1 b~   ~YFqd coupling.
-x125x1         |CKM1x3*RelFqs1x1+CKM2x3*RelFqs2x1+CKM3x3*RelFqs3x1                                                             % ~Xs1 b~   ~YFqd    coupling.
-x125x2         |CKM1x3*ImlFqs1x1+CKM2x3*ImlFqs2x1+CKM3x3*ImlFqs3x1                                                             % ~Xs1 b~   ~YFqd    coupling.
-x125x3         |CKM1x3*RelFqs1x1+CKM2x3*RelFqs2x1+CKM3x3*RelFqs3x1                                                             % ~Xs1 b~   ~YFqd    coupling.
-x125x4         |CKM1x3*ImlFqs1x1+CKM2x3*ImlFqs2x1+CKM3x3*ImlFqs3x1                                                             % ~Xs1 b~   ~YFqd    coupling.
-x126x0         |0.5                                                                                                            % ~Xs1 d~   ~YFqd coupling.
-x126x1         |CKM1x1*RelFqs1x1+CKM2x1*RelFqs2x1+CKM3x1*RelFqs3x1                                                             % ~Xs1 d~   ~YFqd    coupling.
-x126x2         |CKM1x1*ImlFqs1x1+CKM2x1*ImlFqs2x1+CKM3x1*ImlFqs3x1                                                             % ~Xs1 d~   ~YFqd    coupling.
-x126x3         |CKM1x1*RelFqs1x1+CKM2x1*RelFqs2x1+CKM3x1*RelFqs3x1                                                             % ~Xs1 d~   ~YFqd    coupling.
-x126x4         |CKM1x1*ImlFqs1x1+CKM2x1*ImlFqs2x1+CKM3x1*ImlFqs3x1                                                             % ~Xs1 d~   ~YFqd    coupling.
-x127x0         |0.5                                                                                                            % ~Xs1 s~   ~YFqd coupling.
-x127x1         |CKM1x2*RelFqs1x1+CKM2x2*RelFqs2x1+CKM3x2*RelFqs3x1                                                             % ~Xs1 s~   ~YFqd    coupling.
-x127x2         |CKM1x2*ImlFqs1x1+CKM2x2*ImlFqs2x1+CKM3x2*ImlFqs3x1                                                             % ~Xs1 s~   ~YFqd    coupling.
-x127x3         |CKM1x2*RelFqs1x1+CKM2x2*RelFqs2x1+CKM3x2*RelFqs3x1                                                             % ~Xs1 s~   ~YFqd    coupling.
-x127x4         |CKM1x2*ImlFqs1x1+CKM2x2*ImlFqs2x1+CKM3x2*ImlFqs3x1                                                             % ~Xs1 s~   ~YFqd    coupling.
-x128x0         |0.5                                                                                                            % ~Xs1 c~   ~YFqu coupling.
-x128x1         |RelFqs2x1                                                                                                      % ~Xs1 c~   ~YFqu    coupling.
-x128x2         |ImlFqs2x1                                                                                                      % ~Xs1 c~   ~YFqu    coupling.
-x128x3         |RelFqs2x1                                                                                                      % ~Xs1 c~   ~YFqu    coupling.
-x128x4         |ImlFqs2x1                                                                                                      % ~Xs1 c~   ~YFqu    coupling.
-x129x0         |0.5                                                                                                            % ~Xs1 t~   ~YFqu coupling.
-x129x1         |RelFqs3x1                                                                                                      % ~Xs1 t~   ~YFqu    coupling.
-x129x2         |ImlFqs3x1                                                                                                      % ~Xs1 t~   ~YFqu    coupling.
-x129x3         |RelFqs3x1                                                                                                      % ~Xs1 t~   ~YFqu    coupling.
-x129x4         |ImlFqs3x1                                                                                                      % ~Xs1 t~   ~YFqu    coupling.
-x130x0         |0.5                                                                                                            % ~Xs2 u~   ~YFqu coupling.
-x130x1         |RelFqs1x2                                                                                                      % ~Xs2 u~   ~YFqu    coupling.
-x130x2         |ImlFqs1x2                                                                                                      % ~Xs2 u~   ~YFqu    coupling.
-x130x3         |RelFqs1x2                                                                                                      % ~Xs2 u~   ~YFqu    coupling.
-x130x4         |ImlFqs1x2                                                                                                      % ~Xs2 u~   ~YFqu    coupling.
-x131x0         |0.5                                                                                                            % ~Xs2 b~   ~YFqd coupling.
-x131x1         |CKM1x3*RelFqs1x2+CKM2x3*RelFqs2x2+CKM3x3*RelFqs3x2                                                             % ~Xs2 b~   ~YFqd    coupling.
-x131x2         |CKM1x3*ImlFqs1x2+CKM2x3*ImlFqs2x2+CKM3x3*ImlFqs3x2                                                             % ~Xs2 b~   ~YFqd    coupling.
-x131x3         |CKM1x3*RelFqs1x2+CKM2x3*RelFqs2x2+CKM3x3*RelFqs3x2                                                             % ~Xs2 b~   ~YFqd    coupling.
-x131x4         |CKM1x3*ImlFqs1x2+CKM2x3*ImlFqs2x2+CKM3x3*ImlFqs3x2                                                             % ~Xs2 b~   ~YFqd    coupling.
-x132x0         |0.5                                                                                                            % ~Xs2 d~   ~YFqd coupling.
-x132x1         |CKM1x1*RelFqs1x2+CKM2x1*RelFqs2x2+CKM3x1*RelFqs3x2                                                             % ~Xs2 d~   ~YFqd    coupling.
-x132x2         |CKM1x1*ImlFqs1x2+CKM2x1*ImlFqs2x2+CKM3x1*ImlFqs3x2                                                             % ~Xs2 d~   ~YFqd    coupling.
-x132x3         |CKM1x1*RelFqs1x2+CKM2x1*RelFqs2x2+CKM3x1*RelFqs3x2                                                             % ~Xs2 d~   ~YFqd    coupling.
-x132x4         |CKM1x1*ImlFqs1x2+CKM2x1*ImlFqs2x2+CKM3x1*ImlFqs3x2                                                             % ~Xs2 d~   ~YFqd    coupling.
-x133x0         |0.5                                                                                                            % ~Xs2 s~   ~YFqd coupling.
-x133x1         |CKM1x2*RelFqs1x2+CKM2x2*RelFqs2x2+CKM3x2*RelFqs3x2                                                             % ~Xs2 s~   ~YFqd    coupling.
-x133x2         |CKM1x2*ImlFqs1x2+CKM2x2*ImlFqs2x2+CKM3x2*ImlFqs3x2                                                             % ~Xs2 s~   ~YFqd    coupling.
-x133x3         |CKM1x2*RelFqs1x2+CKM2x2*RelFqs2x2+CKM3x2*RelFqs3x2                                                             % ~Xs2 s~   ~YFqd    coupling.
-x133x4         |CKM1x2*ImlFqs1x2+CKM2x2*ImlFqs2x2+CKM3x2*ImlFqs3x2                                                             % ~Xs2 s~   ~YFqd    coupling.
-x134x0         |0.5                                                                                                            % ~Xs2 c~   ~YFqu coupling.
-x134x1         |RelFqs2x2                                                                                                      % ~Xs2 c~   ~YFqu    coupling.
-x134x2         |ImlFqs2x2                                                                                                      % ~Xs2 c~   ~YFqu    coupling.
-x134x3         |RelFqs2x2                                                                                                      % ~Xs2 c~   ~YFqu    coupling.
-x134x4         |ImlFqs2x2                                                                                                      % ~Xs2 c~   ~YFqu    coupling.
-x135x0         |0.5                                                                                                            % ~Xs2 t~   ~YFqu coupling.
-x135x1         |RelFqs3x2                                                                                                      % ~Xs2 t~   ~YFqu    coupling.
-x135x2         |ImlFqs3x2                                                                                                      % ~Xs2 t~   ~YFqu    coupling.
-x135x3         |RelFqs3x2                                                                                                      % ~Xs2 t~   ~YFqu    coupling.
-x135x4         |ImlFqs3x2                                                                                                      % ~Xs2 t~   ~YFqu    coupling.
-x136x0         |0.5                                                                                                            % ~Xs3 u~   ~YFqu coupling.
-x136x1         |RelFqs1x3                                                                                                      % ~Xs3 u~   ~YFqu    coupling.
-x136x2         |ImlFqs1x3                                                                                                      % ~Xs3 u~   ~YFqu    coupling.
-x136x3         |RelFqs1x3                                                                                                      % ~Xs3 u~   ~YFqu    coupling.
-x136x4         |ImlFqs1x3                                                                                                      % ~Xs3 u~   ~YFqu    coupling.
-x137x0         |0.5                                                                                                            % ~Xs3 b~   ~YFqd coupling.
-x137x1         |CKM1x3*RelFqs1x3+CKM2x3*RelFqs2x3+CKM3x3*RelFqs3x3                                                             % ~Xs3 b~   ~YFqd    coupling.
-x137x2         |CKM1x3*ImlFqs1x3+CKM2x3*ImlFqs2x3+CKM3x3*ImlFqs3x3                                                             % ~Xs3 b~   ~YFqd    coupling.
-x137x3         |CKM1x3*RelFqs1x3+CKM2x3*RelFqs2x3+CKM3x3*RelFqs3x3                                                             % ~Xs3 b~   ~YFqd    coupling.
-x137x4         |CKM1x3*ImlFqs1x3+CKM2x3*ImlFqs2x3+CKM3x3*ImlFqs3x3                                                             % ~Xs3 b~   ~YFqd    coupling.
-x138x0         |0.5                                                                                                            % ~Xs3 d~   ~YFqd coupling.
-x138x1         |CKM1x1*RelFqs1x3+CKM2x1*RelFqs2x3+CKM3x1*RelFqs3x3                                                             % ~Xs3 d~   ~YFqd    coupling.
-x138x2         |CKM1x1*ImlFqs1x3+CKM2x1*ImlFqs2x3+CKM3x1*ImlFqs3x3                                                             % ~Xs3 d~   ~YFqd    coupling.
-x138x3         |CKM1x1*RelFqs1x3+CKM2x1*RelFqs2x3+CKM3x1*RelFqs3x3                                                             % ~Xs3 d~   ~YFqd    coupling.
-x138x4         |CKM1x1*ImlFqs1x3+CKM2x1*ImlFqs2x3+CKM3x1*ImlFqs3x3                                                             % ~Xs3 d~   ~YFqd    coupling.
-x139x0         |0.5                                                                                                            % ~Xs3 s~   ~YFqd coupling.
-x139x1         |CKM1x2*RelFqs1x3+CKM2x2*RelFqs2x3+CKM3x2*RelFqs3x3                                                             % ~Xs3 s~   ~YFqd    coupling.
-x139x2         |CKM1x2*ImlFqs1x3+CKM2x2*ImlFqs2x3+CKM3x2*ImlFqs3x3                                                             % ~Xs3 s~   ~YFqd    coupling.
-x139x3         |CKM1x2*RelFqs1x3+CKM2x2*RelFqs2x3+CKM3x2*RelFqs3x3                                                             % ~Xs3 s~   ~YFqd    coupling.
-x139x4         |CKM1x2*ImlFqs1x3+CKM2x2*ImlFqs2x3+CKM3x2*ImlFqs3x3                                                             % ~Xs3 s~   ~YFqd    coupling.
-x140x0         |0.5                                                                                                            % ~Xs3 c~   ~YFqu coupling.
-x140x1         |RelFqs2x3                                                                                                      % ~Xs3 c~   ~YFqu    coupling.
-x140x2         |ImlFqs2x3                                                                                                      % ~Xs3 c~   ~YFqu    coupling.
-x140x3         |RelFqs2x3                                                                                                      % ~Xs3 c~   ~YFqu    coupling.
-x140x4         |ImlFqs2x3                                                                                                      % ~Xs3 c~   ~YFqu    coupling.
-x141x0         |0.5                                                                                                            % ~Xs3 t~   ~YFqu coupling.
-x141x1         |RelFqs3x3                                                                                                      % ~Xs3 t~   ~YFqu    coupling.
-x141x2         |ImlFqs3x3                                                                                                      % ~Xs3 t~   ~YFqu    coupling.
-x141x3         |RelFqs3x3                                                                                                      % ~Xs3 t~   ~YFqu    coupling.
-x141x4         |ImlFqs3x3                                                                                                      % ~Xs3 t~   ~YFqu    coupling.
+x106x0         |0.5                                                                                                            % ~XS1 ~YFquu     coupling.
+x106x1         |lamSqRe1x1                                                                                                     % ~XS1 ~YFquu        coupling.
+x106x2         |-lamSqIm1x1                                                                                                    % ~XS1 ~YFquu        coupling.
+x106x3         |-lamSqRe1x1                                                                                                    % ~XS1 ~YFquu        coupling.
+x106x4         |lamSqIm1x1                                                                                                     % ~XS1 ~YFquu        coupling.
+x107x0         |0.5                                                                                                            % ~XS1 ~YFqdb     coupling.
+x107x1         |CKM1x3*lamSqRe1x1+CKM2x3*lamSqRe2x1+CKM3x3*lamSqRe3x1                                                          % ~XS1 ~YFqdb        coupling.
+x107x2         |-(CKM1x3*lamSqIm1x1)-CKM2x3*lamSqIm2x1-CKM3x3*lamSqIm3x1                                                       % ~XS1 ~YFqdb        coupling.
+x107x3         |-(CKM1x3*lamSqRe1x1)-CKM2x3*lamSqRe2x1-CKM3x3*lamSqRe3x1                                                       % ~XS1 ~YFqdb        coupling.
+x107x4         |CKM1x3*lamSqIm1x1+CKM2x3*lamSqIm2x1+CKM3x3*lamSqIm3x1                                                          % ~XS1 ~YFqdb        coupling.
+x108x0         |0.5                                                                                                            % ~XS1 ~YFqdd     coupling.
+x108x1         |CKM1x1*lamSqRe1x1+CKM2x1*lamSqRe2x1+CKM3x1*lamSqRe3x1                                                          % ~XS1 ~YFqdd        coupling.
+x108x2         |-(CKM1x1*lamSqIm1x1)-CKM2x1*lamSqIm2x1-CKM3x1*lamSqIm3x1                                                       % ~XS1 ~YFqdd        coupling.
+x108x3         |-(CKM1x1*lamSqRe1x1)-CKM2x1*lamSqRe2x1-CKM3x1*lamSqRe3x1                                                       % ~XS1 ~YFqdd        coupling.
+x108x4         |CKM1x1*lamSqIm1x1+CKM2x1*lamSqIm2x1+CKM3x1*lamSqIm3x1                                                          % ~XS1 ~YFqdd        coupling.
+x109x0         |0.5                                                                                                            % ~XS1 ~YFqds     coupling.
+x109x1         |CKM1x2*lamSqRe1x1+CKM2x2*lamSqRe2x1+CKM3x2*lamSqRe3x1                                                          % ~XS1 ~YFqds        coupling.
+x109x2         |-(CKM1x2*lamSqIm1x1)-CKM2x2*lamSqIm2x1-CKM3x2*lamSqIm3x1                                                       % ~XS1 ~YFqds        coupling.
+x109x3         |-(CKM1x2*lamSqRe1x1)-CKM2x2*lamSqRe2x1-CKM3x2*lamSqRe3x1                                                       % ~XS1 ~YFqds        coupling.
+x109x4         |CKM1x2*lamSqIm1x1+CKM2x2*lamSqIm2x1+CKM3x2*lamSqIm3x1                                                          % ~XS1 ~YFqds        coupling.
+x110x0         |0.5                                                                                                            % ~XS1 ~YFquc     coupling.
+x110x1         |lamSqRe2x1                                                                                                     % ~XS1 ~YFquc        coupling.
+x110x2         |-lamSqIm2x1                                                                                                    % ~XS1 ~YFquc        coupling.
+x110x3         |-lamSqRe2x1                                                                                                    % ~XS1 ~YFquc        coupling.
+x110x4         |lamSqIm2x1                                                                                                     % ~XS1 ~YFquc        coupling.
+x111x0         |0.5                                                                                                            % ~XS1 ~YFqut     coupling.
+x111x1         |lamSqRe3x1                                                                                                     % ~XS1 ~YFqut        coupling.
+x111x2         |-lamSqIm3x1                                                                                                    % ~XS1 ~YFqut        coupling.
+x111x3         |-lamSqRe3x1                                                                                                    % ~XS1 ~YFqut        coupling.
+x111x4         |lamSqIm3x1                                                                                                     % ~XS1 ~YFqut        coupling.
+x112x0         |0.5                                                                                                            % ~XS2 ~YFquu     coupling.
+x112x1         |lamSqRe1x2                                                                                                     % ~XS2 ~YFquu        coupling.
+x112x2         |-lamSqIm1x2                                                                                                    % ~XS2 ~YFquu        coupling.
+x112x3         |-lamSqRe1x2                                                                                                    % ~XS2 ~YFquu        coupling.
+x112x4         |lamSqIm1x2                                                                                                     % ~XS2 ~YFquu        coupling.
+x113x0         |0.5                                                                                                            % ~XS2 ~YFqdb     coupling.
+x113x1         |CKM1x3*lamSqRe1x2+CKM2x3*lamSqRe2x2+CKM3x3*lamSqRe3x2                                                          % ~XS2 ~YFqdb        coupling.
+x113x2         |-(CKM1x3*lamSqIm1x2)-CKM2x3*lamSqIm2x2-CKM3x3*lamSqIm3x2                                                       % ~XS2 ~YFqdb        coupling.
+x113x3         |-(CKM1x3*lamSqRe1x2)-CKM2x3*lamSqRe2x2-CKM3x3*lamSqRe3x2                                                       % ~XS2 ~YFqdb        coupling.
+x113x4         |CKM1x3*lamSqIm1x2+CKM2x3*lamSqIm2x2+CKM3x3*lamSqIm3x2                                                          % ~XS2 ~YFqdb        coupling.
+x114x0         |0.5                                                                                                            % ~XS2 ~YFqdd     coupling.
+x114x1         |CKM1x1*lamSqRe1x2+CKM2x1*lamSqRe2x2+CKM3x1*lamSqRe3x2                                                          % ~XS2 ~YFqdd        coupling.
+x114x2         |-(CKM1x1*lamSqIm1x2)-CKM2x1*lamSqIm2x2-CKM3x1*lamSqIm3x2                                                       % ~XS2 ~YFqdd        coupling.
+x114x3         |-(CKM1x1*lamSqRe1x2)-CKM2x1*lamSqRe2x2-CKM3x1*lamSqRe3x2                                                       % ~XS2 ~YFqdd        coupling.
+x114x4         |CKM1x1*lamSqIm1x2+CKM2x1*lamSqIm2x2+CKM3x1*lamSqIm3x2                                                          % ~XS2 ~YFqdd        coupling.
+x115x0         |0.5                                                                                                            % ~XS2 ~YFqds     coupling.
+x115x1         |CKM1x2*lamSqRe1x2+CKM2x2*lamSqRe2x2+CKM3x2*lamSqRe3x2                                                          % ~XS2 ~YFqds        coupling.
+x115x2         |-(CKM1x2*lamSqIm1x2)-CKM2x2*lamSqIm2x2-CKM3x2*lamSqIm3x2                                                       % ~XS2 ~YFqds        coupling.
+x115x3         |-(CKM1x2*lamSqRe1x2)-CKM2x2*lamSqRe2x2-CKM3x2*lamSqRe3x2                                                       % ~XS2 ~YFqds        coupling.
+x115x4         |CKM1x2*lamSqIm1x2+CKM2x2*lamSqIm2x2+CKM3x2*lamSqIm3x2                                                          % ~XS2 ~YFqds        coupling.
+x116x0         |0.5                                                                                                            % ~XS2 ~YFquc     coupling.
+x116x1         |lamSqRe2x2                                                                                                     % ~XS2 ~YFquc        coupling.
+x116x2         |-lamSqIm2x2                                                                                                    % ~XS2 ~YFquc        coupling.
+x116x3         |-lamSqRe2x2                                                                                                    % ~XS2 ~YFquc        coupling.
+x116x4         |lamSqIm2x2                                                                                                     % ~XS2 ~YFquc        coupling.
+x117x0         |0.5                                                                                                            % ~XS2 ~YFqut     coupling.
+x117x1         |lamSqRe3x2                                                                                                     % ~XS2 ~YFqut        coupling.
+x117x2         |-lamSqIm3x2                                                                                                    % ~XS2 ~YFqut        coupling.
+x117x3         |-lamSqRe3x2                                                                                                    % ~XS2 ~YFqut        coupling.
+x117x4         |lamSqIm3x2                                                                                                     % ~XS2 ~YFqut        coupling.
+x118x0         |0.5                                                                                                            % ~XS3 ~YFquu     coupling.
+x118x1         |lamSqRe1x3                                                                                                     % ~XS3 ~YFquu        coupling.
+x118x2         |-lamSqIm1x3                                                                                                    % ~XS3 ~YFquu        coupling.
+x118x3         |-lamSqRe1x3                                                                                                    % ~XS3 ~YFquu        coupling.
+x118x4         |lamSqIm1x3                                                                                                     % ~XS3 ~YFquu        coupling.
+x119x0         |0.5                                                                                                            % ~XS3 ~YFqdb     coupling.
+x119x1         |CKM1x3*lamSqRe1x3+CKM2x3*lamSqRe2x3+CKM3x3*lamSqRe3x3                                                          % ~XS3 ~YFqdb        coupling.
+x119x2         |-(CKM1x3*lamSqIm1x3)-CKM2x3*lamSqIm2x3-CKM3x3*lamSqIm3x3                                                       % ~XS3 ~YFqdb        coupling.
+x119x3         |-(CKM1x3*lamSqRe1x3)-CKM2x3*lamSqRe2x3-CKM3x3*lamSqRe3x3                                                       % ~XS3 ~YFqdb        coupling.
+x119x4         |CKM1x3*lamSqIm1x3+CKM2x3*lamSqIm2x3+CKM3x3*lamSqIm3x3                                                          % ~XS3 ~YFqdb        coupling.
+x120x0         |0.5                                                                                                            % ~XS3 ~YFqdd     coupling.
+x120x1         |CKM1x1*lamSqRe1x3+CKM2x1*lamSqRe2x3+CKM3x1*lamSqRe3x3                                                          % ~XS3 ~YFqdd        coupling.
+x120x2         |-(CKM1x1*lamSqIm1x3)-CKM2x1*lamSqIm2x3-CKM3x1*lamSqIm3x3                                                       % ~XS3 ~YFqdd        coupling.
+x120x3         |-(CKM1x1*lamSqRe1x3)-CKM2x1*lamSqRe2x3-CKM3x1*lamSqRe3x3                                                       % ~XS3 ~YFqdd        coupling.
+x120x4         |CKM1x1*lamSqIm1x3+CKM2x1*lamSqIm2x3+CKM3x1*lamSqIm3x3                                                          % ~XS3 ~YFqdd        coupling.
+x121x0         |0.5                                                                                                            % ~XS3 ~YFqds     coupling.
+x121x1         |CKM1x2*lamSqRe1x3+CKM2x2*lamSqRe2x3+CKM3x2*lamSqRe3x3                                                          % ~XS3 ~YFqds        coupling.
+x121x2         |-(CKM1x2*lamSqIm1x3)-CKM2x2*lamSqIm2x3-CKM3x2*lamSqIm3x3                                                       % ~XS3 ~YFqds        coupling.
+x121x3         |-(CKM1x2*lamSqRe1x3)-CKM2x2*lamSqRe2x3-CKM3x2*lamSqRe3x3                                                       % ~XS3 ~YFqds        coupling.
+x121x4         |CKM1x2*lamSqIm1x3+CKM2x2*lamSqIm2x3+CKM3x2*lamSqIm3x3                                                          % ~XS3 ~YFqds        coupling.
+x122x0         |0.5                                                                                                            % ~XS3 ~YFquc     coupling.
+x122x1         |lamSqRe2x3                                                                                                     % ~XS3 ~YFquc        coupling.
+x122x2         |-lamSqIm2x3                                                                                                    % ~XS3 ~YFquc        coupling.
+x122x3         |-lamSqRe2x3                                                                                                    % ~XS3 ~YFquc        coupling.
+x122x4         |lamSqIm2x3                                                                                                     % ~XS3 ~YFquc        coupling.
+x123x0         |0.5                                                                                                            % ~XS3 ~YFqut     coupling.
+x123x1         |lamSqRe3x3                                                                                                     % ~XS3 ~YFqut        coupling.
+x123x2         |-lamSqIm3x3                                                                                                    % ~XS3 ~YFqut        coupling.
+x123x3         |-lamSqRe3x3                                                                                                    % ~XS3 ~YFqut        coupling.
+x123x4         |lamSqIm3x3                                                                                                     % ~XS3 ~YFqut        coupling.
+x124x0         |0.5                                                                                                            % ~XS1 u~   ~YFqu coupling.
+x124x1         |lamSqRe1x1                                                                                                     % ~XS1 u~   ~YFqu    coupling.
+x124x2         |lamSqIm1x1                                                                                                     % ~XS1 u~   ~YFqu    coupling.
+x124x3         |lamSqRe1x1                                                                                                     % ~XS1 u~   ~YFqu    coupling.
+x124x4         |lamSqIm1x1                                                                                                     % ~XS1 u~   ~YFqu    coupling.
+x125x0         |0.5                                                                                                            % ~XS1 b~   ~YFqd coupling.
+x125x1         |CKM1x3*lamSqRe1x1+CKM2x3*lamSqRe2x1+CKM3x3*lamSqRe3x1                                                          % ~XS1 b~   ~YFqd    coupling.
+x125x2         |CKM1x3*lamSqIm1x1+CKM2x3*lamSqIm2x1+CKM3x3*lamSqIm3x1                                                          % ~XS1 b~   ~YFqd    coupling.
+x125x3         |CKM1x3*lamSqRe1x1+CKM2x3*lamSqRe2x1+CKM3x3*lamSqRe3x1                                                          % ~XS1 b~   ~YFqd    coupling.
+x125x4         |CKM1x3*lamSqIm1x1+CKM2x3*lamSqIm2x1+CKM3x3*lamSqIm3x1                                                          % ~XS1 b~   ~YFqd    coupling.
+x126x0         |0.5                                                                                                            % ~XS1 d~   ~YFqd coupling.
+x126x1         |CKM1x1*lamSqRe1x1+CKM2x1*lamSqRe2x1+CKM3x1*lamSqRe3x1                                                          % ~XS1 d~   ~YFqd    coupling.
+x126x2         |CKM1x1*lamSqIm1x1+CKM2x1*lamSqIm2x1+CKM3x1*lamSqIm3x1                                                          % ~XS1 d~   ~YFqd    coupling.
+x126x3         |CKM1x1*lamSqRe1x1+CKM2x1*lamSqRe2x1+CKM3x1*lamSqRe3x1                                                          % ~XS1 d~   ~YFqd    coupling.
+x126x4         |CKM1x1*lamSqIm1x1+CKM2x1*lamSqIm2x1+CKM3x1*lamSqIm3x1                                                          % ~XS1 d~   ~YFqd    coupling.
+x127x0         |0.5                                                                                                            % ~XS1 s~   ~YFqd coupling.
+x127x1         |CKM1x2*lamSqRe1x1+CKM2x2*lamSqRe2x1+CKM3x2*lamSqRe3x1                                                          % ~XS1 s~   ~YFqd    coupling.
+x127x2         |CKM1x2*lamSqIm1x1+CKM2x2*lamSqIm2x1+CKM3x2*lamSqIm3x1                                                          % ~XS1 s~   ~YFqd    coupling.
+x127x3         |CKM1x2*lamSqRe1x1+CKM2x2*lamSqRe2x1+CKM3x2*lamSqRe3x1                                                          % ~XS1 s~   ~YFqd    coupling.
+x127x4         |CKM1x2*lamSqIm1x1+CKM2x2*lamSqIm2x1+CKM3x2*lamSqIm3x1                                                          % ~XS1 s~   ~YFqd    coupling.
+x128x0         |0.5                                                                                                            % ~XS1 c~   ~YFqu coupling.
+x128x1         |lamSqRe2x1                                                                                                     % ~XS1 c~   ~YFqu    coupling.
+x128x2         |lamSqIm2x1                                                                                                     % ~XS1 c~   ~YFqu    coupling.
+x128x3         |lamSqRe2x1                                                                                                     % ~XS1 c~   ~YFqu    coupling.
+x128x4         |lamSqIm2x1                                                                                                     % ~XS1 c~   ~YFqu    coupling.
+x129x0         |0.5                                                                                                            % ~XS1 t~   ~YFqu coupling.
+x129x1         |lamSqRe3x1                                                                                                     % ~XS1 t~   ~YFqu    coupling.
+x129x2         |lamSqIm3x1                                                                                                     % ~XS1 t~   ~YFqu    coupling.
+x129x3         |lamSqRe3x1                                                                                                     % ~XS1 t~   ~YFqu    coupling.
+x129x4         |lamSqIm3x1                                                                                                     % ~XS1 t~   ~YFqu    coupling.
+x130x0         |0.5                                                                                                            % ~XS2 u~   ~YFqu coupling.
+x130x1         |lamSqRe1x2                                                                                                     % ~XS2 u~   ~YFqu    coupling.
+x130x2         |lamSqIm1x2                                                                                                     % ~XS2 u~   ~YFqu    coupling.
+x130x3         |lamSqRe1x2                                                                                                     % ~XS2 u~   ~YFqu    coupling.
+x130x4         |lamSqIm1x2                                                                                                     % ~XS2 u~   ~YFqu    coupling.
+x131x0         |0.5                                                                                                            % ~XS2 b~   ~YFqd coupling.
+x131x1         |CKM1x3*lamSqRe1x2+CKM2x3*lamSqRe2x2+CKM3x3*lamSqRe3x2                                                          % ~XS2 b~   ~YFqd    coupling.
+x131x2         |CKM1x3*lamSqIm1x2+CKM2x3*lamSqIm2x2+CKM3x3*lamSqIm3x2                                                          % ~XS2 b~   ~YFqd    coupling.
+x131x3         |CKM1x3*lamSqRe1x2+CKM2x3*lamSqRe2x2+CKM3x3*lamSqRe3x2                                                          % ~XS2 b~   ~YFqd    coupling.
+x131x4         |CKM1x3*lamSqIm1x2+CKM2x3*lamSqIm2x2+CKM3x3*lamSqIm3x2                                                          % ~XS2 b~   ~YFqd    coupling.
+x132x0         |0.5                                                                                                            % ~XS2 d~   ~YFqd coupling.
+x132x1         |CKM1x1*lamSqRe1x2+CKM2x1*lamSqRe2x2+CKM3x1*lamSqRe3x2                                                          % ~XS2 d~   ~YFqd    coupling.
+x132x2         |CKM1x1*lamSqIm1x2+CKM2x1*lamSqIm2x2+CKM3x1*lamSqIm3x2                                                          % ~XS2 d~   ~YFqd    coupling.
+x132x3         |CKM1x1*lamSqRe1x2+CKM2x1*lamSqRe2x2+CKM3x1*lamSqRe3x2                                                          % ~XS2 d~   ~YFqd    coupling.
+x132x4         |CKM1x1*lamSqIm1x2+CKM2x1*lamSqIm2x2+CKM3x1*lamSqIm3x2                                                          % ~XS2 d~   ~YFqd    coupling.
+x133x0         |0.5                                                                                                            % ~XS2 s~   ~YFqd coupling.
+x133x1         |CKM1x2*lamSqRe1x2+CKM2x2*lamSqRe2x2+CKM3x2*lamSqRe3x2                                                          % ~XS2 s~   ~YFqd    coupling.
+x133x2         |CKM1x2*lamSqIm1x2+CKM2x2*lamSqIm2x2+CKM3x2*lamSqIm3x2                                                          % ~XS2 s~   ~YFqd    coupling.
+x133x3         |CKM1x2*lamSqRe1x2+CKM2x2*lamSqRe2x2+CKM3x2*lamSqRe3x2                                                          % ~XS2 s~   ~YFqd    coupling.
+x133x4         |CKM1x2*lamSqIm1x2+CKM2x2*lamSqIm2x2+CKM3x2*lamSqIm3x2                                                          % ~XS2 s~   ~YFqd    coupling.
+x134x0         |0.5                                                                                                            % ~XS2 c~   ~YFqu coupling.
+x134x1         |lamSqRe2x2                                                                                                     % ~XS2 c~   ~YFqu    coupling.
+x134x2         |lamSqIm2x2                                                                                                     % ~XS2 c~   ~YFqu    coupling.
+x134x3         |lamSqRe2x2                                                                                                     % ~XS2 c~   ~YFqu    coupling.
+x134x4         |lamSqIm2x2                                                                                                     % ~XS2 c~   ~YFqu    coupling.
+x135x0         |0.5                                                                                                            % ~XS2 t~   ~YFqu coupling.
+x135x1         |lamSqRe3x2                                                                                                     % ~XS2 t~   ~YFqu    coupling.
+x135x2         |lamSqIm3x2                                                                                                     % ~XS2 t~   ~YFqu    coupling.
+x135x3         |lamSqRe3x2                                                                                                     % ~XS2 t~   ~YFqu    coupling.
+x135x4         |lamSqIm3x2                                                                                                     % ~XS2 t~   ~YFqu    coupling.
+x136x0         |0.5                                                                                                            % ~XS3 u~   ~YFqu coupling.
+x136x1         |lamSqRe1x3                                                                                                     % ~XS3 u~   ~YFqu    coupling.
+x136x2         |lamSqIm1x3                                                                                                     % ~XS3 u~   ~YFqu    coupling.
+x136x3         |lamSqRe1x3                                                                                                     % ~XS3 u~   ~YFqu    coupling.
+x136x4         |lamSqIm1x3                                                                                                     % ~XS3 u~   ~YFqu    coupling.
+x137x0         |0.5                                                                                                            % ~XS3 b~   ~YFqd coupling.
+x137x1         |CKM1x3*lamSqRe1x3+CKM2x3*lamSqRe2x3+CKM3x3*lamSqRe3x3                                                          % ~XS3 b~   ~YFqd    coupling.
+x137x2         |CKM1x3*lamSqIm1x3+CKM2x3*lamSqIm2x3+CKM3x3*lamSqIm3x3                                                          % ~XS3 b~   ~YFqd    coupling.
+x137x3         |CKM1x3*lamSqRe1x3+CKM2x3*lamSqRe2x3+CKM3x3*lamSqRe3x3                                                          % ~XS3 b~   ~YFqd    coupling.
+x137x4         |CKM1x3*lamSqIm1x3+CKM2x3*lamSqIm2x3+CKM3x3*lamSqIm3x3                                                          % ~XS3 b~   ~YFqd    coupling.
+x138x0         |0.5                                                                                                            % ~XS3 d~   ~YFqd coupling.
+x138x1         |CKM1x1*lamSqRe1x3+CKM2x1*lamSqRe2x3+CKM3x1*lamSqRe3x3                                                          % ~XS3 d~   ~YFqd    coupling.
+x138x2         |CKM1x1*lamSqIm1x3+CKM2x1*lamSqIm2x3+CKM3x1*lamSqIm3x3                                                          % ~XS3 d~   ~YFqd    coupling.
+x138x3         |CKM1x1*lamSqRe1x3+CKM2x1*lamSqRe2x3+CKM3x1*lamSqRe3x3                                                          % ~XS3 d~   ~YFqd    coupling.
+x138x4         |CKM1x1*lamSqIm1x3+CKM2x1*lamSqIm2x3+CKM3x1*lamSqIm3x3                                                          % ~XS3 d~   ~YFqd    coupling.
+x139x0         |0.5                                                                                                            % ~XS3 s~   ~YFqd coupling.
+x139x1         |CKM1x2*lamSqRe1x3+CKM2x2*lamSqRe2x3+CKM3x2*lamSqRe3x3                                                          % ~XS3 s~   ~YFqd    coupling.
+x139x2         |CKM1x2*lamSqIm1x3+CKM2x2*lamSqIm2x3+CKM3x2*lamSqIm3x3                                                          % ~XS3 s~   ~YFqd    coupling.
+x139x3         |CKM1x2*lamSqRe1x3+CKM2x2*lamSqRe2x3+CKM3x2*lamSqRe3x3                                                          % ~XS3 s~   ~YFqd    coupling.
+x139x4         |CKM1x2*lamSqIm1x3+CKM2x2*lamSqIm2x3+CKM3x2*lamSqIm3x3                                                          % ~XS3 s~   ~YFqd    coupling.
+x140x0         |0.5                                                                                                            % ~XS3 c~   ~YFqu coupling.
+x140x1         |lamSqRe2x3                                                                                                     % ~XS3 c~   ~YFqu    coupling.
+x140x2         |lamSqIm2x3                                                                                                     % ~XS3 c~   ~YFqu    coupling.
+x140x3         |lamSqRe2x3                                                                                                     % ~XS3 c~   ~YFqu    coupling.
+x140x4         |lamSqIm2x3                                                                                                     % ~XS3 c~   ~YFqu    coupling.
+x141x0         |0.5                                                                                                            % ~XS3 t~   ~YFqu coupling.
+x141x1         |lamSqRe3x3                                                                                                     % ~XS3 t~   ~YFqu    coupling.
+x141x2         |lamSqIm3x3                                                                                                     % ~XS3 t~   ~YFqu    coupling.
+x141x3         |lamSqRe3x3                                                                                                     % ~XS3 t~   ~YFqu    coupling.
+x141x4         |lamSqIm3x3                                                                                                     % ~XS3 t~   ~YFqu    coupling.
 x142x0         |1                                                                                                              % g    ~YFqd~YFqd coupling.
 x143x0         |1                                                                                                              % g    ~YFqu~YFqu coupling.
 x144x0         |-0.5*pow(sw,-1)                                                                                                % a    Z.f  W-.f W+    coupling.

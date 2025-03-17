@@ -28,112 +28,98 @@ M$Parameters = {
 
   (* DM mediator coupling *)
 
-  RelSqm11 == {
+  lamMqRe11 == {
     ParameterType -> External,
     Value -> 1},
-  RelSqm12 == {
+  lamMqRe12 == {
     ParameterType -> External,
     Value -> 1},
-  RelSqm13 == {
+  lamMqRe13 == {
     ParameterType -> External,
     Value -> 1},
-  RelSqm21 == {
+  lamMqRe21 == {
     ParameterType -> External,
     Value -> 1},
-  RelSqm22 == {
+  lamMqRe22 == {
     ParameterType -> External,
     Value -> 1},
-  RelSqm23 == {
+  lamMqRe23 == {
     ParameterType -> External,
     Value -> 1},
-  RelSqm31 == {
+  lamMqRe31 == {
     ParameterType -> External,
     Value -> 1},
-  RelSqm32 == {
+  lamMqRe32 == {
     ParameterType -> External,
     Value -> 1},
-  RelSqm33 == {
+  lamMqRe33 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSqm11 == {
+  lamMqIm11 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSqm12 == {
+  lamMqIm12 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSqm13 == {
+  lamMqIm13 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSqm21 == {
+  lamMqIm21 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSqm22 == {
+  lamMqIm22 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSqm23 == {
+  lamMqIm23 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSqm31 == {
+  lamMqIm31 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSqm32 == {
+  lamMqIm32 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSqm33 == {
+  lamMqIm33 == {
     ParameterType -> External,
     Value -> 1},
 
-  RelSqm == {
+  lamMqRe == {
     ComplexParameter -> False,
     ParameterType -> Internal,
     Indices -> {Index[Generation], Index[Generation]},
-    Value -> {RelSqm[1,1] -> (RelSqm11), RelSqm[1,2] -> (RelSqm12), RelSqm[1,3] -> (RelSqm13), 
-      RelSqm[2,1] -> (RelSqm21), RelSqm[2,2] -> (RelSqm22), RelSqm[2,3] -> (RelSqm23), 
-      RelSqm[3,1] -> (RelSqm31), RelSqm[3,2] -> (RelSqm32), RelSqm[3,3] -> (RelSqm33)},
+    Value -> {lamMqRe[1,1] -> (lamMqRe11), lamMqRe[1,2] -> (lamMqRe12), lamMqRe[1,3] -> (lamMqRe13), 
+      lamMqRe[2,1] -> (lamMqRe21), lamMqRe[2,2] -> (lamMqRe22), lamMqRe[2,3] -> (lamMqRe23), 
+      lamMqRe[3,1] -> (lamMqRe31), lamMqRe[3,2] -> (lamMqRe32), lamMqRe[3,3] -> (lamMqRe33)},
     Description -> "Scalar mediator coupling majorana DM to left-handed quarks",
     InteractionOrder -> {NP,1}},
 
-  ImlSqm == {
+  lamMqIm == {
     ComplexParameter -> False,
     ParameterType -> Internal,
     Indices -> {Index[Generation], Index[Generation]},
-    Value -> {ImlSqm[1,1] -> (ImlSqm11), ImlSqm[1,2] -> (ImlSqm12), ImlSqm[1,3] -> (ImlSqm13), 
-      ImlSqm[2,1] -> (ImlSqm21), ImlSqm[2,2] -> (ImlSqm22), ImlSqm[2,3] -> (ImlSqm23), 
-      ImlSqm[3,1] -> (ImlSqm31), ImlSqm[3,2] -> (ImlSqm32), ImlSqm[3,3] -> (ImlSqm33)},
+    Value -> {lamMqIm[1,1] -> (lamMqIm11), lamMqIm[1,2] -> (lamMqIm12), lamMqIm[1,3] -> (lamMqIm13), 
+      lamMqIm[2,1] -> (lamMqIm21), lamMqIm[2,2] -> (lamMqIm22), lamMqIm[2,3] -> (lamMqIm23), 
+      lamMqIm[3,1] -> (lamMqIm31), lamMqIm[3,2] -> (lamMqIm32), lamMqIm[3,3] -> (lamMqIm33)},
     Description -> "Scalar mediator coupling majorana DM to left-handed quarks",
     InteractionOrder -> {NP,1}},
 
   (* Higgs coupling *)
 
-  lamHSq1 == {
+  lamYHq1 == {
     ParameterType -> External,
     Value -> 0.1,
     InteractionOrder -> {NP,1}},
-  lamHSq2 == {
+  lamYHq2 == {
     ParameterType -> External,
     Value -> 0.1,
     InteractionOrder -> {NP,1}},
 
   (* Scalar interactions *)
 
-  lam2Sq == {
+  lam2Yq == {
     ParameterType -> External,
     Value -> 0.1,
-    InteractionOrder -> {NP,1}},
-
-  (* Mass contributions through EWSB *)
-
-  mYSq == {
-  PatameterType -> External,
-  Value -> 500},
-
-  MYSqu == {
-  ParameterType -> Internal,
-  Value -> Sqrt[mYSq^2 + vev^2/2 lamHSq1]},
-
-  MYSqd == {
-  ParameterType -> Internal,
-  Value -> Sqrt[mYSq^2 + vev^2/2 (lamHSq1+lamHSq2)]}
+    InteractionOrder -> {NP,1}}
 
 };
 
@@ -146,13 +132,13 @@ M$ClassesDescription = {
   (* Dark matter *)
 
   F[100] == {
-    ClassName -> Xm, 
-    ClassMembers -> {Xm1, Xm2, Xm3},
-    Mass -> {MXm, {MXm1, 300}, {MXm2, 200}, {MXm3, 100}},
+    ClassName -> XM, 
+    ClassMembers -> {XM1, XM2, XM3},
+    Mass -> {MXM, {MXM1, 100}, {MXM2, 200}, {MXM3, 300}},
     Indices -> {Index[Generation]},
     FlavorIndex	-> Generation,
-    Width -> {{wXm1,1}, {wXm2,1}, {wXm3,0}},
-    ParticleName -> {"~Xm1","~Xm2","~Xm3"},
+    Width -> {{wXM1,1}, {wXM2,1}, {wXM3,0}},
+    ParticleName -> {"~XM1","~XM2","~XM3"},
     SelfConjugate -> True},
 
   (* Mediators *)
@@ -170,7 +156,7 @@ M$ClassesDescription = {
     ClassName -> YSqu,
     SelfConjugate -> False,
     QuantumNumbers -> {Q -> 2/3},
-    Mass -> {MYSqu, Internal},
+    Mass -> {MYSqu, 500},
     Width -> {WYSqu, 1},
     ParticleName -> {"~YSqu"},
     AntiParticleName -> {"~YSqu~"},
@@ -180,7 +166,7 @@ M$ClassesDescription = {
     ClassName -> YSqd,
     SelfConjugate -> False,
     QuantumNumbers -> {Q -> -1/3},
-    Mass -> {MYSqd, Internal},
+    Mass -> {MYSqd, 500},
     Width -> {WYSqd, 1},
     ParticleName -> {"~YSqd"},
     AntiParticleName -> {"~YSqd~"},
@@ -192,15 +178,15 @@ M$ClassesDescription = {
 (* *****   Lagrangian   ***** *)
 (* ************************** *)
 
-LkinX = 1/2 (I Xmbar.Ga[mu].del[Xm, mu] - Xm1bar Xm1 MXm1 - Xm2bar Xm2 MXm2 - Xm3bar Xm3 MXm3)
+LkinX = 1/2 (I XMbar.Ga[mu].del[XM, mu] - XM1bar XM1 MXM1 - XM2bar XM2 MXM2 - XM3bar XM3 MXM3)
 
 LkinY = HC[DC[YSq[ii, c1], mu]] DC[YSq[ii, c1], mu] - MYSqu^2 HC[YSqu[c1]] YSqu[c1] - MYSqd^2 HC[YSqd[c1]] YSqd[c1]
 
-Lint = (RelSqm[f1, f2] + I*ImlSqm[f1, f2]) QLbar[sp1, ii, f1, c1].Xm[sp1, f2] YSq[ii, c1]
+Lint = (lamMqRe[f1, f2] + I*lamMqIm[f1, f2]) QLbar[sp1, ii, f1, c1].XM[sp1, f2] YSq[ii, c1]
 
-LintH = (lamHSq1 YSqbar[ii, c1] YSq[ii, c1] (HC[H] H/2 + HC[GP] GP + HC[G0] G0/2 + vev H)
-  + lamHSq2 (YSqbar[1, c1] YSq[1, c1] HC[GP] GP - I/Sqrt[2] (vev + H - I G0) YSq[2, c1] YSqbar[1, c1] GP + I/Sqrt[2] HC[GP] YSq[1, c1] YSqbar[2, c1] (vev + H + I G0) + YSqbar[2, c1] YSq[2, c1] (vev H + H H/2 + G0 G0/2)));
+LintH = (lamYHq1 YSqbar[ii, c1] YSq[ii, c1] (HC[H] H/2 + HC[GP] GP + HC[G0] G0/2 + vev H)
+  + lamYHq2 (YSqbar[1, c1] YSq[1, c1] HC[GP] GP - I/Sqrt[2] (vev + H - I G0) YSq[2, c1] YSqbar[1, c1] GP + I/Sqrt[2] HC[GP] YSq[1, c1] YSqbar[2, c1] (vev + H + I G0) + YSqbar[2, c1] YSq[2, c1] (vev H + H H/2 + G0 G0/2)));
 
-LintS = lam2Sq HC[YSq[ii, c1]] YSq[ii, c1] HC[YSq[ii, c1]] YSq[ii, c1] 
+LintS = lam2Yq HC[YSq[ii, c1]] YSq[ii, c1] HC[YSq[ii, c1]] YSq[ii, c1] 
 
 LNP = LkinX + LkinY + Lint + HC[Lint] + LintH + LintS;

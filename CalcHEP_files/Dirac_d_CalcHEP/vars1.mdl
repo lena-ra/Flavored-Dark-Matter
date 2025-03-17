@@ -14,27 +14,26 @@ yme            |0.000511     |Electron Yukawa mass                              
 ymm            |0.10566      |Muon Yukawa mass                                                          |
 ymtau          |1.777        |Tau Yukawa mass                                                           |
 cabi           |0.227736     |Cabibbo angle                                                             |
-RelSdd11       |1            |RelSdd11                                                                  |
-RelSdd12       |1            |RelSdd12                                                                  |
-RelSdd13       |1            |RelSdd13                                                                  |
-RelSdd21       |1            |RelSdd21                                                                  |
-RelSdd22       |1            |RelSdd22                                                                  |
-RelSdd23       |1            |RelSdd23                                                                  |
-RelSdd31       |1            |RelSdd31                                                                  |
-RelSdd32       |1            |RelSdd32                                                                  |
-RelSdd33       |1            |RelSdd33                                                                  |
-ImlSdd11       |1            |ImlSdd11                                                                  |
-ImlSdd12       |1            |ImlSdd12                                                                  |
-ImlSdd13       |1            |ImlSdd13                                                                  |
-ImlSdd21       |1            |ImlSdd21                                                                  |
-ImlSdd22       |1            |ImlSdd22                                                                  |
-ImlSdd23       |1            |ImlSdd23                                                                  |
-ImlSdd31       |1            |ImlSdd31                                                                  |
-ImlSdd32       |1            |ImlSdd32                                                                  |
-ImlSdd33       |1            |ImlSdd33                                                                  |
-lamHSd         |0.1          |lamHSd                                                                    |
-lam2Sd         |0.1          |lam2Sd                                                                    |
-mYSd           |500          |mYSd                                                                      |
+lamDdRe11      |1            |lamDdRe11                                                                 |
+lamDdRe12      |1            |lamDdRe12                                                                 |
+lamDdRe13      |1            |lamDdRe13                                                                 |
+lamDdRe21      |1            |lamDdRe21                                                                 |
+lamDdRe22      |1            |lamDdRe22                                                                 |
+lamDdRe23      |1            |lamDdRe23                                                                 |
+lamDdRe31      |1            |lamDdRe31                                                                 |
+lamDdRe32      |1            |lamDdRe32                                                                 |
+lamDdRe33      |1            |lamDdRe33                                                                 |
+lamDdIm11      |1            |lamDdIm11                                                                 |
+lamDdIm12      |1            |lamDdIm12                                                                 |
+lamDdIm13      |1            |lamDdIm13                                                                 |
+lamDdIm21      |1            |lamDdIm21                                                                 |
+lamDdIm22      |1            |lamDdIm22                                                                 |
+lamDdIm23      |1            |lamDdIm23                                                                 |
+lamDdIm31      |1            |lamDdIm31                                                                 |
+lamDdIm32      |1            |lamDdIm32                                                                 |
+lamDdIm33      |1            |lamDdIm33                                                                 |
+lamYHd         |0.1          |lamYHd                                                                    |
+lam2Yd         |0.1          |lam2Yd                                                                    |
 GG             |1.21977796370|Strong coupling constant at the Z pole   This value will be ignored and ca|
 MZ             |91.1876      |Mass of G0.                                                               |
 Me             |0.000511     |Mass of e.                                                                |
@@ -47,15 +46,16 @@ MD             |0.00504      |Mass of d.                                        
 MS             |0.101        |Mass of s.                                                                |
 MB             |4.7          |Mass of b.                                                                |
 MH             |125          |Mass of H.                                                                |
-MXd1           |300          |Mass of Xd1.                                                              |
-MXd2           |200          |Mass of Xd2.                                                              |
-MXd3           |100          |Mass of Xd3.                                                              |
+MXD1           |300          |Mass of XD1.                                                              |
+MXD2           |200          |Mass of XD2.                                                              |
+MXD3           |100          |Mass of XD3.                                                              |
+MYSd           |500          |Mass of YSd.                                                              |
 %WZ            |2.4952       |Width of G0.                                                              |
 %WW            |2.085        |Width of GP.                                                              |
 %WT            |1.50833649   |Width of t.                                                               |
 %WH            |0.00407      |Width of H.                                                               |
-%wXd1          |1            |Width of Xd1.                                                             |
-%wXd2          |1            |Width of Xd2.                                                             |
+%wXD1          |1            |Width of XD1.                                                             |
+%wXD2          |1            |Width of XD2.                                                             |
 %WYSd          |1            |Width of YSd.                                                             |
 E              |2.71828182845|The base of the natural logarithm.                                        |
 Pi             |3.14159265358|The circumference of a circle divided by the diameter.                    |

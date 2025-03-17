@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.49
 # Mathematica version: 13.0.0 for Mac OS X ARM (64-bit) (December 3, 2021)
-# Date: Thu 6 Mar 2025 15:43:07
+# Date: Mon 17 Mar 2025 09:50:29
 
 
 from object_library import all_couplings, Coupling
@@ -102,135 +102,135 @@ GC_23 = Coupling(name = 'GC_23',
                  order = {'QED':2})
 
 GC_24 = Coupling(name = 'GC_24',
-                 value = '2*complex(0,1)*lam2Sq',
+                 value = '2*complex(0,1)*lam2Yq',
                  order = {'NP':1})
 
 GC_25 = Coupling(name = 'GC_25',
-                 value = 'complex(0,1)*lamHSq1',
+                 value = '-lamMqIm1x1 + complex(0,1)*lamMqRe1x1',
                  order = {'NP':1})
 
 GC_26 = Coupling(name = 'GC_26',
-                 value = 'complex(0,1)*lamHSq1 + complex(0,1)*lamHSq2',
+                 value = 'lamMqIm1x1 + complex(0,1)*lamMqRe1x1',
                  order = {'NP':1})
 
 GC_27 = Coupling(name = 'GC_27',
-                 value = '-(lamHSq2/cmath.sqrt(2))',
+                 value = '-lamMqIm1x2 + complex(0,1)*lamMqRe1x2',
                  order = {'NP':1})
 
 GC_28 = Coupling(name = 'GC_28',
-                 value = '-((complex(0,1)*lamHSq2)/cmath.sqrt(2))',
+                 value = 'lamMqIm1x2 + complex(0,1)*lamMqRe1x2',
                  order = {'NP':1})
 
 GC_29 = Coupling(name = 'GC_29',
-                 value = 'lamHSq2/cmath.sqrt(2)',
+                 value = '-lamMqIm1x3 + complex(0,1)*lamMqRe1x3',
                  order = {'NP':1})
 
 GC_30 = Coupling(name = 'GC_30',
-                 value = '-ImlSqm1x1 + complex(0,1)*RelSqm1x1',
+                 value = 'lamMqIm1x3 + complex(0,1)*lamMqRe1x3',
                  order = {'NP':1})
 
 GC_31 = Coupling(name = 'GC_31',
-                 value = 'ImlSqm1x1 + complex(0,1)*RelSqm1x1',
+                 value = '-lamMqIm2x1 + complex(0,1)*lamMqRe2x1',
                  order = {'NP':1})
 
 GC_32 = Coupling(name = 'GC_32',
-                 value = '-ImlSqm1x2 + complex(0,1)*RelSqm1x2',
+                 value = 'lamMqIm2x1 + complex(0,1)*lamMqRe2x1',
                  order = {'NP':1})
 
 GC_33 = Coupling(name = 'GC_33',
-                 value = 'ImlSqm1x2 + complex(0,1)*RelSqm1x2',
+                 value = '-lamMqIm2x2 + complex(0,1)*lamMqRe2x2',
                  order = {'NP':1})
 
 GC_34 = Coupling(name = 'GC_34',
-                 value = '-ImlSqm1x3 + complex(0,1)*RelSqm1x3',
+                 value = 'lamMqIm2x2 + complex(0,1)*lamMqRe2x2',
                  order = {'NP':1})
 
 GC_35 = Coupling(name = 'GC_35',
-                 value = 'ImlSqm1x3 + complex(0,1)*RelSqm1x3',
+                 value = '-lamMqIm2x3 + complex(0,1)*lamMqRe2x3',
                  order = {'NP':1})
 
 GC_36 = Coupling(name = 'GC_36',
-                 value = '-ImlSqm2x1 + complex(0,1)*RelSqm2x1',
+                 value = 'lamMqIm2x3 + complex(0,1)*lamMqRe2x3',
                  order = {'NP':1})
 
 GC_37 = Coupling(name = 'GC_37',
-                 value = 'ImlSqm2x1 + complex(0,1)*RelSqm2x1',
+                 value = '-lamMqIm3x1 + complex(0,1)*lamMqRe3x1',
                  order = {'NP':1})
 
 GC_38 = Coupling(name = 'GC_38',
-                 value = '-ImlSqm2x2 + complex(0,1)*RelSqm2x2',
+                 value = 'lamMqIm3x1 + complex(0,1)*lamMqRe3x1',
                  order = {'NP':1})
 
 GC_39 = Coupling(name = 'GC_39',
-                 value = 'ImlSqm2x2 + complex(0,1)*RelSqm2x2',
+                 value = 'CKM1x1*lamMqIm1x1 + CKM2x1*lamMqIm2x1 + CKM3x1*lamMqIm3x1 + CKM1x1*complex(0,1)*lamMqRe1x1 + CKM2x1*complex(0,1)*lamMqRe2x1 + CKM3x1*complex(0,1)*lamMqRe3x1',
                  order = {'NP':1})
 
 GC_40 = Coupling(name = 'GC_40',
-                 value = '-ImlSqm2x3 + complex(0,1)*RelSqm2x3',
+                 value = 'CKM1x2*lamMqIm1x1 + CKM2x2*lamMqIm2x1 + CKM3x2*lamMqIm3x1 + CKM1x2*complex(0,1)*lamMqRe1x1 + CKM2x2*complex(0,1)*lamMqRe2x1 + CKM3x2*complex(0,1)*lamMqRe3x1',
                  order = {'NP':1})
 
 GC_41 = Coupling(name = 'GC_41',
-                 value = 'ImlSqm2x3 + complex(0,1)*RelSqm2x3',
+                 value = 'CKM1x3*lamMqIm1x1 + CKM2x3*lamMqIm2x1 + CKM3x3*lamMqIm3x1 + CKM1x3*complex(0,1)*lamMqRe1x1 + CKM2x3*complex(0,1)*lamMqRe2x1 + CKM3x3*complex(0,1)*lamMqRe3x1',
                  order = {'NP':1})
 
 GC_42 = Coupling(name = 'GC_42',
-                 value = '-ImlSqm3x1 + complex(0,1)*RelSqm3x1',
+                 value = '-lamMqIm3x2 + complex(0,1)*lamMqRe3x2',
                  order = {'NP':1})
 
 GC_43 = Coupling(name = 'GC_43',
-                 value = 'ImlSqm3x1 + complex(0,1)*RelSqm3x1',
+                 value = 'lamMqIm3x2 + complex(0,1)*lamMqRe3x2',
                  order = {'NP':1})
 
 GC_44 = Coupling(name = 'GC_44',
-                 value = 'CKM1x1*ImlSqm1x1 + CKM2x1*ImlSqm2x1 + CKM3x1*ImlSqm3x1 + CKM1x1*complex(0,1)*RelSqm1x1 + CKM2x1*complex(0,1)*RelSqm2x1 + CKM3x1*complex(0,1)*RelSqm3x1',
+                 value = 'CKM1x1*lamMqIm1x2 + CKM2x1*lamMqIm2x2 + CKM3x1*lamMqIm3x2 + CKM1x1*complex(0,1)*lamMqRe1x2 + CKM2x1*complex(0,1)*lamMqRe2x2 + CKM3x1*complex(0,1)*lamMqRe3x2',
                  order = {'NP':1})
 
 GC_45 = Coupling(name = 'GC_45',
-                 value = 'CKM1x2*ImlSqm1x1 + CKM2x2*ImlSqm2x1 + CKM3x2*ImlSqm3x1 + CKM1x2*complex(0,1)*RelSqm1x1 + CKM2x2*complex(0,1)*RelSqm2x1 + CKM3x2*complex(0,1)*RelSqm3x1',
+                 value = 'CKM1x2*lamMqIm1x2 + CKM2x2*lamMqIm2x2 + CKM3x2*lamMqIm3x2 + CKM1x2*complex(0,1)*lamMqRe1x2 + CKM2x2*complex(0,1)*lamMqRe2x2 + CKM3x2*complex(0,1)*lamMqRe3x2',
                  order = {'NP':1})
 
 GC_46 = Coupling(name = 'GC_46',
-                 value = 'CKM1x3*ImlSqm1x1 + CKM2x3*ImlSqm2x1 + CKM3x3*ImlSqm3x1 + CKM1x3*complex(0,1)*RelSqm1x1 + CKM2x3*complex(0,1)*RelSqm2x1 + CKM3x3*complex(0,1)*RelSqm3x1',
+                 value = 'CKM1x3*lamMqIm1x2 + CKM2x3*lamMqIm2x2 + CKM3x3*lamMqIm3x2 + CKM1x3*complex(0,1)*lamMqRe1x2 + CKM2x3*complex(0,1)*lamMqRe2x2 + CKM3x3*complex(0,1)*lamMqRe3x2',
                  order = {'NP':1})
 
 GC_47 = Coupling(name = 'GC_47',
-                 value = '-ImlSqm3x2 + complex(0,1)*RelSqm3x2',
+                 value = '-lamMqIm3x3 + complex(0,1)*lamMqRe3x3',
                  order = {'NP':1})
 
 GC_48 = Coupling(name = 'GC_48',
-                 value = 'ImlSqm3x2 + complex(0,1)*RelSqm3x2',
+                 value = 'lamMqIm3x3 + complex(0,1)*lamMqRe3x3',
                  order = {'NP':1})
 
 GC_49 = Coupling(name = 'GC_49',
-                 value = 'CKM1x1*ImlSqm1x2 + CKM2x1*ImlSqm2x2 + CKM3x1*ImlSqm3x2 + CKM1x1*complex(0,1)*RelSqm1x2 + CKM2x1*complex(0,1)*RelSqm2x2 + CKM3x1*complex(0,1)*RelSqm3x2',
+                 value = 'CKM1x1*lamMqIm1x3 + CKM2x1*lamMqIm2x3 + CKM3x1*lamMqIm3x3 + CKM1x1*complex(0,1)*lamMqRe1x3 + CKM2x1*complex(0,1)*lamMqRe2x3 + CKM3x1*complex(0,1)*lamMqRe3x3',
                  order = {'NP':1})
 
 GC_50 = Coupling(name = 'GC_50',
-                 value = 'CKM1x2*ImlSqm1x2 + CKM2x2*ImlSqm2x2 + CKM3x2*ImlSqm3x2 + CKM1x2*complex(0,1)*RelSqm1x2 + CKM2x2*complex(0,1)*RelSqm2x2 + CKM3x2*complex(0,1)*RelSqm3x2',
+                 value = 'CKM1x2*lamMqIm1x3 + CKM2x2*lamMqIm2x3 + CKM3x2*lamMqIm3x3 + CKM1x2*complex(0,1)*lamMqRe1x3 + CKM2x2*complex(0,1)*lamMqRe2x3 + CKM3x2*complex(0,1)*lamMqRe3x3',
                  order = {'NP':1})
 
 GC_51 = Coupling(name = 'GC_51',
-                 value = 'CKM1x3*ImlSqm1x2 + CKM2x3*ImlSqm2x2 + CKM3x3*ImlSqm3x2 + CKM1x3*complex(0,1)*RelSqm1x2 + CKM2x3*complex(0,1)*RelSqm2x2 + CKM3x3*complex(0,1)*RelSqm3x2',
+                 value = 'CKM1x3*lamMqIm1x3 + CKM2x3*lamMqIm2x3 + CKM3x3*lamMqIm3x3 + CKM1x3*complex(0,1)*lamMqRe1x3 + CKM2x3*complex(0,1)*lamMqRe2x3 + CKM3x3*complex(0,1)*lamMqRe3x3',
                  order = {'NP':1})
 
 GC_52 = Coupling(name = 'GC_52',
-                 value = '-ImlSqm3x3 + complex(0,1)*RelSqm3x3',
+                 value = 'complex(0,1)*lamYHq1',
                  order = {'NP':1})
 
 GC_53 = Coupling(name = 'GC_53',
-                 value = 'ImlSqm3x3 + complex(0,1)*RelSqm3x3',
+                 value = 'complex(0,1)*lamYHq1 + complex(0,1)*lamYHq2',
                  order = {'NP':1})
 
 GC_54 = Coupling(name = 'GC_54',
-                 value = 'CKM1x1*ImlSqm1x3 + CKM2x1*ImlSqm2x3 + CKM3x1*ImlSqm3x3 + CKM1x1*complex(0,1)*RelSqm1x3 + CKM2x1*complex(0,1)*RelSqm2x3 + CKM3x1*complex(0,1)*RelSqm3x3',
+                 value = '-(lamYHq2/cmath.sqrt(2))',
                  order = {'NP':1})
 
 GC_55 = Coupling(name = 'GC_55',
-                 value = 'CKM1x2*ImlSqm1x3 + CKM2x2*ImlSqm2x3 + CKM3x2*ImlSqm3x3 + CKM1x2*complex(0,1)*RelSqm1x3 + CKM2x2*complex(0,1)*RelSqm2x3 + CKM3x2*complex(0,1)*RelSqm3x3',
+                 value = '-((complex(0,1)*lamYHq2)/cmath.sqrt(2))',
                  order = {'NP':1})
 
 GC_56 = Coupling(name = 'GC_56',
-                 value = 'CKM1x3*ImlSqm1x3 + CKM2x3*ImlSqm2x3 + CKM3x3*ImlSqm3x3 + CKM1x3*complex(0,1)*RelSqm1x3 + CKM2x3*complex(0,1)*RelSqm2x3 + CKM3x3*complex(0,1)*RelSqm3x3',
+                 value = 'lamYHq2/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_57 = Coupling(name = 'GC_57',
@@ -426,15 +426,15 @@ GC_104 = Coupling(name = 'GC_104',
                   order = {'QED':1})
 
 GC_105 = Coupling(name = 'GC_105',
-                  value = 'complex(0,1)*lamHSq1*vev',
+                  value = 'complex(0,1)*lamYHq1*vev',
                   order = {'NP':1,'QED':-1})
 
 GC_106 = Coupling(name = 'GC_106',
-                  value = '-((lamHSq2*vev)/cmath.sqrt(2))',
+                  value = '-((lamYHq2*vev)/cmath.sqrt(2))',
                   order = {'NP':1,'QED':-1})
 
 GC_107 = Coupling(name = 'GC_107',
-                  value = '(lamHSq2*vev)/cmath.sqrt(2)',
+                  value = '(lamYHq2*vev)/cmath.sqrt(2)',
                   order = {'NP':1,'QED':-1})
 
 GC_108 = Coupling(name = 'GC_108',
@@ -462,7 +462,7 @@ GC_113 = Coupling(name = 'GC_113',
                   order = {'QED':1})
 
 GC_114 = Coupling(name = 'GC_114',
-                  value = 'complex(0,1)*lamHSq1*vev + complex(0,1)*lamHSq2*vev',
+                  value = 'complex(0,1)*lamYHq1*vev + complex(0,1)*lamYHq2*vev',
                   order = {'NP':1,'QED':-1})
 
 GC_115 = Coupling(name = 'GC_115',
@@ -742,15 +742,15 @@ GC_183 = Coupling(name = 'GC_183',
                   order = {'QED':1})
 
 GC_184 = Coupling(name = 'GC_184',
-                  value = '-(ImlSqm1x1*complexconjugate(CKM1x1)) + complex(0,1)*RelSqm1x1*complexconjugate(CKM1x1) - ImlSqm2x1*complexconjugate(CKM2x1) + complex(0,1)*RelSqm2x1*complexconjugate(CKM2x1) - ImlSqm3x1*complexconjugate(CKM3x1) + complex(0,1)*RelSqm3x1*complexconjugate(CKM3x1)',
+                  value = '-(lamMqIm1x1*complexconjugate(CKM1x1)) + complex(0,1)*lamMqRe1x1*complexconjugate(CKM1x1) - lamMqIm2x1*complexconjugate(CKM2x1) + complex(0,1)*lamMqRe2x1*complexconjugate(CKM2x1) - lamMqIm3x1*complexconjugate(CKM3x1) + complex(0,1)*lamMqRe3x1*complexconjugate(CKM3x1)',
                   order = {'NP':1})
 
 GC_185 = Coupling(name = 'GC_185',
-                  value = '-(ImlSqm1x2*complexconjugate(CKM1x1)) + complex(0,1)*RelSqm1x2*complexconjugate(CKM1x1) - ImlSqm2x2*complexconjugate(CKM2x1) + complex(0,1)*RelSqm2x2*complexconjugate(CKM2x1) - ImlSqm3x2*complexconjugate(CKM3x1) + complex(0,1)*RelSqm3x2*complexconjugate(CKM3x1)',
+                  value = '-(lamMqIm1x2*complexconjugate(CKM1x1)) + complex(0,1)*lamMqRe1x2*complexconjugate(CKM1x1) - lamMqIm2x2*complexconjugate(CKM2x1) + complex(0,1)*lamMqRe2x2*complexconjugate(CKM2x1) - lamMqIm3x2*complexconjugate(CKM3x1) + complex(0,1)*lamMqRe3x2*complexconjugate(CKM3x1)',
                   order = {'NP':1})
 
 GC_186 = Coupling(name = 'GC_186',
-                  value = '-(ImlSqm1x3*complexconjugate(CKM1x1)) + complex(0,1)*RelSqm1x3*complexconjugate(CKM1x1) - ImlSqm2x3*complexconjugate(CKM2x1) + complex(0,1)*RelSqm2x3*complexconjugate(CKM2x1) - ImlSqm3x3*complexconjugate(CKM3x1) + complex(0,1)*RelSqm3x3*complexconjugate(CKM3x1)',
+                  value = '-(lamMqIm1x3*complexconjugate(CKM1x1)) + complex(0,1)*lamMqRe1x3*complexconjugate(CKM1x1) - lamMqIm2x3*complexconjugate(CKM2x1) + complex(0,1)*lamMqRe2x3*complexconjugate(CKM2x1) - lamMqIm3x3*complexconjugate(CKM3x1) + complex(0,1)*lamMqRe3x3*complexconjugate(CKM3x1)',
                   order = {'NP':1})
 
 GC_187 = Coupling(name = 'GC_187',
@@ -766,15 +766,15 @@ GC_189 = Coupling(name = 'GC_189',
                   order = {'QED':1})
 
 GC_190 = Coupling(name = 'GC_190',
-                  value = '-(ImlSqm1x1*complexconjugate(CKM1x2)) + complex(0,1)*RelSqm1x1*complexconjugate(CKM1x2) - ImlSqm2x1*complexconjugate(CKM2x2) + complex(0,1)*RelSqm2x1*complexconjugate(CKM2x2) - ImlSqm3x1*complexconjugate(CKM3x2) + complex(0,1)*RelSqm3x1*complexconjugate(CKM3x2)',
+                  value = '-(lamMqIm1x1*complexconjugate(CKM1x2)) + complex(0,1)*lamMqRe1x1*complexconjugate(CKM1x2) - lamMqIm2x1*complexconjugate(CKM2x2) + complex(0,1)*lamMqRe2x1*complexconjugate(CKM2x2) - lamMqIm3x1*complexconjugate(CKM3x2) + complex(0,1)*lamMqRe3x1*complexconjugate(CKM3x2)',
                   order = {'NP':1})
 
 GC_191 = Coupling(name = 'GC_191',
-                  value = '-(ImlSqm1x2*complexconjugate(CKM1x2)) + complex(0,1)*RelSqm1x2*complexconjugate(CKM1x2) - ImlSqm2x2*complexconjugate(CKM2x2) + complex(0,1)*RelSqm2x2*complexconjugate(CKM2x2) - ImlSqm3x2*complexconjugate(CKM3x2) + complex(0,1)*RelSqm3x2*complexconjugate(CKM3x2)',
+                  value = '-(lamMqIm1x2*complexconjugate(CKM1x2)) + complex(0,1)*lamMqRe1x2*complexconjugate(CKM1x2) - lamMqIm2x2*complexconjugate(CKM2x2) + complex(0,1)*lamMqRe2x2*complexconjugate(CKM2x2) - lamMqIm3x2*complexconjugate(CKM3x2) + complex(0,1)*lamMqRe3x2*complexconjugate(CKM3x2)',
                   order = {'NP':1})
 
 GC_192 = Coupling(name = 'GC_192',
-                  value = '-(ImlSqm1x3*complexconjugate(CKM1x2)) + complex(0,1)*RelSqm1x3*complexconjugate(CKM1x2) - ImlSqm2x3*complexconjugate(CKM2x2) + complex(0,1)*RelSqm2x3*complexconjugate(CKM2x2) - ImlSqm3x3*complexconjugate(CKM3x2) + complex(0,1)*RelSqm3x3*complexconjugate(CKM3x2)',
+                  value = '-(lamMqIm1x3*complexconjugate(CKM1x2)) + complex(0,1)*lamMqRe1x3*complexconjugate(CKM1x2) - lamMqIm2x3*complexconjugate(CKM2x2) + complex(0,1)*lamMqRe2x3*complexconjugate(CKM2x2) - lamMqIm3x3*complexconjugate(CKM3x2) + complex(0,1)*lamMqRe3x3*complexconjugate(CKM3x2)',
                   order = {'NP':1})
 
 GC_193 = Coupling(name = 'GC_193',
@@ -790,14 +790,14 @@ GC_195 = Coupling(name = 'GC_195',
                   order = {'QED':1})
 
 GC_196 = Coupling(name = 'GC_196',
-                  value = '-(ImlSqm1x1*complexconjugate(CKM1x3)) + complex(0,1)*RelSqm1x1*complexconjugate(CKM1x3) - ImlSqm2x1*complexconjugate(CKM2x3) + complex(0,1)*RelSqm2x1*complexconjugate(CKM2x3) - ImlSqm3x1*complexconjugate(CKM3x3) + complex(0,1)*RelSqm3x1*complexconjugate(CKM3x3)',
+                  value = '-(lamMqIm1x1*complexconjugate(CKM1x3)) + complex(0,1)*lamMqRe1x1*complexconjugate(CKM1x3) - lamMqIm2x1*complexconjugate(CKM2x3) + complex(0,1)*lamMqRe2x1*complexconjugate(CKM2x3) - lamMqIm3x1*complexconjugate(CKM3x3) + complex(0,1)*lamMqRe3x1*complexconjugate(CKM3x3)',
                   order = {'NP':1})
 
 GC_197 = Coupling(name = 'GC_197',
-                  value = '-(ImlSqm1x2*complexconjugate(CKM1x3)) + complex(0,1)*RelSqm1x2*complexconjugate(CKM1x3) - ImlSqm2x2*complexconjugate(CKM2x3) + complex(0,1)*RelSqm2x2*complexconjugate(CKM2x3) - ImlSqm3x2*complexconjugate(CKM3x3) + complex(0,1)*RelSqm3x2*complexconjugate(CKM3x3)',
+                  value = '-(lamMqIm1x2*complexconjugate(CKM1x3)) + complex(0,1)*lamMqRe1x2*complexconjugate(CKM1x3) - lamMqIm2x2*complexconjugate(CKM2x3) + complex(0,1)*lamMqRe2x2*complexconjugate(CKM2x3) - lamMqIm3x2*complexconjugate(CKM3x3) + complex(0,1)*lamMqRe3x2*complexconjugate(CKM3x3)',
                   order = {'NP':1})
 
 GC_198 = Coupling(name = 'GC_198',
-                  value = '-(ImlSqm1x3*complexconjugate(CKM1x3)) + complex(0,1)*RelSqm1x3*complexconjugate(CKM1x3) - ImlSqm2x3*complexconjugate(CKM2x3) + complex(0,1)*RelSqm2x3*complexconjugate(CKM2x3) - ImlSqm3x3*complexconjugate(CKM3x3) + complex(0,1)*RelSqm3x3*complexconjugate(CKM3x3)',
+                  value = '-(lamMqIm1x3*complexconjugate(CKM1x3)) + complex(0,1)*lamMqRe1x3*complexconjugate(CKM1x3) - lamMqIm2x3*complexconjugate(CKM2x3) + complex(0,1)*lamMqRe2x3*complexconjugate(CKM2x3) - lamMqIm3x3*complexconjugate(CKM3x3) + complex(0,1)*lamMqRe3x3*complexconjugate(CKM3x3)',
                   order = {'NP':1})
 

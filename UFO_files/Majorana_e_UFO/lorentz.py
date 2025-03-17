@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.49
 # Mathematica version: 13.0.0 for Mac OS X ARM (64-bit) (December 3, 2021)
-# Date: Thu 6 Mar 2025 15:39:24
+# Date: Mon 17 Mar 2025 09:55:07
 
 
 from object_library import all_lorentz, Lorentz

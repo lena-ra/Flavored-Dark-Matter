@@ -10,4 +10,4 @@ This repository includes FeynRules, UFO, and CalcHEP model files for 20 differen
 
 Different dark matter models can be combined by loading two or more FeynRules model files and adding the respective Lagrangians to produce the UFO or CalcHEP file of this model.
 
-All masses for the dark matter and mediator particles are expected to be given before EWSB.
+All masses for the dark matter and mediator particles are expected to be given after EWSB. The couplings between the DM field, the mediator and the SM fermions is split into the real and imaginary part (indicated by Re and Im at the end of the variable name). 

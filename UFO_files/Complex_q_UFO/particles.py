@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.49
 # Mathematica version: 13.0.0 for Mac OS X ARM (64-bit) (December 3, 2021)
-# Date: Thu 6 Mar 2025 15:25:15
+# Date: Fri 14 Mar 2025 16:14:59
 
 
 from __future__ import division
@@ -361,50 +361,50 @@ G__plus__ = Particle(pdg_code = 251,
 
 G__minus__ = G__plus__.anti()
 
-P__tilde__Xc1 = Particle(pdg_code = 9000005,
-                         name = '~Xc1',
-                         antiname = '~Xc1~',
+P__tilde__XC1 = Particle(pdg_code = 9000005,
+                         name = '~XC1',
+                         antiname = '~XC1~',
                          spin = 1,
                          color = 1,
-                         mass = Param.MXc1,
-                         width = Param.wXc1,
-                         texname = '~Xc1',
-                         antitexname = '~Xc1~',
+                         mass = Param.MXC1,
+                         width = Param.wXC1,
+                         texname = '~XC1',
+                         antitexname = '~XC1~',
                          charge = 0,
                          GhostNumber = 0,
                          Y = 0)
 
-P__tilde__Xc1__tilde__ = P__tilde__Xc1.anti()
+P__tilde__XC1__tilde__ = P__tilde__XC1.anti()
 
-P__tilde__Xc2 = Particle(pdg_code = 9000006,
-                         name = '~Xc2',
-                         antiname = '~Xc2~',
+P__tilde__XC2 = Particle(pdg_code = 9000006,
+                         name = '~XC2',
+                         antiname = '~XC2~',
                          spin = 1,
                          color = 1,
-                         mass = Param.MXc2,
-                         width = Param.wXc2,
-                         texname = '~Xc2',
-                         antitexname = '~Xc2~',
+                         mass = Param.MXC2,
+                         width = Param.wXC2,
+                         texname = '~XC2',
+                         antitexname = '~XC2~',
                          charge = 0,
                          GhostNumber = 0,
                          Y = 0)
 
-P__tilde__Xc2__tilde__ = P__tilde__Xc2.anti()
+P__tilde__XC2__tilde__ = P__tilde__XC2.anti()
 
-P__tilde__Xc3 = Particle(pdg_code = 9000007,
-                         name = '~Xc3',
-                         antiname = '~Xc3~',
+P__tilde__XC3 = Particle(pdg_code = 9000007,
+                         name = '~XC3',
+                         antiname = '~XC3~',
                          spin = 1,
                          color = 1,
-                         mass = Param.MXc3,
+                         mass = Param.MXC3,
                          width = Param.ZERO,
-                         texname = '~Xc3',
-                         antitexname = '~Xc3~',
+                         texname = '~XC3',
+                         antitexname = '~XC3~',
                          charge = 0,
                          GhostNumber = 0,
                          Y = 0)
 
-P__tilde__Xc3__tilde__ = P__tilde__Xc3.anti()
+P__tilde__XC3__tilde__ = P__tilde__XC3.anti()
 
 P__tilde__YFqu = Particle(pdg_code = 9000008,
                           name = '~YFqu',

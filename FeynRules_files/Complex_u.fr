@@ -28,163 +28,137 @@ M$Parameters = {
 
   (* DM mediator coupling *)
 
-  RelFuc11 == {
+  lamCuRe11 == {
     ParameterType -> External,
     Value -> 1},
-  RelFuc12 == {
+  lamCuRe12 == {
     ParameterType -> External,
     Value -> 1},
-  RelFuc13 == {
+  lamCuRe13 == {
     ParameterType -> External,
     Value -> 1},
-  RelFuc21 == {
+  lamCuRe21 == {
     ParameterType -> External,
     Value -> 1},
-  RelFuc22 == {
+  lamCuRe22 == {
     ParameterType -> External,
     Value -> 1},
-  RelFuc23 == {
+  lamCuRe23 == {
     ParameterType -> External,
     Value -> 1},
-  RelFuc31 == {
+  lamCuRe31 == {
     ParameterType -> External,
     Value -> 1},
-  RelFuc32 == {
+  lamCuRe32 == {
     ParameterType -> External,
     Value -> 1},
-  RelFuc33 == {
+  lamCuRe33 == {
     ParameterType -> External,
     Value -> 1},
-  ImlFuc11 == {
+  lamCuIm11 == {
     ParameterType -> External,
     Value -> 1},
-  ImlFuc12 == {
+  lamCuIm12 == {
     ParameterType -> External,
     Value -> 1},
-  ImlFuc13 == {
+  lamCuIm13 == {
     ParameterType -> External,
     Value -> 1},
-  ImlFuc21 == {
+  lamCuIm21 == {
     ParameterType -> External,
     Value -> 1},
-  ImlFuc22 == {
+  lamCuIm22 == {
     ParameterType -> External,
     Value -> 1},
-  ImlFuc23 == {
+  lamCuIm23 == {
     ParameterType -> External,
     Value -> 1},
-  ImlFuc31 == {
+  lamCuIm31 == {
     ParameterType -> External,
     Value -> 1},
-  ImlFuc32 == {
+  lamCuIm32 == {
     ParameterType -> External,
     Value -> 1},
-  ImlFuc33 == {
+  lamCuIm33 == {
     ParameterType -> External,
     Value -> 1},
 
-  RelFuc == {
+  lamCuRe == {
     ComplexParameter -> False,
     ParameterType -> Internal,
     Indices -> {Index[Generation], Index[Generation]},
-    Value -> {RelFuc[1,1] -> (RelFuc11), RelFuc[1,2] -> (RelFuc12), RelFuc[1,3] -> (RelFuc13), 
-      RelFuc[2,1] -> (RelFuc21), RelFuc[2,2] -> (RelFuc22), RelFuc[2,3] -> (RelFuc23), 
-      RelFuc[3,1] -> (RelFuc31), RelFuc[3,2] -> (RelFuc32), RelFuc[3,3] -> (RelFuc33)},
+    Value -> {lamCuRe[1,1] -> (lamCuRe11), lamCuRe[1,2] -> (lamCuRe12), lamCuRe[1,3] -> (lamCuRe13), 
+      lamCuRe[2,1] -> (lamCuRe21), lamCuRe[2,2] -> (lamCuRe22), lamCuRe[2,3] -> (lamCuRe23), 
+      lamCuRe[3,1] -> (lamCuRe31), lamCuRe[3,2] -> (lamCuRe32), lamCuRe[3,3] -> (lamCuRe33)},
     Description -> "Fermion mediator coupling complex scalar DM to right-handed up-quarks",
     InteractionOrder -> {NP,1}},
 
-  ImlFuc == {
+  lamCuIm == {
     ComplexParameter -> False,
     ParameterType -> Internal,
     Indices -> {Index[Generation], Index[Generation]},
-    Value -> {ImlFuc[1,1] -> (ImlFuc11), ImlFuc[1,2] -> (ImlFuc12), ImlFuc[1,3] -> (ImlFuc13), 
-      ImlFuc[2,1] -> (ImlFuc21), ImlFuc[2,2] -> (ImlFuc22), ImlFuc[2,3] -> (ImlFuc23), 
-      ImlFuc[3,1] -> (ImlFuc31), ImlFuc[3,2] -> (ImlFuc32), ImlFuc[3,3] -> (ImlFuc33)},
+    Value -> {lamCuIm[1,1] -> (lamCuIm11), lamCuIm[1,2] -> (lamCuIm12), lamCuIm[1,3] -> (lamCuIm13), 
+      lamCuIm[2,1] -> (lamCuIm21), lamCuIm[2,2] -> (lamCuIm22), lamCuIm[2,3] -> (lamCuIm23), 
+      lamCuIm[3,1] -> (lamCuIm31), lamCuIm[3,2] -> (lamCuIm32), lamCuIm[3,3] -> (lamCuIm33)},
     Description -> "Fermion mediator coupling complex scalar DM to right-handed up-quarks",
     InteractionOrder -> {NP,1}},
 
   (* Higgs coupling *)
 
-  RelHXc11 == {
+  lamCHRe11 == {
     ParameterType -> External,
     Value -> 1},
-  RelHXc12 == {
+  lamCHRe12 == {
     ParameterType -> External,
     Value -> 1},
-  RelHXc13 == {
+  lamCHRe13 == {
     ParameterType -> External,
     Value -> 1},
-  RelHXc22 == {
+  lamCHRe22 == {
     ParameterType -> External,
     Value -> 1},
-  RelHXc23 == {
+  lamCHRe23 == {
     ParameterType -> External,
     Value -> 1},
-  RelHXc33 == {
+  lamCHRe33 == {
     ParameterType -> External,
     Value -> 1},
-  ImlHXc12 == {
+  lamCHIm12 == {
     ParameterType -> External,
     Value -> 1},
-  ImlHXc13 == {
+  lamCHIm13 == {
     ParameterType -> External,
     Value -> 1},
-  ImlHXc23 == {
+  lamCHIm23 == {
     ParameterType -> External,
     Value -> 1},
 
-  RelHXc == {
+  lamCHRe == {
     ComplexParameter -> False,
     ParameterType -> Internal,
     Indices -> {Index[Generation], Index[Generation]},
-    Value -> {RelHXc[1,1] -> (RelHXc11), RelHXc[1,2] -> (RelHXc12), RelHXc[1,3] -> (RelHXc13), 
-      RelHXc[2,1] -> (RelHXc12), RelHXc[2,2] -> (RelHXc22), RelHXc[2,3] -> (RelHXc23), 
-      RelHXc[3,1] -> (RelHXc13), RelHXc[3,2] -> (RelHXc23), RelHXc[3,3] -> (RelHXc33)},
+    Value -> {lamCHRe[1,1] -> (lamCHRe11), lamCHRe[1,2] -> (lamCHRe12), lamCHRe[1,3] -> (lamCHRe13), 
+      lamCHRe[2,1] -> (lamCHRe12), lamCHRe[2,2] -> (lamCHRe22), lamCHRe[2,3] -> (lamCHRe23), 
+      lamCHRe[3,1] -> (lamCHRe13), lamCHRe[3,2] -> (lamCHRe23), lamCHRe[3,3] -> (lamCHRe33)},
     Description -> "Coupling complex scalar DM to Higgs",
     InteractionOrder -> {NP,1}},
 
-  ImlHXc == {
+  lamCHIm == {
     ComplexParameter -> False,
     ParameterType -> Internal,
     Indices -> {Index[Generation], Index[Generation]},
-    Value -> {ImlHXc[1,1] -> 0, ImlHXc[1,2] -> (ImlHXc12), ImlHXc[1,3] -> (ImlHXc13), 
-      ImlHXc[2,1] -> (-ImlHXc12), ImlHXc[2,2] -> 0, ImlHXc[2,3] -> (ImlHXc23), 
-      ImlHXc[3,1] -> (-ImlHXc13), ImlHXc[3,2] -> (-ImlHXc23), ImlHXc[3,3] -> 0},
+    Value -> {lamCHIm[1,1] -> 0, lamCHIm[1,2] -> (lamCHIm12), lamCHIm[1,3] -> (lamCHIm13), 
+      lamCHIm[2,1] -> (-lamCHIm12), lamCHIm[2,2] -> 0, lamCHIm[2,3] -> (lamCHIm23), 
+      lamCHIm[3,1] -> (-lamCHIm13), lamCHIm[3,2] -> (-lamCHIm23), lamCHIm[3,3] -> 0},
     Description -> "Coupling complex scalar DM to Higgs",
     InteractionOrder -> {NP,1}},
 
   (* Scalar interactions *)
 
-  lam2Xc == {
+  lam2C == {
     ParameterType -> External,
     Value -> 0.1,
-    InteractionOrder -> {NP,1}},
-
-  (* Mass contributions through EWSB *)
-
-  mXc1 == {
-  PatameterType -> External,
-  Value -> 300},
-
-  MXc1 == {
-  ParameterType -> Internal,
-  Value -> Sqrt[mXc1^2 + vev^2/2 lamHXc1]},
-
-  mXc2 == {
-  PatameterType -> External,
-  Value -> 200},
-
-  MXc2 == {
-  ParameterType -> Internal,
-  Value -> Sqrt[mXc2^2 + vev^2/2 lamHXc2]},
-
-  mXc3 == {
-  PatameterType -> External,
-  Value -> 100},
-
-  MXc3 == {
-  ParameterType -> Internal,
-  Value -> Sqrt[mXc3^2 + vev^2/2 lamHXc3]}
+    InteractionOrder -> {NP,1}}
 
 };
 
@@ -197,14 +171,14 @@ M$ClassesDescription = {
   (* Dark matter *)
 
   S[101] == {
-    ClassName -> Xc, 
-    ClassMembers -> {Xc1, Xc2, Xc3},
-    Mass -> {MXc, {MXc1, Internal}, {MXc2, Internal}, {MXc3, Internal}},
+    ClassName -> XC, 
+    ClassMembers -> {XC1, XC2, XC3},
+    Mass -> {MXC, {MXC1, 100}, {MXC2, 200}, {MXC3, 300}},
     Indices -> {Index[Generation]},
     FlavorIndex	-> Generation,
-    Width -> {{wXc1,1}, {wXc2,1}, {wXc3,0}},
-    ParticleName -> {"~Xc1","~Xc2","~Xc3"},
-    AntiParticleName -> {"~Xc1~","~Xc2~","~Xc3~"},
+    Width -> {{wXC1,1}, {wXC2,1}, {wXC3,0}},
+    ParticleName -> {"~XC1","~XC2","~XC3"},
+    AntiParticleName -> {"~XC1~","~XC2~","~XC3~"},
     SelfConjugate -> False},
 
   (* Mediators *)
@@ -225,14 +199,14 @@ M$ClassesDescription = {
 (* *****   Lagrangian   ***** *)
 (* ************************** *)
 
-LkinX = HC[del[Xc[ii],mu]] del[Xc[ii],mu] - MXc1^2 Xc1 Xc1bar - MXc2^2 Xc2 Xc2bar - MXc3^2 Xc3 Xc3bar
+LkinX = HC[del[XC[ii],mu]] del[XC[ii],mu] - MXC1^2 XC1 XC1bar - MXC2^2 XC2 XC2bar - MXC3^2 XC3 XC3bar
 
 LkinY = I YFubar.Ga[mu].DC[YFu, mu] - YFubar.YFu MYFu
 
-Lint = (RelFuc[f1, f2] + I*ImlFuc[f1, f2]) uRbar[sp1, f1, c1].YFu[sp1, c1] Xc[f2]
+Lint = (lamCuRe[f1, f2] + I*lamCuIm[f1, f2]) uRbar[sp1, f1, c1].YFu[sp1, c1] XC[f2]
 
-LintH = (RelHXc[f1, f2] + I*ImlHXc[f1, f2]) Xcbar[f1] Xc[f2] (HC[H] H/2 + HC[GP] GP + HC[G0] G0/2 + vev H)
+LintH = (lamCHRe[f1, f2] + I*lamCHIm[f1, f2]) XCbar[f1] XC[f2] (HC[H] H/2 + HC[GP] GP + HC[G0] G0/2 + vev H)
 
-LintS = lam2Xc Xcbar[ii] Xc[ii] Xcbar[ii] Xc[ii]
+LintS = lam2C XCbar[ii] XC[ii] XCbar[ii] XC[ii]
 
 LNP = LkinX + LkinY + Lint + HC[Lint] + LintH + LintS;

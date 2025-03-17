@@ -18,9 +18,9 @@ d-quark      |d          |d~         |1       |1     |MD             |0         
 s-quark      |s          |s~         |3       |1     |MS             |0              |3    |-1 |s         |s~            |
 b-quark      |b          |b~         |5       |1     |MB             |0              |3    |-1 |b         |b~            |
 H            |H          |H          |25      |0     |MH             |!WH            |1    |0  |H         |H             |
-Xd1          |~Xd1       |~Xd1~      |9000005 |1     |MXd1           |!wXd1          |1    |0  |~Xd1      |~Xd1~         |
-Xd2          |~Xd2       |~Xd2~      |9000006 |1     |MXd2           |!wXd2          |1    |0  |~Xd2      |~Xd2~         |
-Xd3          |~Xd3       |~Xd3~      |9000007 |1     |MXd3           |0              |1    |0  |~Xd3      |~Xd3~         |
+XD1          |~XD1       |~XD1~      |9000005 |1     |MXD1           |!wXD1          |1    |0  |~XD1      |~XD1~         |
+XD2          |~XD2       |~XD2~      |9000006 |1     |MXD2           |!wXD2          |1    |0  |~XD2      |~XD2~         |
+XD3          |~XD3       |~XD3~      |9000007 |1     |MXD3           |0              |1    |0  |~XD3      |~XD3~         |
 YSqu         |~YSqu      |~YSqu~     |9000008 |0     |MYSqu          |!WYSqu         |3    |2  |~YSqu     |~YSqu~        |
 YSqd         |~YSqd      |~YSqd~     |9000009 |0     |MYSqd          |!WYSqd         |3    |-1 |~YSqd     |~YSqd~        |
 Auxiliary 128|ox128x0    |Ox128x0    |9999900 |2     |Mox128x0       |0              |3    |*  |aux_{0}   |Aux_{0}       |

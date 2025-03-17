@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.49
 # Mathematica version: 13.0.0 for Mac OS X ARM (64-bit) (December 3, 2021)
-# Date: Thu 6 Mar 2025 15:37:53
+# Date: Mon 17 Mar 2025 09:53:05
 
 
 from object_library import all_couplings, Coupling
@@ -74,83 +74,83 @@ GC_16 = Coupling(name = 'GC_16',
                  order = {'QED':2})
 
 GC_17 = Coupling(name = 'GC_17',
-                 value = '2*complex(0,1)*lam2Sd',
+                 value = '2*complex(0,1)*lam2Yd',
                  order = {'NP':1})
 
 GC_18 = Coupling(name = 'GC_18',
-                 value = 'complex(0,1)*lamHSd',
+                 value = '-lamMdIm1x1 + complex(0,1)*lamMdRe1x1',
                  order = {'NP':1})
 
 GC_19 = Coupling(name = 'GC_19',
-                 value = '-ImlSdm1x1 + complex(0,1)*RelSdm1x1',
+                 value = 'lamMdIm1x1 + complex(0,1)*lamMdRe1x1',
                  order = {'NP':1})
 
 GC_20 = Coupling(name = 'GC_20',
-                 value = 'ImlSdm1x1 + complex(0,1)*RelSdm1x1',
+                 value = '-lamMdIm1x2 + complex(0,1)*lamMdRe1x2',
                  order = {'NP':1})
 
 GC_21 = Coupling(name = 'GC_21',
-                 value = '-ImlSdm1x2 + complex(0,1)*RelSdm1x2',
+                 value = 'lamMdIm1x2 + complex(0,1)*lamMdRe1x2',
                  order = {'NP':1})
 
 GC_22 = Coupling(name = 'GC_22',
-                 value = 'ImlSdm1x2 + complex(0,1)*RelSdm1x2',
+                 value = '-lamMdIm1x3 + complex(0,1)*lamMdRe1x3',
                  order = {'NP':1})
 
 GC_23 = Coupling(name = 'GC_23',
-                 value = '-ImlSdm1x3 + complex(0,1)*RelSdm1x3',
+                 value = 'lamMdIm1x3 + complex(0,1)*lamMdRe1x3',
                  order = {'NP':1})
 
 GC_24 = Coupling(name = 'GC_24',
-                 value = 'ImlSdm1x3 + complex(0,1)*RelSdm1x3',
+                 value = '-lamMdIm2x1 + complex(0,1)*lamMdRe2x1',
                  order = {'NP':1})
 
 GC_25 = Coupling(name = 'GC_25',
-                 value = '-ImlSdm2x1 + complex(0,1)*RelSdm2x1',
+                 value = 'lamMdIm2x1 + complex(0,1)*lamMdRe2x1',
                  order = {'NP':1})
 
 GC_26 = Coupling(name = 'GC_26',
-                 value = 'ImlSdm2x1 + complex(0,1)*RelSdm2x1',
+                 value = '-lamMdIm2x2 + complex(0,1)*lamMdRe2x2',
                  order = {'NP':1})
 
 GC_27 = Coupling(name = 'GC_27',
-                 value = '-ImlSdm2x2 + complex(0,1)*RelSdm2x2',
+                 value = 'lamMdIm2x2 + complex(0,1)*lamMdRe2x2',
                  order = {'NP':1})
 
 GC_28 = Coupling(name = 'GC_28',
-                 value = 'ImlSdm2x2 + complex(0,1)*RelSdm2x2',
+                 value = '-lamMdIm2x3 + complex(0,1)*lamMdRe2x3',
                  order = {'NP':1})
 
 GC_29 = Coupling(name = 'GC_29',
-                 value = '-ImlSdm2x3 + complex(0,1)*RelSdm2x3',
+                 value = 'lamMdIm2x3 + complex(0,1)*lamMdRe2x3',
                  order = {'NP':1})
 
 GC_30 = Coupling(name = 'GC_30',
-                 value = 'ImlSdm2x3 + complex(0,1)*RelSdm2x3',
+                 value = '-lamMdIm3x1 + complex(0,1)*lamMdRe3x1',
                  order = {'NP':1})
 
 GC_31 = Coupling(name = 'GC_31',
-                 value = '-ImlSdm3x1 + complex(0,1)*RelSdm3x1',
+                 value = 'lamMdIm3x1 + complex(0,1)*lamMdRe3x1',
                  order = {'NP':1})
 
 GC_32 = Coupling(name = 'GC_32',
-                 value = 'ImlSdm3x1 + complex(0,1)*RelSdm3x1',
+                 value = '-lamMdIm3x2 + complex(0,1)*lamMdRe3x2',
                  order = {'NP':1})
 
 GC_33 = Coupling(name = 'GC_33',
-                 value = '-ImlSdm3x2 + complex(0,1)*RelSdm3x2',
+                 value = 'lamMdIm3x2 + complex(0,1)*lamMdRe3x2',
                  order = {'NP':1})
 
 GC_34 = Coupling(name = 'GC_34',
-                 value = 'ImlSdm3x2 + complex(0,1)*RelSdm3x2',
+                 value = '-lamMdIm3x3 + complex(0,1)*lamMdRe3x3',
                  order = {'NP':1})
 
 GC_35 = Coupling(name = 'GC_35',
-                 value = '-ImlSdm3x3 + complex(0,1)*RelSdm3x3',
+                 value = 'lamMdIm3x3 + complex(0,1)*lamMdRe3x3',
                  order = {'NP':1})
 
 GC_36 = Coupling(name = 'GC_36',
-                 value = 'ImlSdm3x3 + complex(0,1)*RelSdm3x3',
+                 value = 'complex(0,1)*lamYHd',
                  order = {'NP':1})
 
 GC_37 = Coupling(name = 'GC_37',
@@ -302,7 +302,7 @@ GC_73 = Coupling(name = 'GC_73',
                  order = {'QED':1})
 
 GC_74 = Coupling(name = 'GC_74',
-                 value = 'complex(0,1)*lamHSd*vev',
+                 value = 'complex(0,1)*lamYHd*vev',
                  order = {'NP':1,'QED':-1})
 
 GC_75 = Coupling(name = 'GC_75',

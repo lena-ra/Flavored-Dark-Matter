@@ -14,27 +14,26 @@ yme            |0.000511     |Electron Yukawa mass                              
 ymm            |0.10566      |Muon Yukawa mass                                                          |
 ymtau          |1.777        |Tau Yukawa mass                                                           |
 cabi           |0.227736     |Cabibbo angle                                                             |
-RelSud11       |1            |RelSud11                                                                  |
-RelSud12       |1            |RelSud12                                                                  |
-RelSud13       |1            |RelSud13                                                                  |
-RelSud21       |1            |RelSud21                                                                  |
-RelSud22       |1            |RelSud22                                                                  |
-RelSud23       |1            |RelSud23                                                                  |
-RelSud31       |1            |RelSud31                                                                  |
-RelSud32       |1            |RelSud32                                                                  |
-RelSud33       |1            |RelSud33                                                                  |
-ImlSud11       |1            |ImlSud11                                                                  |
-ImlSud12       |1            |ImlSud12                                                                  |
-ImlSud13       |1            |ImlSud13                                                                  |
-ImlSud21       |1            |ImlSud21                                                                  |
-ImlSud22       |1            |ImlSud22                                                                  |
-ImlSud23       |1            |ImlSud23                                                                  |
-ImlSud31       |1            |ImlSud31                                                                  |
-ImlSud32       |1            |ImlSud32                                                                  |
-ImlSud33       |1            |ImlSud33                                                                  |
-lamHSu         |0.1          |lamHSu                                                                    |
-lam2Su         |0.1          |lam2Su                                                                    |
-mYSu           |500          |mYSu                                                                      |
+lamDuRe11      |1            |lamDuRe11                                                                 |
+lamDuRe12      |1            |lamDuRe12                                                                 |
+lamDuRe13      |1            |lamDuRe13                                                                 |
+lamDuRe21      |1            |lamDuRe21                                                                 |
+lamDuRe22      |1            |lamDuRe22                                                                 |
+lamDuRe23      |1            |lamDuRe23                                                                 |
+lamDuRe31      |1            |lamDuRe31                                                                 |
+lamDuRe32      |1            |lamDuRe32                                                                 |
+lamDuRe33      |1            |lamDuRe33                                                                 |
+lamDuIm11      |1            |lamDuIm11                                                                 |
+lamDuIm12      |1            |lamDuIm12                                                                 |
+lamDuIm13      |1            |lamDuIm13                                                                 |
+lamDuIm21      |1            |lamDuIm21                                                                 |
+lamDuIm22      |1            |lamDuIm22                                                                 |
+lamDuIm23      |1            |lamDuIm23                                                                 |
+lamDuIm31      |1            |lamDuIm31                                                                 |
+lamDuIm32      |1            |lamDuIm32                                                                 |
+lamDuIm33      |1            |lamDuIm33                                                                 |
+lamYHu         |0.1          |lamYHu                                                                    |
+lam2Yu         |0.1          |lam2Yu                                                                    |
 GG             |1.21977796370|Strong coupling constant at the Z pole   This value will be ignored and ca|
 MZ             |91.1876      |Mass of G0.                                                               |
 Me             |0.000511     |Mass of e.                                                                |
@@ -47,15 +46,16 @@ MD             |0.00504      |Mass of d.                                        
 MS             |0.101        |Mass of s.                                                                |
 MB             |4.7          |Mass of b.                                                                |
 MH             |125          |Mass of H.                                                                |
-MXd1           |300          |Mass of Xd1.                                                              |
-MXd2           |200          |Mass of Xd2.                                                              |
-MXd3           |100          |Mass of Xd3.                                                              |
+MXD1           |300          |Mass of XD1.                                                              |
+MXD2           |200          |Mass of XD2.                                                              |
+MXD3           |100          |Mass of XD3.                                                              |
+MYSu           |500          |Mass of YSu.                                                              |
 %WZ            |2.4952       |Width of G0.                                                              |
 %WW            |2.085        |Width of GP.                                                              |
 %WT            |1.50833649   |Width of t.                                                               |
 %WH            |0.00407      |Width of H.                                                               |
-%wXd1          |1            |Width of Xd1.                                                             |
-%wXd2          |1            |Width of Xd2.                                                             |
+%wXD1          |1            |Width of XD1.                                                             |
+%wXD2          |1            |Width of XD2.                                                             |
 %WYSu          |1            |Width of YSu.                                                             |
 E              |2.71828182845|The base of the natural logarithm.                                        |
 Pi             |3.14159265358|The circumference of a circle divided by the diameter.                    |

@@ -28,104 +28,94 @@ M$Parameters = {
 
   (* DM mediator coupling *)
 
-  RelSum11 == {
+  lamMuRe11 == {
     ParameterType -> External,
     Value -> 1},
-  RelSum12 == {
+  lamMuRe12 == {
     ParameterType -> External,
     Value -> 1},
-  RelSum13 == {
+  lamMuRe13 == {
     ParameterType -> External,
     Value -> 1},
-  RelSum21 == {
+  lamMuRe21 == {
     ParameterType -> External,
     Value -> 1},
-  RelSum22 == {
+  lamMuRe22 == {
     ParameterType -> External,
     Value -> 1},
-  RelSum23 == {
+  lamMuRe23 == {
     ParameterType -> External,
     Value -> 1},
-  RelSum31 == {
+  lamMuRe31 == {
     ParameterType -> External,
     Value -> 1},
-  RelSum32 == {
+  lamMuRe32 == {
     ParameterType -> External,
     Value -> 1},
-  RelSum33 == {
+  lamMuRe33 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSum11 == {
+  lamMuIm11 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSum12 == {
+  lamMuIm12 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSum13 == {
+  lamMuIm13 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSum21 == {
+  lamMuIm21 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSum22 == {
+  lamMuIm22 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSum23 == {
+  lamMuIm23 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSum31 == {
+  lamMuIm31 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSum32 == {
+  lamMuIm32 == {
     ParameterType -> External,
     Value -> 1},
-  ImlSum33 == {
+  lamMuIm33 == {
     ParameterType -> External,
     Value -> 1},
 
-  RelSum == {
+  lamMuRe == {
     ComplexParameter -> False,
     ParameterType -> Internal,
     Indices -> {Index[Generation], Index[Generation]},
-    Value -> {RelSum[1,1] -> (RelSum11), RelSum[1,2] -> (RelSum12), RelSum[1,3] -> (RelSum13), 
-      RelSum[2,1] -> (RelSum21), RelSum[2,2] -> (RelSum22), RelSum[2,3] -> (RelSum23), 
-      RelSum[3,1] -> (RelSum31), RelSum[3,2] -> (RelSum32), RelSum[3,3] -> (RelSum33)},
+    Value -> {lamMuRe[1,1] -> (lamMuRe11), lamMuRe[1,2] -> (lamMuRe12), lamMuRe[1,3] -> (lamMuRe13), 
+      lamMuRe[2,1] -> (lamMuRe21), lamMuRe[2,2] -> (lamMuRe22), lamMuRe[2,3] -> (lamMuRe23), 
+      lamMuRe[3,1] -> (lamMuRe31), lamMuRe[3,2] -> (lamMuRe32), lamMuRe[3,3] -> (lamMuRe33)},
     Description -> "Scalar mediator coupling majorana DM to right-handed up-quarks",
     InteractionOrder -> {NP,1}},
 
-  ImlSum == {
+  lamMuIm == {
     ComplexParameter -> False,
     ParameterType -> Internal,
     Indices -> {Index[Generation], Index[Generation]},
-    Value -> {ImlSum[1,1] -> (ImlSum11), ImlSum[1,2] -> (ImlSum12), ImlSum[1,3] -> (ImlSum13), 
-      ImlSum[2,1] -> (ImlSum21), ImlSum[2,2] -> (ImlSum22), ImlSum[2,3] -> (ImlSum23), 
-      ImlSum[3,1] -> (ImlSum31), ImlSum[3,2] -> (ImlSum32), ImlSum[3,3] -> (ImlSum33)},
+    Value -> {lamMuIm[1,1] -> (lamMuIm11), lamMuIm[1,2] -> (lamMuIm12), lamMuIm[1,3] -> (lamMuIm13), 
+      lamMuIm[2,1] -> (lamMuIm21), lamMuIm[2,2] -> (lamMuIm22), lamMuIm[2,3] -> (lamMuIm23), 
+      lamMuIm[3,1] -> (lamMuIm31), lamMuIm[3,2] -> (lamMuIm32), lamMuIm[3,3] -> (lamMuIm33)},
     Description -> "Scalar mediator coupling majorana DM to right-handed up-quarks",
     InteractionOrder -> {NP,1}},
 
   (* Higgs coupling *)
 
-  lamHSu == {
+  lamYHu == {
     ParameterType -> External,
     Value -> 0.1,
     InteractionOrder -> {NP,1}},
 
   (* Scalar interactions *)
 
-  lam2Su == {
+  lam2Yu == {
     ParameterType -> External,
     Value -> 0.1,
-    InteractionOrder -> {NP,1}},
-
-  (* Mass contributions through EWSB *)
-
-  mYSu == {
-  PatameterType -> External,
-  Value -> 500},
-
-  MYSu == {
-  ParameterType -> Internal,
-  Value -> Sqrt[mYSu^2 + vev^2/2 lamHSu]}
+    InteractionOrder -> {NP,1}}
 
 };
 
@@ -138,13 +128,13 @@ M$ClassesDescription = {
   (* Dark matter *)
 
   F[100] == {
-    ClassName -> Xm, 
-    ClassMembers -> {Xm1, Xm2, Xm3},
-    Mass -> {MXm, {MXm1, 300}, {MXm2, 200}, {MXm3, 100}},
+    ClassName -> XM, 
+    ClassMembers -> {XM1, XM2, XM3},
+    Mass -> {MXM, {MXM1, 100}, {MXM2, 200}, {MXM3, 300}},
     Indices -> {Index[Generation]},
     FlavorIndex	-> Generation,
-    Width -> {{wXm1,1}, {wXm2,1}, {wXm3,0}},
-    ParticleName -> {"~Xm1","~Xm2","~Xm3"},
+    Width -> {{wXM1,1}, {wXM2,1}, {wXM3,0}},
+    ParticleName -> {"~XM1","~XM2","~XM3"},
     SelfConjugate -> True},
 
   (* Mediators *)
@@ -153,7 +143,7 @@ M$ClassesDescription = {
     ClassName -> YSu,
     SelfConjugate -> False,
     QuantumNumbers -> {Q -> 2/3},
-    Mass -> {MYSu, Internal},
+    Mass -> {MYSu, 500},
     Width -> {WYSu, 1},
     ParticleName -> {"~YSu"},
     AntiParticleName -> {"~YSu~"},
@@ -165,14 +155,14 @@ M$ClassesDescription = {
 (* *****   Lagrangian   ***** *)
 (* ************************** *)
 
-LkinX = 1/2 (I Xmbar.Ga[mu].del[Xm, mu] - Xm1bar Xm1 MXm1 - Xm2bar Xm2 MXm2 - Xm3bar Xm3 MXm3)
+LkinX = 1/2 (I XMbar.Ga[mu].del[XM, mu] - XM1bar XM1 MXM1 - XM2bar XM2 MXM2 - XM3bar XM3 MXM3)
 
 LkinY = HC[DC[YSu[c1], mu]] DC[YSu[c1], mu] - MYSu^2 HC[YSu[c1]] YSu[c1]
 
-Lint = (RelSum[f1, f2] + I*ImlSum[f1, f2]) uRbar[sp1, f1, c1].Xm[sp1, f2] YSu[c1]
+Lint = (lamMuRe[f1, f2] + I*lamMuIm[f1, f2]) uRbar[sp1, f1, c1].XM[sp1, f2] YSu[c1]
 
-LintH = lamHSu YSubar[c1] YSu[c1] (HC[H] H/2 + HC[GP] GP + HC[G0] G0/2 + vev H)
+LintH = lamYHu YSubar[c1] YSu[c1] (HC[H] H/2 + HC[GP] GP + HC[G0] G0/2 + vev H)
 
-LintS = lam2Su HC[YSu[c1]] YSu[c1] HC[YSu[c1]] YSu[c1]
+LintS = lam2Yu HC[YSu[c1]] YSu[c1] HC[YSu[c1]] YSu[c1]
 
 LNP = LkinX + LkinY + Lint + HC[Lint] + LintH + LintS;

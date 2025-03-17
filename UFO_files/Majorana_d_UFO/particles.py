@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.49
 # Mathematica version: 13.0.0 for Mac OS X ARM (64-bit) (December 3, 2021)
-# Date: Thu 6 Mar 2025 15:37:53
+# Date: Mon 17 Mar 2025 09:53:05
 
 
 from __future__ import division
@@ -361,41 +361,41 @@ G__plus__ = Particle(pdg_code = 251,
 
 G__minus__ = G__plus__.anti()
 
-P__tilde__Xm1 = Particle(pdg_code = 9000005,
-                         name = '~Xm1',
-                         antiname = '~Xm1',
+P__tilde__XM1 = Particle(pdg_code = 9000005,
+                         name = '~XM1',
+                         antiname = '~XM1',
                          spin = 2,
                          color = 1,
-                         mass = Param.MXm1,
-                         width = Param.wXm1,
-                         texname = '~Xm1',
-                         antitexname = '~Xm1',
+                         mass = Param.MXM1,
+                         width = Param.wXM1,
+                         texname = '~XM1',
+                         antitexname = '~XM1',
                          charge = 0,
                          GhostNumber = 0,
                          Y = 0)
 
-P__tilde__Xm2 = Particle(pdg_code = 9000006,
-                         name = '~Xm2',
-                         antiname = '~Xm2',
+P__tilde__XM2 = Particle(pdg_code = 9000006,
+                         name = '~XM2',
+                         antiname = '~XM2',
                          spin = 2,
                          color = 1,
-                         mass = Param.MXm2,
-                         width = Param.wXm2,
-                         texname = '~Xm2',
-                         antitexname = '~Xm2',
+                         mass = Param.MXM2,
+                         width = Param.wXM2,
+                         texname = '~XM2',
+                         antitexname = '~XM2',
                          charge = 0,
                          GhostNumber = 0,
                          Y = 0)
 
-P__tilde__Xm3 = Particle(pdg_code = 9000007,
-                         name = '~Xm3',
-                         antiname = '~Xm3',
+P__tilde__XM3 = Particle(pdg_code = 9000007,
+                         name = '~XM3',
+                         antiname = '~XM3',
                          spin = 2,
                          color = 1,
-                         mass = Param.MXm3,
+                         mass = Param.MXM3,
                          width = Param.ZERO,
-                         texname = '~Xm3',
-                         antitexname = '~Xm3',
+                         texname = '~XM3',
+                         antitexname = '~XM3',
                          charge = 0,
                          GhostNumber = 0,
                          Y = 0)

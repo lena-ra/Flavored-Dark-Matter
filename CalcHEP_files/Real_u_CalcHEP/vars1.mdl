@@ -14,37 +14,34 @@ yme            |0.000511     |Electron Yukawa mass                              
 ymm            |0.10566      |Muon Yukawa mass                                                          |
 ymtau          |1.777        |Tau Yukawa mass                                                           |
 cabi           |0.227736     |Cabibbo angle                                                             |
-RelFus11       |1            |RelFus11                                                                  |
-RelFus12       |1            |RelFus12                                                                  |
-RelFus13       |1            |RelFus13                                                                  |
-RelFus21       |1            |RelFus21                                                                  |
-RelFus22       |1            |RelFus22                                                                  |
-RelFus23       |1            |RelFus23                                                                  |
-RelFus31       |1            |RelFus31                                                                  |
-RelFus32       |1            |RelFus32                                                                  |
-RelFus33       |1            |RelFus33                                                                  |
-ImlFus11       |1            |ImlFus11                                                                  |
-ImlFus12       |1            |ImlFus12                                                                  |
-ImlFus13       |1            |ImlFus13                                                                  |
-ImlFus21       |1            |ImlFus21                                                                  |
-ImlFus22       |1            |ImlFus22                                                                  |
-ImlFus23       |1            |ImlFus23                                                                  |
-ImlFus31       |1            |ImlFus31                                                                  |
-ImlFus32       |1            |ImlFus32                                                                  |
-ImlFus33       |1            |ImlFus33                                                                  |
-RelHXs11       |1            |RelHXs11                                                                  |
-RelHXs12       |1            |RelHXs12                                                                  |
-RelHXs13       |1            |RelHXs13                                                                  |
-RelHXs22       |1            |RelHXs22                                                                  |
-RelHXs23       |1            |RelHXs23                                                                  |
-RelHXs33       |1            |RelHXs33                                                                  |
-ImlHXs12       |1            |ImlHXs12                                                                  |
-ImlHXs13       |1            |ImlHXs13                                                                  |
-ImlHXs23       |1            |ImlHXs23                                                                  |
-lam2Xs         |0.1          |lam2Xs                                                                    |
-mXs1           |300          |mXs1                                                                      |
-mXs2           |200          |mXs2                                                                      |
-mXs3           |100          |mXs3                                                                      |
+lamSuRe11      |1            |lamSuRe11                                                                 |
+lamSuRe12      |1            |lamSuRe12                                                                 |
+lamSuRe13      |1            |lamSuRe13                                                                 |
+lamSuRe21      |1            |lamSuRe21                                                                 |
+lamSuRe22      |1            |lamSuRe22                                                                 |
+lamSuRe23      |1            |lamSuRe23                                                                 |
+lamSuRe31      |1            |lamSuRe31                                                                 |
+lamSuRe32      |1            |lamSuRe32                                                                 |
+lamSuRe33      |1            |lamSuRe33                                                                 |
+lamSuIm11      |1            |lamSuIm11                                                                 |
+lamSuIm12      |1            |lamSuIm12                                                                 |
+lamSuIm13      |1            |lamSuIm13                                                                 |
+lamSuIm21      |1            |lamSuIm21                                                                 |
+lamSuIm22      |1            |lamSuIm22                                                                 |
+lamSuIm23      |1            |lamSuIm23                                                                 |
+lamSuIm31      |1            |lamSuIm31                                                                 |
+lamSuIm32      |1            |lamSuIm32                                                                 |
+lamSuIm33      |1            |lamSuIm33                                                                 |
+lamSHRe11      |1            |lamSHRe11                                                                 |
+lamSHRe12      |1            |lamSHRe12                                                                 |
+lamSHRe13      |1            |lamSHRe13                                                                 |
+lamSHRe22      |1            |lamSHRe22                                                                 |
+lamSHRe23      |1            |lamSHRe23                                                                 |
+lamSHRe33      |1            |lamSHRe33                                                                 |
+lamSHIm12      |1            |lamSHIm12                                                                 |
+lamSHIm13      |1            |lamSHIm13                                                                 |
+lamSHIm23      |1            |lamSHIm23                                                                 |
+lam2S          |0.1          |lam2S                                                                     |
 GG             |1.21977796370|Strong coupling constant at the Z pole   This value will be ignored and ca|
 MZ             |91.1876      |Mass of G0.                                                               |
 Me             |0.000511     |Mass of e.                                                                |
@@ -57,13 +54,16 @@ MD             |0.00504      |Mass of d.                                        
 MS             |0.101        |Mass of s.                                                                |
 MB             |4.7          |Mass of b.                                                                |
 MH             |125          |Mass of H.                                                                |
+MXS1           |100          |Mass of XS1.                                                              |
+MXS2           |200          |Mass of XS2.                                                              |
+MXS3           |300          |Mass of XS3.                                                              |
 MYFu           |500          |Mass of YFu.                                                              |
 %WZ            |2.4952       |Width of G0.                                                              |
 %WW            |2.085        |Width of GP.                                                              |
 %WT            |1.50833649   |Width of t.                                                               |
 %WH            |0.00407      |Width of H.                                                               |
-%wXs1          |1            |Width of Xs1.                                                             |
-%wXs2          |1            |Width of Xs2.                                                             |
+%wXS1          |1            |Width of XS1.                                                             |
+%wXS2          |1            |Width of XS2.                                                             |
 %WYFu          |1            |Width of YFu.                                                             |
 E              |2.71828182845|The base of the natural logarithm.                                        |
 Pi             |3.14159265358|The circumference of a circle divided by the diameter.                    |

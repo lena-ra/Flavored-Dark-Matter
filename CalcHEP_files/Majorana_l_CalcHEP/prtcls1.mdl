@@ -18,9 +18,9 @@ d-quark      |d          |d~         |1       |1     |MD             |0         
 s-quark      |s          |s~         |3       |1     |MS             |0              |3    |-1 |s         |s~            |
 b-quark      |b          |b~         |5       |1     |MB             |0              |3    |-1 |b         |b~            |
 H            |H          |H          |25      |0     |MH             |!WH            |1    |0  |H         |H             |
-Xm1          |~Xm1       |~Xm1       |9000005 |1     |MXm1           |!wXm1          |1    |0  |~Xm1      |~Xm1          |
-Xm2          |~Xm2       |~Xm2       |9000006 |1     |MXm2           |!wXm2          |1    |0  |~Xm2      |~Xm2          |
-Xm3          |~Xm3       |~Xm3       |9000007 |1     |MXm3           |0              |1    |0  |~Xm3      |~Xm3          |
+XM1          |~XM1       |~XM1       |9000005 |1     |MXM1           |!wXM1          |1    |0  |~XM1      |~XM1          |
+XM2          |~XM2       |~XM2       |9000006 |1     |MXM2           |!wXM2          |1    |0  |~XM2      |~XM2          |
+XM3          |~XM3       |~XM3       |9000007 |1     |MXM3           |0              |1    |0  |~XM3      |~XM3          |
 YSle         |~YSle      |~YSle~     |9000008 |0     |MYSle          |!WYSle         |1    |-3 |~YSle     |~YSle~        |
 YSlvR        |~YSlvR     |~YSlvR     |9000009 |0     |MYSlvR         |!WYSlvR        |1    |0  |~YSlvR    |~YSlvR        |
 YSlvI        |~YSlvI     |~YSlvI     |9000010 |0     |MYSlvI         |!WYSlvI        |1    |0  |~YSlvI    |~YSlvI        |

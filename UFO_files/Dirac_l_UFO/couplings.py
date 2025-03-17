@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.49
 # Mathematica version: 13.0.0 for Mac OS X ARM (64-bit) (December 3, 2021)
-# Date: Thu 6 Mar 2025 15:32:27
+# Date: Fri 14 Mar 2025 17:33:19
 
 
 from object_library import all_couplings, Coupling
@@ -70,267 +70,267 @@ GC_15 = Coupling(name = 'GC_15',
                  order = {'QED':2})
 
 GC_16 = Coupling(name = 'GC_16',
-                 value = '2*complex(0,1)*lam2Sl',
+                 value = '2*complex(0,1)*lam2Yl',
                  order = {'NP':1})
 
 GC_17 = Coupling(name = 'GC_17',
-                 value = '4*complex(0,1)*lam2Sl',
+                 value = '4*complex(0,1)*lam2Yl',
                  order = {'NP':1})
 
 GC_18 = Coupling(name = 'GC_18',
-                 value = '6*complex(0,1)*lam2Sl',
+                 value = '6*complex(0,1)*lam2Yl',
                  order = {'NP':1})
 
 GC_19 = Coupling(name = 'GC_19',
-                 value = 'complex(0,1)*lamHSl1',
+                 value = '-lamDlIm1x1 + complex(0,1)*lamDlRe1x1',
                  order = {'NP':1})
 
 GC_20 = Coupling(name = 'GC_20',
-                 value = 'complex(0,1)*lamHSl1 + complex(0,1)*lamHSl2',
+                 value = 'lamDlIm1x1 + complex(0,1)*lamDlRe1x1',
                  order = {'NP':1})
 
 GC_21 = Coupling(name = 'GC_21',
-                 value = 'lamHSl2/2. - lamHSl3/2.',
+                 value = '-((complex(0,1)*lamDlIm1x1)/cmath.sqrt(2)) - lamDlRe1x1/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_22 = Coupling(name = 'GC_22',
-                 value = '-0.5*(complex(0,1)*lamHSl2) - (complex(0,1)*lamHSl3)/2.',
+                 value = '-(lamDlIm1x1/cmath.sqrt(2)) + (complex(0,1)*lamDlRe1x1)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_23 = Coupling(name = 'GC_23',
-                 value = 'complex(0,1)*lamHSl1 - complex(0,1)*lamHSl3',
+                 value = 'lamDlIm1x1/cmath.sqrt(2) + (complex(0,1)*lamDlRe1x1)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_24 = Coupling(name = 'GC_24',
-                 value = 'complex(0,1)*lamHSl1 + complex(0,1)*lamHSl3',
+                 value = '-((complex(0,1)*lamDlIm1x1)/cmath.sqrt(2)) + lamDlRe1x1/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_25 = Coupling(name = 'GC_25',
-                 value = '-0.5*lamHSl2 + lamHSl3/2.',
+                 value = '-lamDlIm1x2 + complex(0,1)*lamDlRe1x2',
                  order = {'NP':1})
 
 GC_26 = Coupling(name = 'GC_26',
-                 value = '-(complex(0,1)*lamHSl3)',
+                 value = 'lamDlIm1x2 + complex(0,1)*lamDlRe1x2',
                  order = {'NP':1})
 
 GC_27 = Coupling(name = 'GC_27',
-                 value = '-2*complex(0,1)*lamHSl3',
+                 value = '-((complex(0,1)*lamDlIm1x2)/cmath.sqrt(2)) - lamDlRe1x2/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_28 = Coupling(name = 'GC_28',
-                 value = '-ImlSld1x1 + complex(0,1)*RelSld1x1',
+                 value = '-(lamDlIm1x2/cmath.sqrt(2)) + (complex(0,1)*lamDlRe1x2)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_29 = Coupling(name = 'GC_29',
-                 value = 'ImlSld1x1 + complex(0,1)*RelSld1x1',
+                 value = 'lamDlIm1x2/cmath.sqrt(2) + (complex(0,1)*lamDlRe1x2)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_30 = Coupling(name = 'GC_30',
-                 value = '-((complex(0,1)*ImlSld1x1)/cmath.sqrt(2)) - RelSld1x1/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm1x2)/cmath.sqrt(2)) + lamDlRe1x2/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_31 = Coupling(name = 'GC_31',
-                 value = '-(ImlSld1x1/cmath.sqrt(2)) + (complex(0,1)*RelSld1x1)/cmath.sqrt(2)',
+                 value = '-lamDlIm1x3 + complex(0,1)*lamDlRe1x3',
                  order = {'NP':1})
 
 GC_32 = Coupling(name = 'GC_32',
-                 value = 'ImlSld1x1/cmath.sqrt(2) + (complex(0,1)*RelSld1x1)/cmath.sqrt(2)',
+                 value = 'lamDlIm1x3 + complex(0,1)*lamDlRe1x3',
                  order = {'NP':1})
 
 GC_33 = Coupling(name = 'GC_33',
-                 value = '-((complex(0,1)*ImlSld1x1)/cmath.sqrt(2)) + RelSld1x1/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm1x3)/cmath.sqrt(2)) - lamDlRe1x3/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_34 = Coupling(name = 'GC_34',
-                 value = '-ImlSld1x2 + complex(0,1)*RelSld1x2',
+                 value = '-(lamDlIm1x3/cmath.sqrt(2)) + (complex(0,1)*lamDlRe1x3)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_35 = Coupling(name = 'GC_35',
-                 value = 'ImlSld1x2 + complex(0,1)*RelSld1x2',
+                 value = 'lamDlIm1x3/cmath.sqrt(2) + (complex(0,1)*lamDlRe1x3)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_36 = Coupling(name = 'GC_36',
-                 value = '-((complex(0,1)*ImlSld1x2)/cmath.sqrt(2)) - RelSld1x2/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm1x3)/cmath.sqrt(2)) + lamDlRe1x3/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_37 = Coupling(name = 'GC_37',
-                 value = '-(ImlSld1x2/cmath.sqrt(2)) + (complex(0,1)*RelSld1x2)/cmath.sqrt(2)',
+                 value = '-lamDlIm2x1 + complex(0,1)*lamDlRe2x1',
                  order = {'NP':1})
 
 GC_38 = Coupling(name = 'GC_38',
-                 value = 'ImlSld1x2/cmath.sqrt(2) + (complex(0,1)*RelSld1x2)/cmath.sqrt(2)',
+                 value = 'lamDlIm2x1 + complex(0,1)*lamDlRe2x1',
                  order = {'NP':1})
 
 GC_39 = Coupling(name = 'GC_39',
-                 value = '-((complex(0,1)*ImlSld1x2)/cmath.sqrt(2)) + RelSld1x2/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm2x1)/cmath.sqrt(2)) - lamDlRe2x1/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_40 = Coupling(name = 'GC_40',
-                 value = '-ImlSld1x3 + complex(0,1)*RelSld1x3',
+                 value = '-(lamDlIm2x1/cmath.sqrt(2)) + (complex(0,1)*lamDlRe2x1)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_41 = Coupling(name = 'GC_41',
-                 value = 'ImlSld1x3 + complex(0,1)*RelSld1x3',
+                 value = 'lamDlIm2x1/cmath.sqrt(2) + (complex(0,1)*lamDlRe2x1)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_42 = Coupling(name = 'GC_42',
-                 value = '-((complex(0,1)*ImlSld1x3)/cmath.sqrt(2)) - RelSld1x3/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm2x1)/cmath.sqrt(2)) + lamDlRe2x1/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_43 = Coupling(name = 'GC_43',
-                 value = '-(ImlSld1x3/cmath.sqrt(2)) + (complex(0,1)*RelSld1x3)/cmath.sqrt(2)',
+                 value = '-lamDlIm2x2 + complex(0,1)*lamDlRe2x2',
                  order = {'NP':1})
 
 GC_44 = Coupling(name = 'GC_44',
-                 value = 'ImlSld1x3/cmath.sqrt(2) + (complex(0,1)*RelSld1x3)/cmath.sqrt(2)',
+                 value = 'lamDlIm2x2 + complex(0,1)*lamDlRe2x2',
                  order = {'NP':1})
 
 GC_45 = Coupling(name = 'GC_45',
-                 value = '-((complex(0,1)*ImlSld1x3)/cmath.sqrt(2)) + RelSld1x3/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm2x2)/cmath.sqrt(2)) - lamDlRe2x2/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_46 = Coupling(name = 'GC_46',
-                 value = '-ImlSld2x1 + complex(0,1)*RelSld2x1',
+                 value = '-(lamDlIm2x2/cmath.sqrt(2)) + (complex(0,1)*lamDlRe2x2)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_47 = Coupling(name = 'GC_47',
-                 value = 'ImlSld2x1 + complex(0,1)*RelSld2x1',
+                 value = 'lamDlIm2x2/cmath.sqrt(2) + (complex(0,1)*lamDlRe2x2)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_48 = Coupling(name = 'GC_48',
-                 value = '-((complex(0,1)*ImlSld2x1)/cmath.sqrt(2)) - RelSld2x1/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm2x2)/cmath.sqrt(2)) + lamDlRe2x2/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_49 = Coupling(name = 'GC_49',
-                 value = '-(ImlSld2x1/cmath.sqrt(2)) + (complex(0,1)*RelSld2x1)/cmath.sqrt(2)',
+                 value = '-lamDlIm2x3 + complex(0,1)*lamDlRe2x3',
                  order = {'NP':1})
 
 GC_50 = Coupling(name = 'GC_50',
-                 value = 'ImlSld2x1/cmath.sqrt(2) + (complex(0,1)*RelSld2x1)/cmath.sqrt(2)',
+                 value = 'lamDlIm2x3 + complex(0,1)*lamDlRe2x3',
                  order = {'NP':1})
 
 GC_51 = Coupling(name = 'GC_51',
-                 value = '-((complex(0,1)*ImlSld2x1)/cmath.sqrt(2)) + RelSld2x1/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm2x3)/cmath.sqrt(2)) - lamDlRe2x3/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_52 = Coupling(name = 'GC_52',
-                 value = '-ImlSld2x2 + complex(0,1)*RelSld2x2',
+                 value = '-(lamDlIm2x3/cmath.sqrt(2)) + (complex(0,1)*lamDlRe2x3)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_53 = Coupling(name = 'GC_53',
-                 value = 'ImlSld2x2 + complex(0,1)*RelSld2x2',
+                 value = 'lamDlIm2x3/cmath.sqrt(2) + (complex(0,1)*lamDlRe2x3)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_54 = Coupling(name = 'GC_54',
-                 value = '-((complex(0,1)*ImlSld2x2)/cmath.sqrt(2)) - RelSld2x2/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm2x3)/cmath.sqrt(2)) + lamDlRe2x3/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_55 = Coupling(name = 'GC_55',
-                 value = '-(ImlSld2x2/cmath.sqrt(2)) + (complex(0,1)*RelSld2x2)/cmath.sqrt(2)',
+                 value = '-lamDlIm3x1 + complex(0,1)*lamDlRe3x1',
                  order = {'NP':1})
 
 GC_56 = Coupling(name = 'GC_56',
-                 value = 'ImlSld2x2/cmath.sqrt(2) + (complex(0,1)*RelSld2x2)/cmath.sqrt(2)',
+                 value = 'lamDlIm3x1 + complex(0,1)*lamDlRe3x1',
                  order = {'NP':1})
 
 GC_57 = Coupling(name = 'GC_57',
-                 value = '-((complex(0,1)*ImlSld2x2)/cmath.sqrt(2)) + RelSld2x2/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm3x1)/cmath.sqrt(2)) - lamDlRe3x1/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_58 = Coupling(name = 'GC_58',
-                 value = '-ImlSld2x3 + complex(0,1)*RelSld2x3',
+                 value = '-(lamDlIm3x1/cmath.sqrt(2)) + (complex(0,1)*lamDlRe3x1)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_59 = Coupling(name = 'GC_59',
-                 value = 'ImlSld2x3 + complex(0,1)*RelSld2x3',
+                 value = 'lamDlIm3x1/cmath.sqrt(2) + (complex(0,1)*lamDlRe3x1)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_60 = Coupling(name = 'GC_60',
-                 value = '-((complex(0,1)*ImlSld2x3)/cmath.sqrt(2)) - RelSld2x3/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm3x1)/cmath.sqrt(2)) + lamDlRe3x1/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_61 = Coupling(name = 'GC_61',
-                 value = '-(ImlSld2x3/cmath.sqrt(2)) + (complex(0,1)*RelSld2x3)/cmath.sqrt(2)',
+                 value = '-lamDlIm3x2 + complex(0,1)*lamDlRe3x2',
                  order = {'NP':1})
 
 GC_62 = Coupling(name = 'GC_62',
-                 value = 'ImlSld2x3/cmath.sqrt(2) + (complex(0,1)*RelSld2x3)/cmath.sqrt(2)',
+                 value = 'lamDlIm3x2 + complex(0,1)*lamDlRe3x2',
                  order = {'NP':1})
 
 GC_63 = Coupling(name = 'GC_63',
-                 value = '-((complex(0,1)*ImlSld2x3)/cmath.sqrt(2)) + RelSld2x3/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm3x2)/cmath.sqrt(2)) - lamDlRe3x2/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_64 = Coupling(name = 'GC_64',
-                 value = '-ImlSld3x1 + complex(0,1)*RelSld3x1',
+                 value = '-(lamDlIm3x2/cmath.sqrt(2)) + (complex(0,1)*lamDlRe3x2)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_65 = Coupling(name = 'GC_65',
-                 value = 'ImlSld3x1 + complex(0,1)*RelSld3x1',
+                 value = 'lamDlIm3x2/cmath.sqrt(2) + (complex(0,1)*lamDlRe3x2)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_66 = Coupling(name = 'GC_66',
-                 value = '-((complex(0,1)*ImlSld3x1)/cmath.sqrt(2)) - RelSld3x1/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm3x2)/cmath.sqrt(2)) + lamDlRe3x2/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_67 = Coupling(name = 'GC_67',
-                 value = '-(ImlSld3x1/cmath.sqrt(2)) + (complex(0,1)*RelSld3x1)/cmath.sqrt(2)',
+                 value = '-lamDlIm3x3 + complex(0,1)*lamDlRe3x3',
                  order = {'NP':1})
 
 GC_68 = Coupling(name = 'GC_68',
-                 value = 'ImlSld3x1/cmath.sqrt(2) + (complex(0,1)*RelSld3x1)/cmath.sqrt(2)',
+                 value = 'lamDlIm3x3 + complex(0,1)*lamDlRe3x3',
                  order = {'NP':1})
 
 GC_69 = Coupling(name = 'GC_69',
-                 value = '-((complex(0,1)*ImlSld3x1)/cmath.sqrt(2)) + RelSld3x1/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm3x3)/cmath.sqrt(2)) - lamDlRe3x3/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_70 = Coupling(name = 'GC_70',
-                 value = '-ImlSld3x2 + complex(0,1)*RelSld3x2',
+                 value = '-(lamDlIm3x3/cmath.sqrt(2)) + (complex(0,1)*lamDlRe3x3)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_71 = Coupling(name = 'GC_71',
-                 value = 'ImlSld3x2 + complex(0,1)*RelSld3x2',
+                 value = 'lamDlIm3x3/cmath.sqrt(2) + (complex(0,1)*lamDlRe3x3)/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_72 = Coupling(name = 'GC_72',
-                 value = '-((complex(0,1)*ImlSld3x2)/cmath.sqrt(2)) - RelSld3x2/cmath.sqrt(2)',
+                 value = '-((complex(0,1)*lamDlIm3x3)/cmath.sqrt(2)) + lamDlRe3x3/cmath.sqrt(2)',
                  order = {'NP':1})
 
 GC_73 = Coupling(name = 'GC_73',
-                 value = '-(ImlSld3x2/cmath.sqrt(2)) + (complex(0,1)*RelSld3x2)/cmath.sqrt(2)',
+                 value = 'complex(0,1)*lamYHl1',
                  order = {'NP':1})
 
 GC_74 = Coupling(name = 'GC_74',
-                 value = 'ImlSld3x2/cmath.sqrt(2) + (complex(0,1)*RelSld3x2)/cmath.sqrt(2)',
+                 value = 'complex(0,1)*lamYHl1 + complex(0,1)*lamYHl2',
                  order = {'NP':1})
 
 GC_75 = Coupling(name = 'GC_75',
-                 value = '-((complex(0,1)*ImlSld3x2)/cmath.sqrt(2)) + RelSld3x2/cmath.sqrt(2)',
+                 value = 'lamYHl2/2. - lamYHl3/2.',
                  order = {'NP':1})
 
 GC_76 = Coupling(name = 'GC_76',
-                 value = '-ImlSld3x3 + complex(0,1)*RelSld3x3',
+                 value = '-0.5*(complex(0,1)*lamYHl2) - (complex(0,1)*lamYHl3)/2.',
                  order = {'NP':1})
 
 GC_77 = Coupling(name = 'GC_77',
-                 value = 'ImlSld3x3 + complex(0,1)*RelSld3x3',
+                 value = 'complex(0,1)*lamYHl1 - complex(0,1)*lamYHl3',
                  order = {'NP':1})
 
 GC_78 = Coupling(name = 'GC_78',
-                 value = '-((complex(0,1)*ImlSld3x3)/cmath.sqrt(2)) - RelSld3x3/cmath.sqrt(2)',
+                 value = 'complex(0,1)*lamYHl1 + complex(0,1)*lamYHl3',
                  order = {'NP':1})
 
 GC_79 = Coupling(name = 'GC_79',
-                 value = '-(ImlSld3x3/cmath.sqrt(2)) + (complex(0,1)*RelSld3x3)/cmath.sqrt(2)',
+                 value = '-0.5*lamYHl2 + lamYHl3/2.',
                  order = {'NP':1})
 
 GC_80 = Coupling(name = 'GC_80',
-                 value = 'ImlSld3x3/cmath.sqrt(2) + (complex(0,1)*RelSld3x3)/cmath.sqrt(2)',
+                 value = '-(complex(0,1)*lamYHl3)',
                  order = {'NP':1})
 
 GC_81 = Coupling(name = 'GC_81',
-                 value = '-((complex(0,1)*ImlSld3x3)/cmath.sqrt(2)) + RelSld3x3/cmath.sqrt(2)',
+                 value = '-2*complex(0,1)*lamYHl3',
                  order = {'NP':1})
 
 GC_82 = Coupling(name = 'GC_82',
@@ -490,7 +490,7 @@ GC_120 = Coupling(name = 'GC_120',
                   order = {'QED':1})
 
 GC_121 = Coupling(name = 'GC_121',
-                  value = '-(complex(0,1)*lamHSl3*vev)',
+                  value = '-(complex(0,1)*lamYHl3*vev)',
                   order = {'NP':1,'QED':-1})
 
 GC_122 = Coupling(name = 'GC_122',
@@ -518,27 +518,27 @@ GC_127 = Coupling(name = 'GC_127',
                   order = {'QED':1})
 
 GC_128 = Coupling(name = 'GC_128',
-                  value = 'complex(0,1)*lamHSl1*vev + complex(0,1)*lamHSl2*vev',
+                  value = 'complex(0,1)*lamYHl1*vev + complex(0,1)*lamYHl2*vev',
                   order = {'NP':1,'QED':-1})
 
 GC_129 = Coupling(name = 'GC_129',
-                  value = '(lamHSl2*vev)/2. - (lamHSl3*vev)/2.',
+                  value = '(lamYHl2*vev)/2. - (lamYHl3*vev)/2.',
                   order = {'NP':1,'QED':-1})
 
 GC_130 = Coupling(name = 'GC_130',
-                  value = '-0.5*(complex(0,1)*lamHSl2*vev) - (complex(0,1)*lamHSl3*vev)/2.',
+                  value = '-0.5*(complex(0,1)*lamYHl2*vev) - (complex(0,1)*lamYHl3*vev)/2.',
                   order = {'NP':1,'QED':-1})
 
 GC_131 = Coupling(name = 'GC_131',
-                  value = 'complex(0,1)*lamHSl1*vev - complex(0,1)*lamHSl3*vev',
+                  value = 'complex(0,1)*lamYHl1*vev - complex(0,1)*lamYHl3*vev',
                   order = {'NP':1,'QED':-1})
 
 GC_132 = Coupling(name = 'GC_132',
-                  value = 'complex(0,1)*lamHSl1*vev + complex(0,1)*lamHSl3*vev',
+                  value = 'complex(0,1)*lamYHl1*vev + complex(0,1)*lamYHl3*vev',
                   order = {'NP':1,'QED':-1})
 
 GC_133 = Coupling(name = 'GC_133',
-                  value = '-0.5*(lamHSl2*vev) + (lamHSl3*vev)/2.',
+                  value = '-0.5*(lamYHl2*vev) + (lamYHl3*vev)/2.',
                   order = {'NP':1,'QED':-1})
 
 GC_134 = Coupling(name = 'GC_134',

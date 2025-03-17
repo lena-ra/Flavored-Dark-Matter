@@ -16,29 +16,28 @@ Dirac_l
 %yme           |if(slhaFound,if(slhaValExists("YUKAWA",1,11),slhaVal("YUKAWA",0,1,11),ymeDef),ymeDef)                          %Electron Yukawa mass                              
 %ymm           |if(slhaFound,if(slhaValExists("YUKAWA",1,13),slhaVal("YUKAWA",0,1,13),ymmDef),ymmDef)                          %Muon Yukawa mass                                  
 %ymtau         |if(slhaFound,if(slhaValExists("YUKAWA",1,15),slhaVal("YUKAWA",0,1,15),ymtauDef),ymtauDef)                      %Tau Yukawa mass                                   
-%RelSld11      |if(slhaFound,if(slhaValExists("FRBlock",1,1),slhaVal("FRBlock",0,1,1),RelSld11Def),RelSld11Def)                %RelSld11                                          
-%RelSld12      |if(slhaFound,if(slhaValExists("FRBlock",1,2),slhaVal("FRBlock",0,1,2),RelSld12Def),RelSld12Def)                %RelSld12                                          
-%RelSld13      |if(slhaFound,if(slhaValExists("FRBlock",1,3),slhaVal("FRBlock",0,1,3),RelSld13Def),RelSld13Def)                %RelSld13                                          
-%RelSld21      |if(slhaFound,if(slhaValExists("FRBlock",1,4),slhaVal("FRBlock",0,1,4),RelSld21Def),RelSld21Def)                %RelSld21                                          
-%RelSld22      |if(slhaFound,if(slhaValExists("FRBlock",1,5),slhaVal("FRBlock",0,1,5),RelSld22Def),RelSld22Def)                %RelSld22                                          
-%RelSld23      |if(slhaFound,if(slhaValExists("FRBlock",1,6),slhaVal("FRBlock",0,1,6),RelSld23Def),RelSld23Def)                %RelSld23                                          
-%RelSld31      |if(slhaFound,if(slhaValExists("FRBlock",1,7),slhaVal("FRBlock",0,1,7),RelSld31Def),RelSld31Def)                %RelSld31                                          
-%RelSld32      |if(slhaFound,if(slhaValExists("FRBlock",1,8),slhaVal("FRBlock",0,1,8),RelSld32Def),RelSld32Def)                %RelSld32                                          
-%RelSld33      |if(slhaFound,if(slhaValExists("FRBlock",1,9),slhaVal("FRBlock",0,1,9),RelSld33Def),RelSld33Def)                %RelSld33                                          
-%ImlSld11      |if(slhaFound,if(slhaValExists("FRBlock",1,10),slhaVal("FRBlock",0,1,10),ImlSld11Def),ImlSld11Def)              %ImlSld11                                          
-%ImlSld12      |if(slhaFound,if(slhaValExists("FRBlock",1,11),slhaVal("FRBlock",0,1,11),ImlSld12Def),ImlSld12Def)              %ImlSld12                                          
-%ImlSld13      |if(slhaFound,if(slhaValExists("FRBlock",1,12),slhaVal("FRBlock",0,1,12),ImlSld13Def),ImlSld13Def)              %ImlSld13                                          
-%ImlSld21      |if(slhaFound,if(slhaValExists("FRBlock",1,13),slhaVal("FRBlock",0,1,13),ImlSld21Def),ImlSld21Def)              %ImlSld21                                          
-%ImlSld22      |if(slhaFound,if(slhaValExists("FRBlock",1,14),slhaVal("FRBlock",0,1,14),ImlSld22Def),ImlSld22Def)              %ImlSld22                                          
-%ImlSld23      |if(slhaFound,if(slhaValExists("FRBlock",1,15),slhaVal("FRBlock",0,1,15),ImlSld23Def),ImlSld23Def)              %ImlSld23                                          
-%ImlSld31      |if(slhaFound,if(slhaValExists("FRBlock",1,16),slhaVal("FRBlock",0,1,16),ImlSld31Def),ImlSld31Def)              %ImlSld31                                          
-%ImlSld32      |if(slhaFound,if(slhaValExists("FRBlock",1,17),slhaVal("FRBlock",0,1,17),ImlSld32Def),ImlSld32Def)              %ImlSld32                                          
-%ImlSld33      |if(slhaFound,if(slhaValExists("FRBlock",1,18),slhaVal("FRBlock",0,1,18),ImlSld33Def),ImlSld33Def)              %ImlSld33                                          
-%lamHSl1       |if(slhaFound,if(slhaValExists("FRBlock",1,19),slhaVal("FRBlock",0,1,19),lamHSl1Def),lamHSl1Def)                %lamHSl1                                           
-%lamHSl2       |if(slhaFound,if(slhaValExists("FRBlock",1,20),slhaVal("FRBlock",0,1,20),lamHSl2Def),lamHSl2Def)                %lamHSl2                                           
-%lamHSl3       |if(slhaFound,if(slhaValExists("FRBlock",1,21),slhaVal("FRBlock",0,1,21),lamHSl3Def),lamHSl3Def)                %lamHSl3                                           
-%lam2Sl        |if(slhaFound,if(slhaValExists("FRBlock",1,22),slhaVal("FRBlock",0,1,22),lam2SlDef),lam2SlDef)                  %lam2Sl                                            
-%mYSl          |if(slhaFound,if(slhaValExists("FRBlock",1,23),slhaVal("FRBlock",0,1,23),mYSlDef),mYSlDef)                      %mYSl                                              
+%lamDlRe11     |if(slhaFound,if(slhaValExists("FRBlock",1,1),slhaVal("FRBlock",0,1,1),lamDlRe11Def),lamDlRe11Def)              %lamDlRe11                                         
+%lamDlRe12     |if(slhaFound,if(slhaValExists("FRBlock",1,2),slhaVal("FRBlock",0,1,2),lamDlRe12Def),lamDlRe12Def)              %lamDlRe12                                         
+%lamDlRe13     |if(slhaFound,if(slhaValExists("FRBlock",1,3),slhaVal("FRBlock",0,1,3),lamDlRe13Def),lamDlRe13Def)              %lamDlRe13                                         
+%lamDlRe21     |if(slhaFound,if(slhaValExists("FRBlock",1,4),slhaVal("FRBlock",0,1,4),lamDlRe21Def),lamDlRe21Def)              %lamDlRe21                                         
+%lamDlRe22     |if(slhaFound,if(slhaValExists("FRBlock",1,5),slhaVal("FRBlock",0,1,5),lamDlRe22Def),lamDlRe22Def)              %lamDlRe22                                         
+%lamDlRe23     |if(slhaFound,if(slhaValExists("FRBlock",1,6),slhaVal("FRBlock",0,1,6),lamDlRe23Def),lamDlRe23Def)              %lamDlRe23                                         
+%lamDlRe31     |if(slhaFound,if(slhaValExists("FRBlock",1,7),slhaVal("FRBlock",0,1,7),lamDlRe31Def),lamDlRe31Def)              %lamDlRe31                                         
+%lamDlRe32     |if(slhaFound,if(slhaValExists("FRBlock",1,8),slhaVal("FRBlock",0,1,8),lamDlRe32Def),lamDlRe32Def)              %lamDlRe32                                         
+%lamDlRe33     |if(slhaFound,if(slhaValExists("FRBlock",1,9),slhaVal("FRBlock",0,1,9),lamDlRe33Def),lamDlRe33Def)              %lamDlRe33                                         
+%lamDlIm11     |if(slhaFound,if(slhaValExists("FRBlock",1,10),slhaVal("FRBlock",0,1,10),lamDlIm11Def),lamDlIm11Def)            %lamDlIm11                                         
+%lamDlIm12     |if(slhaFound,if(slhaValExists("FRBlock",1,11),slhaVal("FRBlock",0,1,11),lamDlIm12Def),lamDlIm12Def)            %lamDlIm12                                         
+%lamDlIm13     |if(slhaFound,if(slhaValExists("FRBlock",1,12),slhaVal("FRBlock",0,1,12),lamDlIm13Def),lamDlIm13Def)            %lamDlIm13                                         
+%lamDlIm21     |if(slhaFound,if(slhaValExists("FRBlock",1,13),slhaVal("FRBlock",0,1,13),lamDlIm21Def),lamDlIm21Def)            %lamDlIm21                                         
+%lamDlIm22     |if(slhaFound,if(slhaValExists("FRBlock",1,14),slhaVal("FRBlock",0,1,14),lamDlIm22Def),lamDlIm22Def)            %lamDlIm22                                         
+%lamDlIm23     |if(slhaFound,if(slhaValExists("FRBlock",1,15),slhaVal("FRBlock",0,1,15),lamDlIm23Def),lamDlIm23Def)            %lamDlIm23                                         
+%lamDlIm31     |if(slhaFound,if(slhaValExists("FRBlock",1,16),slhaVal("FRBlock",0,1,16),lamDlIm31Def),lamDlIm31Def)            %lamDlIm31                                         
+%lamDlIm32     |if(slhaFound,if(slhaValExists("FRBlock",1,17),slhaVal("FRBlock",0,1,17),lamDlIm32Def),lamDlIm32Def)            %lamDlIm32                                         
+%lamDlIm33     |if(slhaFound,if(slhaValExists("FRBlock",1,18),slhaVal("FRBlock",0,1,18),lamDlIm33Def),lamDlIm33Def)            %lamDlIm33                                         
+%lamYHl1       |if(slhaFound,if(slhaValExists("FRBlock",1,19),slhaVal("FRBlock",0,1,19),lamYHl1Def),lamYHl1Def)                %lamYHl1                                           
+%lamYHl2       |if(slhaFound,if(slhaValExists("FRBlock",1,20),slhaVal("FRBlock",0,1,20),lamYHl2Def),lamYHl2Def)                %lamYHl2                                           
+%lamYHl3       |if(slhaFound,if(slhaValExists("FRBlock",1,21),slhaVal("FRBlock",0,1,21),lamYHl3Def),lamYHl3Def)                %lamYHl3                                           
+%lam2Yl        |if(slhaFound,if(slhaValExists("FRBlock",1,22),slhaVal("FRBlock",0,1,22),lam2YlDef),lam2YlDef)                  %lam2Yl                                            
 %MZ            |if(slhaFound,if(slhaValExists("MASS",1,23),slhaVal("MASS",0,1,23),MZDef),MZDef)                                %Mass of G0.                                       
 %Me            |if(slhaFound,if(slhaValExists("MASS",1,11),slhaVal("MASS",0,1,11),MeDef),MeDef)                                %Mass of e.                                        
 %MMU           |if(slhaFound,if(slhaValExists("MASS",1,13),slhaVal("MASS",0,1,13),MMUDef),MMUDef)                              %Mass of mu.                                       
@@ -50,15 +49,18 @@ Dirac_l
 %MS            |if(slhaFound,if(slhaValExists("MASS",1,3),slhaVal("MASS",0,1,3),MSDef),MSDef)                                  %Mass of s.                                        
 %MB            |if(slhaFound,if(slhaValExists("MASS",1,5),slhaVal("MASS",0,1,5),MBDef),MBDef)                                  %Mass of b.                                        
 %MH            |if(slhaFound,if(slhaValExists("MASS",1,25),slhaVal("MASS",0,1,25),MHDef),MHDef)                                %Mass of H.                                        
-%MXd1          |if(slhaFound,if(slhaValExists("MASS",1,9000005),slhaVal("MASS",0,1,9000005),MXd1Def),MXd1Def)                  %Mass of Xd1.                                      
-%MXd2          |if(slhaFound,if(slhaValExists("MASS",1,9000006),slhaVal("MASS",0,1,9000006),MXd2Def),MXd2Def)                  %Mass of Xd2.                                      
-%MXd3          |if(slhaFound,if(slhaValExists("MASS",1,9000007),slhaVal("MASS",0,1,9000007),MXd3Def),MXd3Def)                  %Mass of Xd3.                                      
+%MXD1          |if(slhaFound,if(slhaValExists("MASS",1,9000005),slhaVal("MASS",0,1,9000005),MXD1Def),MXD1Def)                  %Mass of XD1.                                      
+%MXD2          |if(slhaFound,if(slhaValExists("MASS",1,9000006),slhaVal("MASS",0,1,9000006),MXD2Def),MXD2Def)                  %Mass of XD2.                                      
+%MXD3          |if(slhaFound,if(slhaValExists("MASS",1,9000007),slhaVal("MASS",0,1,9000007),MXD3Def),MXD3Def)                  %Mass of XD3.                                      
+%MYSle         |if(slhaFound,if(slhaValExists("MASS",1,9000008),slhaVal("MASS",0,1,9000008),MYSleDef),MYSleDef)                %Mass of YSle.                                     
+%MYSlvR        |if(slhaFound,if(slhaValExists("MASS",1,9000009),slhaVal("MASS",0,1,9000009),MYSlvRDef),MYSlvRDef)              %Mass of YSlvR.                                    
+%MYSlvI        |if(slhaFound,if(slhaValExists("MASS",1,9000010),slhaVal("MASS",0,1,9000010),MYSlvIDef),MYSlvIDef)              %Mass of YSlvI.                                    
 %WZ            |if(slhaFound,if(1+slhaDecayExists(23),slhaWidth(23),WZDef),WZDef)                                              %Width of G0.                                      
 %WW            |if(slhaFound,if(1+slhaDecayExists(24),slhaWidth(24),WWDef),WWDef)                                              %Width of GP.                                      
 %WT            |if(slhaFound,if(1+slhaDecayExists(6),slhaWidth(6),WTDef),WTDef)                                                %Width of t.                                       
 %WH            |if(slhaFound,if(1+slhaDecayExists(25),slhaWidth(25),WHDef),WHDef)                                              %Width of H.                                       
-%wXd1          |if(slhaFound,if(1+slhaDecayExists(9000005),slhaWidth(9000005),wXd1Def),wXd1Def)                                %Width of Xd1.                                     
-%wXd2          |if(slhaFound,if(1+slhaDecayExists(9000006),slhaWidth(9000006),wXd2Def),wXd2Def)                                %Width of Xd2.                                     
+%wXD1          |if(slhaFound,if(1+slhaDecayExists(9000005),slhaWidth(9000005),wXD1Def),wXD1Def)                                %Width of XD1.                                     
+%wXD2          |if(slhaFound,if(1+slhaDecayExists(9000006),slhaWidth(9000006),wXD2Def),wXD2Def)                                %Width of XD2.                                     
 %WYSle         |if(slhaFound,if(1+slhaDecayExists(9000008),slhaWidth(9000008),WYSleDef),WYSleDef)                              %Width of YSle.                                    
 %WYSlvR        |if(slhaFound,if(1+slhaDecayExists(9000009),slhaWidth(9000009),WYSlvRDef),WYSlvRDef)                            %Width of YSlvR.                                   
 %WYSlvI        |if(slhaFound,if(1+slhaDecayExists(9000010),slhaWidth(9000010),WYSlvIDef),WYSlvIDef)                            %Width of YSlvI.                                   
@@ -91,27 +93,24 @@ CKM2x3         |0                                                               
 CKM3x1         |0                                                                                                              % CKM-Matrix ( CKM3x1 )                             
 CKM3x2         |0                                                                                                              % CKM-Matrix ( CKM3x2 )                             
 CKM3x3         |1                                                                                                              % CKM-Matrix ( CKM3x3 )                             
-RelSld1x1      |RelSld11                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-RelSld1x2      |RelSld12                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-RelSld1x3      |RelSld13                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-RelSld2x1      |RelSld21                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-RelSld2x2      |RelSld22                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-RelSld2x3      |RelSld23                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-RelSld3x1      |RelSld31                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-RelSld3x2      |RelSld32                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-RelSld3x3      |RelSld33                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-ImlSld1x1      |ImlSld11                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-ImlSld1x2      |ImlSld12                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-ImlSld1x3      |ImlSld13                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-ImlSld2x1      |ImlSld21                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-ImlSld2x2      |ImlSld22                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-ImlSld2x3      |ImlSld23                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-ImlSld3x1      |ImlSld31                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-ImlSld3x2      |ImlSld32                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-ImlSld3x3      |ImlSld33                                                                                                       % Scalar mediator coupling dirac DM to left-handed l
-MYSlvR         |pow(pow(mYSl,2)+((lamHSl1+lamHSl3)*pow(vev,2))/2.,0.5)                                                         % MYSlvR                                            
-MYSlvI         |pow(pow(mYSl,2)+((lamHSl1-lamHSl3)*pow(vev,2))/2.,0.5)                                                         % MYSlvI                                            
-MYSle          |pow(pow(mYSl,2)+((lamHSl1+lamHSl2)*pow(vev,2))/2.,0.5)                                                         % MYSle                                             
+lamDlRe1x1     |lamDlRe11                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlRe1x2     |lamDlRe12                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlRe1x3     |lamDlRe13                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlRe2x1     |lamDlRe21                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlRe2x2     |lamDlRe22                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlRe2x3     |lamDlRe23                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlRe3x1     |lamDlRe31                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlRe3x2     |lamDlRe32                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlRe3x3     |lamDlRe33                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlIm1x1     |lamDlIm11                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlIm1x2     |lamDlIm12                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlIm1x3     |lamDlIm13                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlIm2x1     |lamDlIm21                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlIm2x2     |lamDlIm22                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlIm2x3     |lamDlIm23                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlIm3x1     |lamDlIm31                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlIm3x2     |lamDlIm32                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
+lamDlIm3x3     |lamDlIm33                                                                                                      % Scalar mediator coupling dirac DM to left-handed l
 x1x0           |-6*lam                                                                                                         % Z.f  Z.f  Z.f  Z.f   coupling.
 x2x0           |-2*lam                                                                                                         % Z.f  Z.f  W+.f W-.f  coupling.
 x3x0           |-4*lam                                                                                                         % W+.f W+.f W-.f W-.f  coupling.
@@ -121,38 +120,38 @@ x6x0           |-6*lam                                                          
 x7x0           |-2*lam*vev                                                                                                     % Z.f  Z.f  H     coupling.
 x8x0           |-2*lam*vev                                                                                                     % W+.f W-.f H     coupling.
 x9x0           |-6*lam*vev                                                                                                     % H    H    H     coupling.
-x10x0          |-2*lamHSl3                                                                                                     % W+.f W+.f ~YSle~YSle coupling.
-x11x0          |lamHSl1+lamHSl2                                                                                                % Z.f  Z.f  ~YSle~YSle coupling.
-x12x0          |lamHSl1                                                                                                        % W+.f W-.f ~YSle~YSle coupling.
-x13x0          |lamHSl1+lamHSl2                                                                                                % H    H    ~YSle~YSle coupling.
-x14x0          |(lamHSl1+lamHSl2)*vev                                                                                          % H    ~YSle~YSle coupling.
-x15x0          |-2*lamHSl3                                                                                                     % W-.f W-.f ~YSle~YSle coupling.
-x16x0          |4*lam2Sl                                                                                                       % ~YSle~YSle~YSle~YSle coupling.
-x17x0          |(lamHSl2-lamHSl3)/2.                                                                                           % Z.f  W+.f ~YSle~YSlv coupling.
-x18x0          |(-lamHSl2-lamHSl3)/2.                                                                                          % W+.f H    ~YSle~YSlv coupling.
-x19x0          |-0.5*((lamHSl2+lamHSl3)*vev)                                                                                   % W+.f ~YSle~YSlv coupling.
-x20x0          |(-lamHSl2+lamHSl3)/2.                                                                                          % Z.f  W-.f ~YSle~YSlv coupling.
-x21x0          |(-lamHSl2-lamHSl3)/2.                                                                                          % W-.f H    ~YSle~YSlv coupling.
-x22x0          |-0.5*((lamHSl2+lamHSl3)*vev)                                                                                   % W-.f ~YSle~YSlv coupling.
-x23x0          |lamHSl1+lamHSl3                                                                                                % Z.f  Z.f  ~YSlv~YSlv coupling.
-x24x0          |lamHSl1+lamHSl2                                                                                                % W+.f W-.f ~YSlv~YSlv coupling.
-x25x0          |lamHSl1-lamHSl3                                                                                                % H    H    ~YSlv~YSlv coupling.
-x26x0          |(lamHSl1-lamHSl3)*vev                                                                                          % H    ~YSlv~YSlv coupling.
-x27x0          |6*lam2Sl                                                                                                       % ~YSlv~YSlv~YSlv~YSlv coupling.
-x28x0          |(-lamHSl2-lamHSl3)/2.                                                                                          % Z.f  W+.f ~YSle~YSlv coupling.
-x29x0          |(-lamHSl2+lamHSl3)/2.                                                                                          % W+.f H    ~YSle~YSlv coupling.
-x30x0          |((-lamHSl2+lamHSl3)*vev)/2.                                                                                    % W+.f ~YSle~YSlv coupling.
-x31x0          |(-lamHSl2-lamHSl3)/2.                                                                                          % Z.f  W-.f ~YSle~YSlv coupling.
-x32x0          |(lamHSl2-lamHSl3)/2.                                                                                           % W-.f H    ~YSle~YSlv coupling.
-x33x0          |((lamHSl2-lamHSl3)*vev)/2.                                                                                     % W-.f ~YSle~YSlv coupling.
-x34x0          |-lamHSl3                                                                                                       % Z.f  H    ~YSlv~YSlv coupling.
-x35x0          |-(lamHSl3*vev)                                                                                                 % Z.f  ~YSlv~YSlv coupling.
-x36x0          |lamHSl1-lamHSl3                                                                                                % Z.f  Z.f  ~YSlv~YSlv coupling.
-x37x0          |lamHSl1+lamHSl2                                                                                                % W+.f W-.f ~YSlv~YSlv coupling.
-x38x0          |lamHSl1+lamHSl3                                                                                                % H    H    ~YSlv~YSlv coupling.
-x39x0          |(lamHSl1+lamHSl3)*vev                                                                                          % H    ~YSlv~YSlv coupling.
-x40x0          |2*lam2Sl                                                                                                       % ~YSlv~YSlv~YSlv~YSlv coupling.
-x41x0          |6*lam2Sl                                                                                                       % ~YSlv~YSlv~YSlv~YSlv coupling.
+x10x0          |-2*lamYHl3                                                                                                     % W+.f W+.f ~YSle~YSle coupling.
+x11x0          |lamYHl1+lamYHl2                                                                                                % Z.f  Z.f  ~YSle~YSle coupling.
+x12x0          |lamYHl1                                                                                                        % W+.f W-.f ~YSle~YSle coupling.
+x13x0          |lamYHl1+lamYHl2                                                                                                % H    H    ~YSle~YSle coupling.
+x14x0          |(lamYHl1+lamYHl2)*vev                                                                                          % H    ~YSle~YSle coupling.
+x15x0          |-2*lamYHl3                                                                                                     % W-.f W-.f ~YSle~YSle coupling.
+x16x0          |4*lam2Yl                                                                                                       % ~YSle~YSle~YSle~YSle coupling.
+x17x0          |(lamYHl2-lamYHl3)/2.                                                                                           % Z.f  W+.f ~YSle~YSlv coupling.
+x18x0          |(-lamYHl2-lamYHl3)/2.                                                                                          % W+.f H    ~YSle~YSlv coupling.
+x19x0          |-0.5*((lamYHl2+lamYHl3)*vev)                                                                                   % W+.f ~YSle~YSlv coupling.
+x20x0          |(-lamYHl2+lamYHl3)/2.                                                                                          % Z.f  W-.f ~YSle~YSlv coupling.
+x21x0          |(-lamYHl2-lamYHl3)/2.                                                                                          % W-.f H    ~YSle~YSlv coupling.
+x22x0          |-0.5*((lamYHl2+lamYHl3)*vev)                                                                                   % W-.f ~YSle~YSlv coupling.
+x23x0          |lamYHl1+lamYHl3                                                                                                % Z.f  Z.f  ~YSlv~YSlv coupling.
+x24x0          |lamYHl1+lamYHl2                                                                                                % W+.f W-.f ~YSlv~YSlv coupling.
+x25x0          |lamYHl1-lamYHl3                                                                                                % H    H    ~YSlv~YSlv coupling.
+x26x0          |(lamYHl1-lamYHl3)*vev                                                                                          % H    ~YSlv~YSlv coupling.
+x27x0          |6*lam2Yl                                                                                                       % ~YSlv~YSlv~YSlv~YSlv coupling.
+x28x0          |(-lamYHl2-lamYHl3)/2.                                                                                          % Z.f  W+.f ~YSle~YSlv coupling.
+x29x0          |(-lamYHl2+lamYHl3)/2.                                                                                          % W+.f H    ~YSle~YSlv coupling.
+x30x0          |((-lamYHl2+lamYHl3)*vev)/2.                                                                                    % W+.f ~YSle~YSlv coupling.
+x31x0          |(-lamYHl2-lamYHl3)/2.                                                                                          % Z.f  W-.f ~YSle~YSlv coupling.
+x32x0          |(lamYHl2-lamYHl3)/2.                                                                                           % W-.f H    ~YSle~YSlv coupling.
+x33x0          |((lamYHl2-lamYHl3)*vev)/2.                                                                                     % W-.f ~YSle~YSlv coupling.
+x34x0          |-lamYHl3                                                                                                       % Z.f  H    ~YSlv~YSlv coupling.
+x35x0          |-(lamYHl3*vev)                                                                                                 % Z.f  ~YSlv~YSlv coupling.
+x36x0          |lamYHl1-lamYHl3                                                                                                % Z.f  Z.f  ~YSlv~YSlv coupling.
+x37x0          |lamYHl1+lamYHl2                                                                                                % W+.f W-.f ~YSlv~YSlv coupling.
+x38x0          |lamYHl1+lamYHl3                                                                                                % H    H    ~YSlv~YSlv coupling.
+x39x0          |(lamYHl1+lamYHl3)*vev                                                                                          % H    ~YSlv~YSlv coupling.
+x40x0          |2*lam2Yl                                                                                                       % ~YSlv~YSlv~YSlv~YSlv coupling.
+x41x0          |6*lam2Yl                                                                                                       % ~YSlv~YSlv~YSlv~YSlv coupling.
 x42x0          |2                                                                                                              % a    a    W+.f W-.f  coupling.
 x43x0          |2                                                                                                              % a    a    ~YSle~YSle coupling.
 x44x0          |-1                                                                                                             % a    W+.f W-.f  coupling.
@@ -258,276 +257,276 @@ x107x0         |yup*pow(2,-0.5)                                                 
 x108x0         |-(yc*pow(2,-0.5))                                                                                              % H    c~   c     coupling.
 x109x0         |-(yt*pow(2,-0.5))                                                                                              % H    t~   t     coupling.
 x110x0         |-(yup*pow(2,-0.5))                                                                                             % H    u~   u     coupling.
-x111x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd1~ve    coupling.
-x111x1         |-ImlSld1x1                                                                                                     % ~YSlv~Xd1~ve       coupling.
-x111x2         |-RelSld1x1                                                                                                     % ~YSlv~Xd1~ve       coupling.
-x111x3         |ImlSld1x1                                                                                                      % ~YSlv~Xd1~ve       coupling.
-x111x4         |RelSld1x1                                                                                                      % ~YSlv~Xd1~ve       coupling.
-x112x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd1~ve    coupling.
-x112x1         |RelSld1x1                                                                                                      % ~YSlv~Xd1~ve       coupling.
-x112x2         |-ImlSld1x1                                                                                                     % ~YSlv~Xd1~ve       coupling.
-x112x3         |-RelSld1x1                                                                                                     % ~YSlv~Xd1~ve       coupling.
-x112x4         |ImlSld1x1                                                                                                      % ~YSlv~Xd1~ve       coupling.
-x113x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd2~ve    coupling.
-x113x1         |-ImlSld1x2                                                                                                     % ~YSlv~Xd2~ve       coupling.
-x113x2         |-RelSld1x2                                                                                                     % ~YSlv~Xd2~ve       coupling.
-x113x3         |ImlSld1x2                                                                                                      % ~YSlv~Xd2~ve       coupling.
-x113x4         |RelSld1x2                                                                                                      % ~YSlv~Xd2~ve       coupling.
-x114x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd2~ve    coupling.
-x114x1         |RelSld1x2                                                                                                      % ~YSlv~Xd2~ve       coupling.
-x114x2         |-ImlSld1x2                                                                                                     % ~YSlv~Xd2~ve       coupling.
-x114x3         |-RelSld1x2                                                                                                     % ~YSlv~Xd2~ve       coupling.
-x114x4         |ImlSld1x2                                                                                                      % ~YSlv~Xd2~ve       coupling.
-x115x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd3~ve    coupling.
-x115x1         |-ImlSld1x3                                                                                                     % ~YSlv~Xd3~ve       coupling.
-x115x2         |-RelSld1x3                                                                                                     % ~YSlv~Xd3~ve       coupling.
-x115x3         |ImlSld1x3                                                                                                      % ~YSlv~Xd3~ve       coupling.
-x115x4         |RelSld1x3                                                                                                      % ~YSlv~Xd3~ve       coupling.
-x116x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd3~ve    coupling.
-x116x1         |RelSld1x3                                                                                                      % ~YSlv~Xd3~ve       coupling.
-x116x2         |-ImlSld1x3                                                                                                     % ~YSlv~Xd3~ve       coupling.
-x116x3         |-RelSld1x3                                                                                                     % ~YSlv~Xd3~ve       coupling.
-x116x4         |ImlSld1x3                                                                                                      % ~YSlv~Xd3~ve       coupling.
-x117x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd1~vm    coupling.
-x117x1         |-ImlSld2x1                                                                                                     % ~YSlv~Xd1~vm       coupling.
-x117x2         |-RelSld2x1                                                                                                     % ~YSlv~Xd1~vm       coupling.
-x117x3         |ImlSld2x1                                                                                                      % ~YSlv~Xd1~vm       coupling.
-x117x4         |RelSld2x1                                                                                                      % ~YSlv~Xd1~vm       coupling.
-x118x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd1~vm    coupling.
-x118x1         |RelSld2x1                                                                                                      % ~YSlv~Xd1~vm       coupling.
-x118x2         |-ImlSld2x1                                                                                                     % ~YSlv~Xd1~vm       coupling.
-x118x3         |-RelSld2x1                                                                                                     % ~YSlv~Xd1~vm       coupling.
-x118x4         |ImlSld2x1                                                                                                      % ~YSlv~Xd1~vm       coupling.
-x119x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd2~vm    coupling.
-x119x1         |-ImlSld2x2                                                                                                     % ~YSlv~Xd2~vm       coupling.
-x119x2         |-RelSld2x2                                                                                                     % ~YSlv~Xd2~vm       coupling.
-x119x3         |ImlSld2x2                                                                                                      % ~YSlv~Xd2~vm       coupling.
-x119x4         |RelSld2x2                                                                                                      % ~YSlv~Xd2~vm       coupling.
-x120x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd2~vm    coupling.
-x120x1         |RelSld2x2                                                                                                      % ~YSlv~Xd2~vm       coupling.
-x120x2         |-ImlSld2x2                                                                                                     % ~YSlv~Xd2~vm       coupling.
-x120x3         |-RelSld2x2                                                                                                     % ~YSlv~Xd2~vm       coupling.
-x120x4         |ImlSld2x2                                                                                                      % ~YSlv~Xd2~vm       coupling.
-x121x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd3~vm    coupling.
-x121x1         |-ImlSld2x3                                                                                                     % ~YSlv~Xd3~vm       coupling.
-x121x2         |-RelSld2x3                                                                                                     % ~YSlv~Xd3~vm       coupling.
-x121x3         |ImlSld2x3                                                                                                      % ~YSlv~Xd3~vm       coupling.
-x121x4         |RelSld2x3                                                                                                      % ~YSlv~Xd3~vm       coupling.
-x122x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd3~vm    coupling.
-x122x1         |RelSld2x3                                                                                                      % ~YSlv~Xd3~vm       coupling.
-x122x2         |-ImlSld2x3                                                                                                     % ~YSlv~Xd3~vm       coupling.
-x122x3         |-RelSld2x3                                                                                                     % ~YSlv~Xd3~vm       coupling.
-x122x4         |ImlSld2x3                                                                                                      % ~YSlv~Xd3~vm       coupling.
-x123x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd1~vt    coupling.
-x123x1         |-ImlSld3x1                                                                                                     % ~YSlv~Xd1~vt       coupling.
-x123x2         |-RelSld3x1                                                                                                     % ~YSlv~Xd1~vt       coupling.
-x123x3         |ImlSld3x1                                                                                                      % ~YSlv~Xd1~vt       coupling.
-x123x4         |RelSld3x1                                                                                                      % ~YSlv~Xd1~vt       coupling.
-x124x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd1~vt    coupling.
-x124x1         |RelSld3x1                                                                                                      % ~YSlv~Xd1~vt       coupling.
-x124x2         |-ImlSld3x1                                                                                                     % ~YSlv~Xd1~vt       coupling.
-x124x3         |-RelSld3x1                                                                                                     % ~YSlv~Xd1~vt       coupling.
-x124x4         |ImlSld3x1                                                                                                      % ~YSlv~Xd1~vt       coupling.
-x125x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd2~vt    coupling.
-x125x1         |-ImlSld3x2                                                                                                     % ~YSlv~Xd2~vt       coupling.
-x125x2         |-RelSld3x2                                                                                                     % ~YSlv~Xd2~vt       coupling.
-x125x3         |ImlSld3x2                                                                                                      % ~YSlv~Xd2~vt       coupling.
-x125x4         |RelSld3x2                                                                                                      % ~YSlv~Xd2~vt       coupling.
-x126x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd2~vt    coupling.
-x126x1         |RelSld3x2                                                                                                      % ~YSlv~Xd2~vt       coupling.
-x126x2         |-ImlSld3x2                                                                                                     % ~YSlv~Xd2~vt       coupling.
-x126x3         |-RelSld3x2                                                                                                     % ~YSlv~Xd2~vt       coupling.
-x126x4         |ImlSld3x2                                                                                                      % ~YSlv~Xd2~vt       coupling.
-x127x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd3~vt    coupling.
-x127x1         |-ImlSld3x3                                                                                                     % ~YSlv~Xd3~vt       coupling.
-x127x2         |-RelSld3x3                                                                                                     % ~YSlv~Xd3~vt       coupling.
-x127x3         |ImlSld3x3                                                                                                      % ~YSlv~Xd3~vt       coupling.
-x127x4         |RelSld3x3                                                                                                      % ~YSlv~Xd3~vt       coupling.
-x128x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~Xd3~vt    coupling.
-x128x1         |RelSld3x3                                                                                                      % ~YSlv~Xd3~vt       coupling.
-x128x2         |-ImlSld3x3                                                                                                     % ~YSlv~Xd3~vt       coupling.
-x128x3         |-RelSld3x3                                                                                                     % ~YSlv~Xd3~vt       coupling.
-x128x4         |ImlSld3x3                                                                                                      % ~YSlv~Xd3~vt       coupling.
-x129x0         |0.5                                                                                                            % ~YSle~Xd1~e-    coupling.
-x129x1         |RelSld1x1                                                                                                      % ~YSle~Xd1~e-       coupling.
-x129x2         |-ImlSld1x1                                                                                                     % ~YSle~Xd1~e-       coupling.
-x129x3         |-RelSld1x1                                                                                                     % ~YSle~Xd1~e-       coupling.
-x129x4         |ImlSld1x1                                                                                                      % ~YSle~Xd1~e-       coupling.
-x130x0         |0.5                                                                                                            % ~YSle~Xd2~e-    coupling.
-x130x1         |RelSld1x2                                                                                                      % ~YSle~Xd2~e-       coupling.
-x130x2         |-ImlSld1x2                                                                                                     % ~YSle~Xd2~e-       coupling.
-x130x3         |-RelSld1x2                                                                                                     % ~YSle~Xd2~e-       coupling.
-x130x4         |ImlSld1x2                                                                                                      % ~YSle~Xd2~e-       coupling.
-x131x0         |0.5                                                                                                            % ~YSle~Xd3~e-    coupling.
-x131x1         |RelSld1x3                                                                                                      % ~YSle~Xd3~e-       coupling.
-x131x2         |-ImlSld1x3                                                                                                     % ~YSle~Xd3~e-       coupling.
-x131x3         |-RelSld1x3                                                                                                     % ~YSle~Xd3~e-       coupling.
-x131x4         |ImlSld1x3                                                                                                      % ~YSle~Xd3~e-       coupling.
-x132x0         |0.5                                                                                                            % ~YSle~Xd1~mu-   coupling.
-x132x1         |RelSld2x1                                                                                                      % ~YSle~Xd1~mu-      coupling.
-x132x2         |-ImlSld2x1                                                                                                     % ~YSle~Xd1~mu-      coupling.
-x132x3         |-RelSld2x1                                                                                                     % ~YSle~Xd1~mu-      coupling.
-x132x4         |ImlSld2x1                                                                                                      % ~YSle~Xd1~mu-      coupling.
-x133x0         |0.5                                                                                                            % ~YSle~Xd2~mu-   coupling.
-x133x1         |RelSld2x2                                                                                                      % ~YSle~Xd2~mu-      coupling.
-x133x2         |-ImlSld2x2                                                                                                     % ~YSle~Xd2~mu-      coupling.
-x133x3         |-RelSld2x2                                                                                                     % ~YSle~Xd2~mu-      coupling.
-x133x4         |ImlSld2x2                                                                                                      % ~YSle~Xd2~mu-      coupling.
-x134x0         |0.5                                                                                                            % ~YSle~Xd3~mu-   coupling.
-x134x1         |RelSld2x3                                                                                                      % ~YSle~Xd3~mu-      coupling.
-x134x2         |-ImlSld2x3                                                                                                     % ~YSle~Xd3~mu-      coupling.
-x134x3         |-RelSld2x3                                                                                                     % ~YSle~Xd3~mu-      coupling.
-x134x4         |ImlSld2x3                                                                                                      % ~YSle~Xd3~mu-      coupling.
-x135x0         |0.5                                                                                                            % ~YSle~Xd1~ta-   coupling.
-x135x1         |RelSld3x1                                                                                                      % ~YSle~Xd1~ta-      coupling.
-x135x2         |-ImlSld3x1                                                                                                     % ~YSle~Xd1~ta-      coupling.
-x135x3         |-RelSld3x1                                                                                                     % ~YSle~Xd1~ta-      coupling.
-x135x4         |ImlSld3x1                                                                                                      % ~YSle~Xd1~ta-      coupling.
-x136x0         |0.5                                                                                                            % ~YSle~Xd2~ta-   coupling.
-x136x1         |RelSld3x2                                                                                                      % ~YSle~Xd2~ta-      coupling.
-x136x2         |-ImlSld3x2                                                                                                     % ~YSle~Xd2~ta-      coupling.
-x136x3         |-RelSld3x2                                                                                                     % ~YSle~Xd2~ta-      coupling.
-x136x4         |ImlSld3x2                                                                                                      % ~YSle~Xd2~ta-      coupling.
-x137x0         |0.5                                                                                                            % ~YSle~Xd3~ta-   coupling.
-x137x1         |RelSld3x3                                                                                                      % ~YSle~Xd3~ta-      coupling.
-x137x2         |-ImlSld3x3                                                                                                     % ~YSle~Xd3~ta-      coupling.
-x137x3         |-RelSld3x3                                                                                                     % ~YSle~Xd3~ta-      coupling.
-x137x4         |ImlSld3x3                                                                                                      % ~YSle~Xd3~ta-      coupling.
-x138x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~Xd1  coupling.
-x138x1         |-ImlSld1x1                                                                                                     % ~YSlvve~  ~Xd1     coupling.
-x138x2         |RelSld1x1                                                                                                      % ~YSlvve~  ~Xd1     coupling.
-x138x3         |-ImlSld1x1                                                                                                     % ~YSlvve~  ~Xd1     coupling.
-x138x4         |RelSld1x1                                                                                                      % ~YSlvve~  ~Xd1     coupling.
-x139x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~Xd1  coupling.
-x139x1         |RelSld1x1                                                                                                      % ~YSlvve~  ~Xd1     coupling.
-x139x2         |ImlSld1x1                                                                                                      % ~YSlvve~  ~Xd1     coupling.
-x139x3         |RelSld1x1                                                                                                      % ~YSlvve~  ~Xd1     coupling.
-x139x4         |ImlSld1x1                                                                                                      % ~YSlvve~  ~Xd1     coupling.
-x140x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~Xd2  coupling.
-x140x1         |-ImlSld1x2                                                                                                     % ~YSlvve~  ~Xd2     coupling.
-x140x2         |RelSld1x2                                                                                                      % ~YSlvve~  ~Xd2     coupling.
-x140x3         |-ImlSld1x2                                                                                                     % ~YSlvve~  ~Xd2     coupling.
-x140x4         |RelSld1x2                                                                                                      % ~YSlvve~  ~Xd2     coupling.
-x141x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~Xd2  coupling.
-x141x1         |RelSld1x2                                                                                                      % ~YSlvve~  ~Xd2     coupling.
-x141x2         |ImlSld1x2                                                                                                      % ~YSlvve~  ~Xd2     coupling.
-x141x3         |RelSld1x2                                                                                                      % ~YSlvve~  ~Xd2     coupling.
-x141x4         |ImlSld1x2                                                                                                      % ~YSlvve~  ~Xd2     coupling.
-x142x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~Xd3  coupling.
-x142x1         |-ImlSld1x3                                                                                                     % ~YSlvve~  ~Xd3     coupling.
-x142x2         |RelSld1x3                                                                                                      % ~YSlvve~  ~Xd3     coupling.
-x142x3         |-ImlSld1x3                                                                                                     % ~YSlvve~  ~Xd3     coupling.
-x142x4         |RelSld1x3                                                                                                      % ~YSlvve~  ~Xd3     coupling.
-x143x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~Xd3  coupling.
-x143x1         |RelSld1x3                                                                                                      % ~YSlvve~  ~Xd3     coupling.
-x143x2         |ImlSld1x3                                                                                                      % ~YSlvve~  ~Xd3     coupling.
-x143x3         |RelSld1x3                                                                                                      % ~YSlvve~  ~Xd3     coupling.
-x143x4         |ImlSld1x3                                                                                                      % ~YSlvve~  ~Xd3     coupling.
-x144x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~Xd1  coupling.
-x144x1         |-ImlSld2x1                                                                                                     % ~YSlvvm~  ~Xd1     coupling.
-x144x2         |RelSld2x1                                                                                                      % ~YSlvvm~  ~Xd1     coupling.
-x144x3         |-ImlSld2x1                                                                                                     % ~YSlvvm~  ~Xd1     coupling.
-x144x4         |RelSld2x1                                                                                                      % ~YSlvvm~  ~Xd1     coupling.
-x145x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~Xd1  coupling.
-x145x1         |RelSld2x1                                                                                                      % ~YSlvvm~  ~Xd1     coupling.
-x145x2         |ImlSld2x1                                                                                                      % ~YSlvvm~  ~Xd1     coupling.
-x145x3         |RelSld2x1                                                                                                      % ~YSlvvm~  ~Xd1     coupling.
-x145x4         |ImlSld2x1                                                                                                      % ~YSlvvm~  ~Xd1     coupling.
-x146x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~Xd2  coupling.
-x146x1         |-ImlSld2x2                                                                                                     % ~YSlvvm~  ~Xd2     coupling.
-x146x2         |RelSld2x2                                                                                                      % ~YSlvvm~  ~Xd2     coupling.
-x146x3         |-ImlSld2x2                                                                                                     % ~YSlvvm~  ~Xd2     coupling.
-x146x4         |RelSld2x2                                                                                                      % ~YSlvvm~  ~Xd2     coupling.
-x147x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~Xd2  coupling.
-x147x1         |RelSld2x2                                                                                                      % ~YSlvvm~  ~Xd2     coupling.
-x147x2         |ImlSld2x2                                                                                                      % ~YSlvvm~  ~Xd2     coupling.
-x147x3         |RelSld2x2                                                                                                      % ~YSlvvm~  ~Xd2     coupling.
-x147x4         |ImlSld2x2                                                                                                      % ~YSlvvm~  ~Xd2     coupling.
-x148x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~Xd3  coupling.
-x148x1         |-ImlSld2x3                                                                                                     % ~YSlvvm~  ~Xd3     coupling.
-x148x2         |RelSld2x3                                                                                                      % ~YSlvvm~  ~Xd3     coupling.
-x148x3         |-ImlSld2x3                                                                                                     % ~YSlvvm~  ~Xd3     coupling.
-x148x4         |RelSld2x3                                                                                                      % ~YSlvvm~  ~Xd3     coupling.
-x149x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~Xd3  coupling.
-x149x1         |RelSld2x3                                                                                                      % ~YSlvvm~  ~Xd3     coupling.
-x149x2         |ImlSld2x3                                                                                                      % ~YSlvvm~  ~Xd3     coupling.
-x149x3         |RelSld2x3                                                                                                      % ~YSlvvm~  ~Xd3     coupling.
-x149x4         |ImlSld2x3                                                                                                      % ~YSlvvm~  ~Xd3     coupling.
-x150x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~Xd1  coupling.
-x150x1         |-ImlSld3x1                                                                                                     % ~YSlvvt~  ~Xd1     coupling.
-x150x2         |RelSld3x1                                                                                                      % ~YSlvvt~  ~Xd1     coupling.
-x150x3         |-ImlSld3x1                                                                                                     % ~YSlvvt~  ~Xd1     coupling.
-x150x4         |RelSld3x1                                                                                                      % ~YSlvvt~  ~Xd1     coupling.
-x151x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~Xd1  coupling.
-x151x1         |RelSld3x1                                                                                                      % ~YSlvvt~  ~Xd1     coupling.
-x151x2         |ImlSld3x1                                                                                                      % ~YSlvvt~  ~Xd1     coupling.
-x151x3         |RelSld3x1                                                                                                      % ~YSlvvt~  ~Xd1     coupling.
-x151x4         |ImlSld3x1                                                                                                      % ~YSlvvt~  ~Xd1     coupling.
-x152x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~Xd2  coupling.
-x152x1         |-ImlSld3x2                                                                                                     % ~YSlvvt~  ~Xd2     coupling.
-x152x2         |RelSld3x2                                                                                                      % ~YSlvvt~  ~Xd2     coupling.
-x152x3         |-ImlSld3x2                                                                                                     % ~YSlvvt~  ~Xd2     coupling.
-x152x4         |RelSld3x2                                                                                                      % ~YSlvvt~  ~Xd2     coupling.
-x153x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~Xd2  coupling.
-x153x1         |RelSld3x2                                                                                                      % ~YSlvvt~  ~Xd2     coupling.
-x153x2         |ImlSld3x2                                                                                                      % ~YSlvvt~  ~Xd2     coupling.
-x153x3         |RelSld3x2                                                                                                      % ~YSlvvt~  ~Xd2     coupling.
-x153x4         |ImlSld3x2                                                                                                      % ~YSlvvt~  ~Xd2     coupling.
-x154x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~Xd3  coupling.
-x154x1         |-ImlSld3x3                                                                                                     % ~YSlvvt~  ~Xd3     coupling.
-x154x2         |RelSld3x3                                                                                                      % ~YSlvvt~  ~Xd3     coupling.
-x154x3         |-ImlSld3x3                                                                                                     % ~YSlvvt~  ~Xd3     coupling.
-x154x4         |RelSld3x3                                                                                                      % ~YSlvvt~  ~Xd3     coupling.
-x155x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~Xd3  coupling.
-x155x1         |RelSld3x3                                                                                                      % ~YSlvvt~  ~Xd3     coupling.
-x155x2         |ImlSld3x3                                                                                                      % ~YSlvvt~  ~Xd3     coupling.
-x155x3         |RelSld3x3                                                                                                      % ~YSlvvt~  ~Xd3     coupling.
-x155x4         |ImlSld3x3                                                                                                      % ~YSlvvt~  ~Xd3     coupling.
-x156x0         |0.5                                                                                                            % ~YSlee+   ~Xd1  coupling.
-x156x1         |RelSld1x1                                                                                                      % ~YSlee+   ~Xd1     coupling.
-x156x2         |ImlSld1x1                                                                                                      % ~YSlee+   ~Xd1     coupling.
-x156x3         |RelSld1x1                                                                                                      % ~YSlee+   ~Xd1     coupling.
-x156x4         |ImlSld1x1                                                                                                      % ~YSlee+   ~Xd1     coupling.
-x157x0         |0.5                                                                                                            % ~YSlee+   ~Xd2  coupling.
-x157x1         |RelSld1x2                                                                                                      % ~YSlee+   ~Xd2     coupling.
-x157x2         |ImlSld1x2                                                                                                      % ~YSlee+   ~Xd2     coupling.
-x157x3         |RelSld1x2                                                                                                      % ~YSlee+   ~Xd2     coupling.
-x157x4         |ImlSld1x2                                                                                                      % ~YSlee+   ~Xd2     coupling.
-x158x0         |0.5                                                                                                            % ~YSlee+   ~Xd3  coupling.
-x158x1         |RelSld1x3                                                                                                      % ~YSlee+   ~Xd3     coupling.
-x158x2         |ImlSld1x3                                                                                                      % ~YSlee+   ~Xd3     coupling.
-x158x3         |RelSld1x3                                                                                                      % ~YSlee+   ~Xd3     coupling.
-x158x4         |ImlSld1x3                                                                                                      % ~YSlee+   ~Xd3     coupling.
-x159x0         |0.5                                                                                                            % ~YSlemu+  ~Xd1  coupling.
-x159x1         |RelSld2x1                                                                                                      % ~YSlemu+  ~Xd1     coupling.
-x159x2         |ImlSld2x1                                                                                                      % ~YSlemu+  ~Xd1     coupling.
-x159x3         |RelSld2x1                                                                                                      % ~YSlemu+  ~Xd1     coupling.
-x159x4         |ImlSld2x1                                                                                                      % ~YSlemu+  ~Xd1     coupling.
-x160x0         |0.5                                                                                                            % ~YSlemu+  ~Xd2  coupling.
-x160x1         |RelSld2x2                                                                                                      % ~YSlemu+  ~Xd2     coupling.
-x160x2         |ImlSld2x2                                                                                                      % ~YSlemu+  ~Xd2     coupling.
-x160x3         |RelSld2x2                                                                                                      % ~YSlemu+  ~Xd2     coupling.
-x160x4         |ImlSld2x2                                                                                                      % ~YSlemu+  ~Xd2     coupling.
-x161x0         |0.5                                                                                                            % ~YSlemu+  ~Xd3  coupling.
-x161x1         |RelSld2x3                                                                                                      % ~YSlemu+  ~Xd3     coupling.
-x161x2         |ImlSld2x3                                                                                                      % ~YSlemu+  ~Xd3     coupling.
-x161x3         |RelSld2x3                                                                                                      % ~YSlemu+  ~Xd3     coupling.
-x161x4         |ImlSld2x3                                                                                                      % ~YSlemu+  ~Xd3     coupling.
-x162x0         |0.5                                                                                                            % ~YSleta+  ~Xd1  coupling.
-x162x1         |RelSld3x1                                                                                                      % ~YSleta+  ~Xd1     coupling.
-x162x2         |ImlSld3x1                                                                                                      % ~YSleta+  ~Xd1     coupling.
-x162x3         |RelSld3x1                                                                                                      % ~YSleta+  ~Xd1     coupling.
-x162x4         |ImlSld3x1                                                                                                      % ~YSleta+  ~Xd1     coupling.
-x163x0         |0.5                                                                                                            % ~YSleta+  ~Xd2  coupling.
-x163x1         |RelSld3x2                                                                                                      % ~YSleta+  ~Xd2     coupling.
-x163x2         |ImlSld3x2                                                                                                      % ~YSleta+  ~Xd2     coupling.
-x163x3         |RelSld3x2                                                                                                      % ~YSleta+  ~Xd2     coupling.
-x163x4         |ImlSld3x2                                                                                                      % ~YSleta+  ~Xd2     coupling.
-x164x0         |0.5                                                                                                            % ~YSleta+  ~Xd3  coupling.
-x164x1         |RelSld3x3                                                                                                      % ~YSleta+  ~Xd3     coupling.
-x164x2         |ImlSld3x3                                                                                                      % ~YSleta+  ~Xd3     coupling.
-x164x3         |RelSld3x3                                                                                                      % ~YSleta+  ~Xd3     coupling.
-x164x4         |ImlSld3x3                                                                                                      % ~YSleta+  ~Xd3     coupling.
+x111x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD1~ve    coupling.
+x111x1         |-lamDlIm1x1                                                                                                    % ~YSlv~XD1~ve       coupling.
+x111x2         |-lamDlRe1x1                                                                                                    % ~YSlv~XD1~ve       coupling.
+x111x3         |lamDlIm1x1                                                                                                     % ~YSlv~XD1~ve       coupling.
+x111x4         |lamDlRe1x1                                                                                                     % ~YSlv~XD1~ve       coupling.
+x112x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD1~ve    coupling.
+x112x1         |lamDlRe1x1                                                                                                     % ~YSlv~XD1~ve       coupling.
+x112x2         |-lamDlIm1x1                                                                                                    % ~YSlv~XD1~ve       coupling.
+x112x3         |-lamDlRe1x1                                                                                                    % ~YSlv~XD1~ve       coupling.
+x112x4         |lamDlIm1x1                                                                                                     % ~YSlv~XD1~ve       coupling.
+x113x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD2~ve    coupling.
+x113x1         |-lamDlIm1x2                                                                                                    % ~YSlv~XD2~ve       coupling.
+x113x2         |-lamDlRe1x2                                                                                                    % ~YSlv~XD2~ve       coupling.
+x113x3         |lamDlIm1x2                                                                                                     % ~YSlv~XD2~ve       coupling.
+x113x4         |lamDlRe1x2                                                                                                     % ~YSlv~XD2~ve       coupling.
+x114x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD2~ve    coupling.
+x114x1         |lamDlRe1x2                                                                                                     % ~YSlv~XD2~ve       coupling.
+x114x2         |-lamDlIm1x2                                                                                                    % ~YSlv~XD2~ve       coupling.
+x114x3         |-lamDlRe1x2                                                                                                    % ~YSlv~XD2~ve       coupling.
+x114x4         |lamDlIm1x2                                                                                                     % ~YSlv~XD2~ve       coupling.
+x115x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD3~ve    coupling.
+x115x1         |-lamDlIm1x3                                                                                                    % ~YSlv~XD3~ve       coupling.
+x115x2         |-lamDlRe1x3                                                                                                    % ~YSlv~XD3~ve       coupling.
+x115x3         |lamDlIm1x3                                                                                                     % ~YSlv~XD3~ve       coupling.
+x115x4         |lamDlRe1x3                                                                                                     % ~YSlv~XD3~ve       coupling.
+x116x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD3~ve    coupling.
+x116x1         |lamDlRe1x3                                                                                                     % ~YSlv~XD3~ve       coupling.
+x116x2         |-lamDlIm1x3                                                                                                    % ~YSlv~XD3~ve       coupling.
+x116x3         |-lamDlRe1x3                                                                                                    % ~YSlv~XD3~ve       coupling.
+x116x4         |lamDlIm1x3                                                                                                     % ~YSlv~XD3~ve       coupling.
+x117x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD1~vm    coupling.
+x117x1         |-lamDlIm2x1                                                                                                    % ~YSlv~XD1~vm       coupling.
+x117x2         |-lamDlRe2x1                                                                                                    % ~YSlv~XD1~vm       coupling.
+x117x3         |lamDlIm2x1                                                                                                     % ~YSlv~XD1~vm       coupling.
+x117x4         |lamDlRe2x1                                                                                                     % ~YSlv~XD1~vm       coupling.
+x118x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD1~vm    coupling.
+x118x1         |lamDlRe2x1                                                                                                     % ~YSlv~XD1~vm       coupling.
+x118x2         |-lamDlIm2x1                                                                                                    % ~YSlv~XD1~vm       coupling.
+x118x3         |-lamDlRe2x1                                                                                                    % ~YSlv~XD1~vm       coupling.
+x118x4         |lamDlIm2x1                                                                                                     % ~YSlv~XD1~vm       coupling.
+x119x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD2~vm    coupling.
+x119x1         |-lamDlIm2x2                                                                                                    % ~YSlv~XD2~vm       coupling.
+x119x2         |-lamDlRe2x2                                                                                                    % ~YSlv~XD2~vm       coupling.
+x119x3         |lamDlIm2x2                                                                                                     % ~YSlv~XD2~vm       coupling.
+x119x4         |lamDlRe2x2                                                                                                     % ~YSlv~XD2~vm       coupling.
+x120x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD2~vm    coupling.
+x120x1         |lamDlRe2x2                                                                                                     % ~YSlv~XD2~vm       coupling.
+x120x2         |-lamDlIm2x2                                                                                                    % ~YSlv~XD2~vm       coupling.
+x120x3         |-lamDlRe2x2                                                                                                    % ~YSlv~XD2~vm       coupling.
+x120x4         |lamDlIm2x2                                                                                                     % ~YSlv~XD2~vm       coupling.
+x121x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD3~vm    coupling.
+x121x1         |-lamDlIm2x3                                                                                                    % ~YSlv~XD3~vm       coupling.
+x121x2         |-lamDlRe2x3                                                                                                    % ~YSlv~XD3~vm       coupling.
+x121x3         |lamDlIm2x3                                                                                                     % ~YSlv~XD3~vm       coupling.
+x121x4         |lamDlRe2x3                                                                                                     % ~YSlv~XD3~vm       coupling.
+x122x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD3~vm    coupling.
+x122x1         |lamDlRe2x3                                                                                                     % ~YSlv~XD3~vm       coupling.
+x122x2         |-lamDlIm2x3                                                                                                    % ~YSlv~XD3~vm       coupling.
+x122x3         |-lamDlRe2x3                                                                                                    % ~YSlv~XD3~vm       coupling.
+x122x4         |lamDlIm2x3                                                                                                     % ~YSlv~XD3~vm       coupling.
+x123x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD1~vt    coupling.
+x123x1         |-lamDlIm3x1                                                                                                    % ~YSlv~XD1~vt       coupling.
+x123x2         |-lamDlRe3x1                                                                                                    % ~YSlv~XD1~vt       coupling.
+x123x3         |lamDlIm3x1                                                                                                     % ~YSlv~XD1~vt       coupling.
+x123x4         |lamDlRe3x1                                                                                                     % ~YSlv~XD1~vt       coupling.
+x124x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD1~vt    coupling.
+x124x1         |lamDlRe3x1                                                                                                     % ~YSlv~XD1~vt       coupling.
+x124x2         |-lamDlIm3x1                                                                                                    % ~YSlv~XD1~vt       coupling.
+x124x3         |-lamDlRe3x1                                                                                                    % ~YSlv~XD1~vt       coupling.
+x124x4         |lamDlIm3x1                                                                                                     % ~YSlv~XD1~vt       coupling.
+x125x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD2~vt    coupling.
+x125x1         |-lamDlIm3x2                                                                                                    % ~YSlv~XD2~vt       coupling.
+x125x2         |-lamDlRe3x2                                                                                                    % ~YSlv~XD2~vt       coupling.
+x125x3         |lamDlIm3x2                                                                                                     % ~YSlv~XD2~vt       coupling.
+x125x4         |lamDlRe3x2                                                                                                     % ~YSlv~XD2~vt       coupling.
+x126x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD2~vt    coupling.
+x126x1         |lamDlRe3x2                                                                                                     % ~YSlv~XD2~vt       coupling.
+x126x2         |-lamDlIm3x2                                                                                                    % ~YSlv~XD2~vt       coupling.
+x126x3         |-lamDlRe3x2                                                                                                    % ~YSlv~XD2~vt       coupling.
+x126x4         |lamDlIm3x2                                                                                                     % ~YSlv~XD2~vt       coupling.
+x127x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD3~vt    coupling.
+x127x1         |-lamDlIm3x3                                                                                                    % ~YSlv~XD3~vt       coupling.
+x127x2         |-lamDlRe3x3                                                                                                    % ~YSlv~XD3~vt       coupling.
+x127x3         |lamDlIm3x3                                                                                                     % ~YSlv~XD3~vt       coupling.
+x127x4         |lamDlRe3x3                                                                                                     % ~YSlv~XD3~vt       coupling.
+x128x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlv~XD3~vt    coupling.
+x128x1         |lamDlRe3x3                                                                                                     % ~YSlv~XD3~vt       coupling.
+x128x2         |-lamDlIm3x3                                                                                                    % ~YSlv~XD3~vt       coupling.
+x128x3         |-lamDlRe3x3                                                                                                    % ~YSlv~XD3~vt       coupling.
+x128x4         |lamDlIm3x3                                                                                                     % ~YSlv~XD3~vt       coupling.
+x129x0         |0.5                                                                                                            % ~YSle~XD1~e-    coupling.
+x129x1         |lamDlRe1x1                                                                                                     % ~YSle~XD1~e-       coupling.
+x129x2         |-lamDlIm1x1                                                                                                    % ~YSle~XD1~e-       coupling.
+x129x3         |-lamDlRe1x1                                                                                                    % ~YSle~XD1~e-       coupling.
+x129x4         |lamDlIm1x1                                                                                                     % ~YSle~XD1~e-       coupling.
+x130x0         |0.5                                                                                                            % ~YSle~XD2~e-    coupling.
+x130x1         |lamDlRe1x2                                                                                                     % ~YSle~XD2~e-       coupling.
+x130x2         |-lamDlIm1x2                                                                                                    % ~YSle~XD2~e-       coupling.
+x130x3         |-lamDlRe1x2                                                                                                    % ~YSle~XD2~e-       coupling.
+x130x4         |lamDlIm1x2                                                                                                     % ~YSle~XD2~e-       coupling.
+x131x0         |0.5                                                                                                            % ~YSle~XD3~e-    coupling.
+x131x1         |lamDlRe1x3                                                                                                     % ~YSle~XD3~e-       coupling.
+x131x2         |-lamDlIm1x3                                                                                                    % ~YSle~XD3~e-       coupling.
+x131x3         |-lamDlRe1x3                                                                                                    % ~YSle~XD3~e-       coupling.
+x131x4         |lamDlIm1x3                                                                                                     % ~YSle~XD3~e-       coupling.
+x132x0         |0.5                                                                                                            % ~YSle~XD1~mu-   coupling.
+x132x1         |lamDlRe2x1                                                                                                     % ~YSle~XD1~mu-      coupling.
+x132x2         |-lamDlIm2x1                                                                                                    % ~YSle~XD1~mu-      coupling.
+x132x3         |-lamDlRe2x1                                                                                                    % ~YSle~XD1~mu-      coupling.
+x132x4         |lamDlIm2x1                                                                                                     % ~YSle~XD1~mu-      coupling.
+x133x0         |0.5                                                                                                            % ~YSle~XD2~mu-   coupling.
+x133x1         |lamDlRe2x2                                                                                                     % ~YSle~XD2~mu-      coupling.
+x133x2         |-lamDlIm2x2                                                                                                    % ~YSle~XD2~mu-      coupling.
+x133x3         |-lamDlRe2x2                                                                                                    % ~YSle~XD2~mu-      coupling.
+x133x4         |lamDlIm2x2                                                                                                     % ~YSle~XD2~mu-      coupling.
+x134x0         |0.5                                                                                                            % ~YSle~XD3~mu-   coupling.
+x134x1         |lamDlRe2x3                                                                                                     % ~YSle~XD3~mu-      coupling.
+x134x2         |-lamDlIm2x3                                                                                                    % ~YSle~XD3~mu-      coupling.
+x134x3         |-lamDlRe2x3                                                                                                    % ~YSle~XD3~mu-      coupling.
+x134x4         |lamDlIm2x3                                                                                                     % ~YSle~XD3~mu-      coupling.
+x135x0         |0.5                                                                                                            % ~YSle~XD1~ta-   coupling.
+x135x1         |lamDlRe3x1                                                                                                     % ~YSle~XD1~ta-      coupling.
+x135x2         |-lamDlIm3x1                                                                                                    % ~YSle~XD1~ta-      coupling.
+x135x3         |-lamDlRe3x1                                                                                                    % ~YSle~XD1~ta-      coupling.
+x135x4         |lamDlIm3x1                                                                                                     % ~YSle~XD1~ta-      coupling.
+x136x0         |0.5                                                                                                            % ~YSle~XD2~ta-   coupling.
+x136x1         |lamDlRe3x2                                                                                                     % ~YSle~XD2~ta-      coupling.
+x136x2         |-lamDlIm3x2                                                                                                    % ~YSle~XD2~ta-      coupling.
+x136x3         |-lamDlRe3x2                                                                                                    % ~YSle~XD2~ta-      coupling.
+x136x4         |lamDlIm3x2                                                                                                     % ~YSle~XD2~ta-      coupling.
+x137x0         |0.5                                                                                                            % ~YSle~XD3~ta-   coupling.
+x137x1         |lamDlRe3x3                                                                                                     % ~YSle~XD3~ta-      coupling.
+x137x2         |-lamDlIm3x3                                                                                                    % ~YSle~XD3~ta-      coupling.
+x137x3         |-lamDlRe3x3                                                                                                    % ~YSle~XD3~ta-      coupling.
+x137x4         |lamDlIm3x3                                                                                                     % ~YSle~XD3~ta-      coupling.
+x138x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~XD1  coupling.
+x138x1         |-lamDlIm1x1                                                                                                    % ~YSlvve~  ~XD1     coupling.
+x138x2         |lamDlRe1x1                                                                                                     % ~YSlvve~  ~XD1     coupling.
+x138x3         |-lamDlIm1x1                                                                                                    % ~YSlvve~  ~XD1     coupling.
+x138x4         |lamDlRe1x1                                                                                                     % ~YSlvve~  ~XD1     coupling.
+x139x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~XD1  coupling.
+x139x1         |lamDlRe1x1                                                                                                     % ~YSlvve~  ~XD1     coupling.
+x139x2         |lamDlIm1x1                                                                                                     % ~YSlvve~  ~XD1     coupling.
+x139x3         |lamDlRe1x1                                                                                                     % ~YSlvve~  ~XD1     coupling.
+x139x4         |lamDlIm1x1                                                                                                     % ~YSlvve~  ~XD1     coupling.
+x140x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~XD2  coupling.
+x140x1         |-lamDlIm1x2                                                                                                    % ~YSlvve~  ~XD2     coupling.
+x140x2         |lamDlRe1x2                                                                                                     % ~YSlvve~  ~XD2     coupling.
+x140x3         |-lamDlIm1x2                                                                                                    % ~YSlvve~  ~XD2     coupling.
+x140x4         |lamDlRe1x2                                                                                                     % ~YSlvve~  ~XD2     coupling.
+x141x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~XD2  coupling.
+x141x1         |lamDlRe1x2                                                                                                     % ~YSlvve~  ~XD2     coupling.
+x141x2         |lamDlIm1x2                                                                                                     % ~YSlvve~  ~XD2     coupling.
+x141x3         |lamDlRe1x2                                                                                                     % ~YSlvve~  ~XD2     coupling.
+x141x4         |lamDlIm1x2                                                                                                     % ~YSlvve~  ~XD2     coupling.
+x142x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~XD3  coupling.
+x142x1         |-lamDlIm1x3                                                                                                    % ~YSlvve~  ~XD3     coupling.
+x142x2         |lamDlRe1x3                                                                                                     % ~YSlvve~  ~XD3     coupling.
+x142x3         |-lamDlIm1x3                                                                                                    % ~YSlvve~  ~XD3     coupling.
+x142x4         |lamDlRe1x3                                                                                                     % ~YSlvve~  ~XD3     coupling.
+x143x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvve~  ~XD3  coupling.
+x143x1         |lamDlRe1x3                                                                                                     % ~YSlvve~  ~XD3     coupling.
+x143x2         |lamDlIm1x3                                                                                                     % ~YSlvve~  ~XD3     coupling.
+x143x3         |lamDlRe1x3                                                                                                     % ~YSlvve~  ~XD3     coupling.
+x143x4         |lamDlIm1x3                                                                                                     % ~YSlvve~  ~XD3     coupling.
+x144x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~XD1  coupling.
+x144x1         |-lamDlIm2x1                                                                                                    % ~YSlvvm~  ~XD1     coupling.
+x144x2         |lamDlRe2x1                                                                                                     % ~YSlvvm~  ~XD1     coupling.
+x144x3         |-lamDlIm2x1                                                                                                    % ~YSlvvm~  ~XD1     coupling.
+x144x4         |lamDlRe2x1                                                                                                     % ~YSlvvm~  ~XD1     coupling.
+x145x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~XD1  coupling.
+x145x1         |lamDlRe2x1                                                                                                     % ~YSlvvm~  ~XD1     coupling.
+x145x2         |lamDlIm2x1                                                                                                     % ~YSlvvm~  ~XD1     coupling.
+x145x3         |lamDlRe2x1                                                                                                     % ~YSlvvm~  ~XD1     coupling.
+x145x4         |lamDlIm2x1                                                                                                     % ~YSlvvm~  ~XD1     coupling.
+x146x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~XD2  coupling.
+x146x1         |-lamDlIm2x2                                                                                                    % ~YSlvvm~  ~XD2     coupling.
+x146x2         |lamDlRe2x2                                                                                                     % ~YSlvvm~  ~XD2     coupling.
+x146x3         |-lamDlIm2x2                                                                                                    % ~YSlvvm~  ~XD2     coupling.
+x146x4         |lamDlRe2x2                                                                                                     % ~YSlvvm~  ~XD2     coupling.
+x147x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~XD2  coupling.
+x147x1         |lamDlRe2x2                                                                                                     % ~YSlvvm~  ~XD2     coupling.
+x147x2         |lamDlIm2x2                                                                                                     % ~YSlvvm~  ~XD2     coupling.
+x147x3         |lamDlRe2x2                                                                                                     % ~YSlvvm~  ~XD2     coupling.
+x147x4         |lamDlIm2x2                                                                                                     % ~YSlvvm~  ~XD2     coupling.
+x148x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~XD3  coupling.
+x148x1         |-lamDlIm2x3                                                                                                    % ~YSlvvm~  ~XD3     coupling.
+x148x2         |lamDlRe2x3                                                                                                     % ~YSlvvm~  ~XD3     coupling.
+x148x3         |-lamDlIm2x3                                                                                                    % ~YSlvvm~  ~XD3     coupling.
+x148x4         |lamDlRe2x3                                                                                                     % ~YSlvvm~  ~XD3     coupling.
+x149x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvm~  ~XD3  coupling.
+x149x1         |lamDlRe2x3                                                                                                     % ~YSlvvm~  ~XD3     coupling.
+x149x2         |lamDlIm2x3                                                                                                     % ~YSlvvm~  ~XD3     coupling.
+x149x3         |lamDlRe2x3                                                                                                     % ~YSlvvm~  ~XD3     coupling.
+x149x4         |lamDlIm2x3                                                                                                     % ~YSlvvm~  ~XD3     coupling.
+x150x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~XD1  coupling.
+x150x1         |-lamDlIm3x1                                                                                                    % ~YSlvvt~  ~XD1     coupling.
+x150x2         |lamDlRe3x1                                                                                                     % ~YSlvvt~  ~XD1     coupling.
+x150x3         |-lamDlIm3x1                                                                                                    % ~YSlvvt~  ~XD1     coupling.
+x150x4         |lamDlRe3x1                                                                                                     % ~YSlvvt~  ~XD1     coupling.
+x151x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~XD1  coupling.
+x151x1         |lamDlRe3x1                                                                                                     % ~YSlvvt~  ~XD1     coupling.
+x151x2         |lamDlIm3x1                                                                                                     % ~YSlvvt~  ~XD1     coupling.
+x151x3         |lamDlRe3x1                                                                                                     % ~YSlvvt~  ~XD1     coupling.
+x151x4         |lamDlIm3x1                                                                                                     % ~YSlvvt~  ~XD1     coupling.
+x152x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~XD2  coupling.
+x152x1         |-lamDlIm3x2                                                                                                    % ~YSlvvt~  ~XD2     coupling.
+x152x2         |lamDlRe3x2                                                                                                     % ~YSlvvt~  ~XD2     coupling.
+x152x3         |-lamDlIm3x2                                                                                                    % ~YSlvvt~  ~XD2     coupling.
+x152x4         |lamDlRe3x2                                                                                                     % ~YSlvvt~  ~XD2     coupling.
+x153x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~XD2  coupling.
+x153x1         |lamDlRe3x2                                                                                                     % ~YSlvvt~  ~XD2     coupling.
+x153x2         |lamDlIm3x2                                                                                                     % ~YSlvvt~  ~XD2     coupling.
+x153x3         |lamDlRe3x2                                                                                                     % ~YSlvvt~  ~XD2     coupling.
+x153x4         |lamDlIm3x2                                                                                                     % ~YSlvvt~  ~XD2     coupling.
+x154x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~XD3  coupling.
+x154x1         |-lamDlIm3x3                                                                                                    % ~YSlvvt~  ~XD3     coupling.
+x154x2         |lamDlRe3x3                                                                                                     % ~YSlvvt~  ~XD3     coupling.
+x154x3         |-lamDlIm3x3                                                                                                    % ~YSlvvt~  ~XD3     coupling.
+x154x4         |lamDlRe3x3                                                                                                     % ~YSlvvt~  ~XD3     coupling.
+x155x0         |pow(2,-0.5)/2.                                                                                                 % ~YSlvvt~  ~XD3  coupling.
+x155x1         |lamDlRe3x3                                                                                                     % ~YSlvvt~  ~XD3     coupling.
+x155x2         |lamDlIm3x3                                                                                                     % ~YSlvvt~  ~XD3     coupling.
+x155x3         |lamDlRe3x3                                                                                                     % ~YSlvvt~  ~XD3     coupling.
+x155x4         |lamDlIm3x3                                                                                                     % ~YSlvvt~  ~XD3     coupling.
+x156x0         |0.5                                                                                                            % ~YSlee+   ~XD1  coupling.
+x156x1         |lamDlRe1x1                                                                                                     % ~YSlee+   ~XD1     coupling.
+x156x2         |lamDlIm1x1                                                                                                     % ~YSlee+   ~XD1     coupling.
+x156x3         |lamDlRe1x1                                                                                                     % ~YSlee+   ~XD1     coupling.
+x156x4         |lamDlIm1x1                                                                                                     % ~YSlee+   ~XD1     coupling.
+x157x0         |0.5                                                                                                            % ~YSlee+   ~XD2  coupling.
+x157x1         |lamDlRe1x2                                                                                                     % ~YSlee+   ~XD2     coupling.
+x157x2         |lamDlIm1x2                                                                                                     % ~YSlee+   ~XD2     coupling.
+x157x3         |lamDlRe1x2                                                                                                     % ~YSlee+   ~XD2     coupling.
+x157x4         |lamDlIm1x2                                                                                                     % ~YSlee+   ~XD2     coupling.
+x158x0         |0.5                                                                                                            % ~YSlee+   ~XD3  coupling.
+x158x1         |lamDlRe1x3                                                                                                     % ~YSlee+   ~XD3     coupling.
+x158x2         |lamDlIm1x3                                                                                                     % ~YSlee+   ~XD3     coupling.
+x158x3         |lamDlRe1x3                                                                                                     % ~YSlee+   ~XD3     coupling.
+x158x4         |lamDlIm1x3                                                                                                     % ~YSlee+   ~XD3     coupling.
+x159x0         |0.5                                                                                                            % ~YSlemu+  ~XD1  coupling.
+x159x1         |lamDlRe2x1                                                                                                     % ~YSlemu+  ~XD1     coupling.
+x159x2         |lamDlIm2x1                                                                                                     % ~YSlemu+  ~XD1     coupling.
+x159x3         |lamDlRe2x1                                                                                                     % ~YSlemu+  ~XD1     coupling.
+x159x4         |lamDlIm2x1                                                                                                     % ~YSlemu+  ~XD1     coupling.
+x160x0         |0.5                                                                                                            % ~YSlemu+  ~XD2  coupling.
+x160x1         |lamDlRe2x2                                                                                                     % ~YSlemu+  ~XD2     coupling.
+x160x2         |lamDlIm2x2                                                                                                     % ~YSlemu+  ~XD2     coupling.
+x160x3         |lamDlRe2x2                                                                                                     % ~YSlemu+  ~XD2     coupling.
+x160x4         |lamDlIm2x2                                                                                                     % ~YSlemu+  ~XD2     coupling.
+x161x0         |0.5                                                                                                            % ~YSlemu+  ~XD3  coupling.
+x161x1         |lamDlRe2x3                                                                                                     % ~YSlemu+  ~XD3     coupling.
+x161x2         |lamDlIm2x3                                                                                                     % ~YSlemu+  ~XD3     coupling.
+x161x3         |lamDlRe2x3                                                                                                     % ~YSlemu+  ~XD3     coupling.
+x161x4         |lamDlIm2x3                                                                                                     % ~YSlemu+  ~XD3     coupling.
+x162x0         |0.5                                                                                                            % ~YSleta+  ~XD1  coupling.
+x162x1         |lamDlRe3x1                                                                                                     % ~YSleta+  ~XD1     coupling.
+x162x2         |lamDlIm3x1                                                                                                     % ~YSleta+  ~XD1     coupling.
+x162x3         |lamDlRe3x1                                                                                                     % ~YSleta+  ~XD1     coupling.
+x162x4         |lamDlIm3x1                                                                                                     % ~YSleta+  ~XD1     coupling.
+x163x0         |0.5                                                                                                            % ~YSleta+  ~XD2  coupling.
+x163x1         |lamDlRe3x2                                                                                                     % ~YSleta+  ~XD2     coupling.
+x163x2         |lamDlIm3x2                                                                                                     % ~YSleta+  ~XD2     coupling.
+x163x3         |lamDlRe3x2                                                                                                     % ~YSleta+  ~XD2     coupling.
+x163x4         |lamDlIm3x2                                                                                                     % ~YSleta+  ~XD2     coupling.
+x164x0         |0.5                                                                                                            % ~YSleta+  ~XD3  coupling.
+x164x1         |lamDlRe3x3                                                                                                     % ~YSleta+  ~XD3     coupling.
+x164x2         |lamDlIm3x3                                                                                                     % ~YSleta+  ~XD3     coupling.
+x164x3         |lamDlRe3x3                                                                                                     % ~YSleta+  ~XD3     coupling.
+x164x4         |lamDlIm3x3                                                                                                     % ~YSleta+  ~XD3     coupling.
 x165x0         |-0.5*pow(sw,-1)                                                                                                % a    Z.f  W-.f W+    coupling.
 x166x0         |pow(sw,-1)/2.                                                                                                  % a    W-.f H    W+    coupling.
 x167x0         |(vev*pow(sw,-1))/2.                                                                                            % a    W-.f W+    coupling.

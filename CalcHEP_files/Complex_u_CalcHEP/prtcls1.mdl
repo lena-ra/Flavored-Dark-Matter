@@ -18,7 +18,7 @@ d-quark      |d          |d~         |1       |1     |MD             |0         
 s-quark      |s          |s~         |3       |1     |MS             |0              |3    |-1 |s         |s~            |
 b-quark      |b          |b~         |5       |1     |MB             |0              |3    |-1 |b         |b~            |
 H            |H          |H          |25      |0     |MH             |!WH            |1    |0  |H         |H             |
-Xc1          |~Xc1       |~Xc1~      |9000005 |0     |MXc1           |!wXc1          |1    |0  |~Xc1      |~Xc1~         |
-Xc2          |~Xc2       |~Xc2~      |9000006 |0     |MXc2           |!wXc2          |1    |0  |~Xc2      |~Xc2~         |
-Xc3          |~Xc3       |~Xc3~      |9000007 |0     |MXc3           |0              |1    |0  |~Xc3      |~Xc3~         |
+XC1          |~XC1       |~XC1~      |9000005 |0     |MXC1           |!wXC1          |1    |0  |~XC1      |~XC1~         |
+XC2          |~XC2       |~XC2~      |9000006 |0     |MXC2           |!wXC2          |1    |0  |~XC2      |~XC2~         |
+XC3          |~XC3       |~XC3~      |9000007 |0     |MXC3           |0              |1    |0  |~XC3      |~XC3~         |
 YFu          |~YFu       |~YFu~      |9000008 |1     |MYFu           |!WYFu          |3    |2  |~YFu      |~YFu~         |

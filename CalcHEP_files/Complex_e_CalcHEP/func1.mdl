@@ -16,37 +16,34 @@ Complex_e
 %yme           |if(slhaFound,if(slhaValExists("YUKAWA",1,11),slhaVal("YUKAWA",0,1,11),ymeDef),ymeDef)                          %Electron Yukawa mass                              
 %ymm           |if(slhaFound,if(slhaValExists("YUKAWA",1,13),slhaVal("YUKAWA",0,1,13),ymmDef),ymmDef)                          %Muon Yukawa mass                                  
 %ymtau         |if(slhaFound,if(slhaValExists("YUKAWA",1,15),slhaVal("YUKAWA",0,1,15),ymtauDef),ymtauDef)                      %Tau Yukawa mass                                   
-%RelFec11      |if(slhaFound,if(slhaValExists("FRBlock",1,1),slhaVal("FRBlock",0,1,1),RelFec11Def),RelFec11Def)                %RelFec11                                          
-%RelFec12      |if(slhaFound,if(slhaValExists("FRBlock",1,2),slhaVal("FRBlock",0,1,2),RelFec12Def),RelFec12Def)                %RelFec12                                          
-%RelFec13      |if(slhaFound,if(slhaValExists("FRBlock",1,3),slhaVal("FRBlock",0,1,3),RelFec13Def),RelFec13Def)                %RelFec13                                          
-%RelFec21      |if(slhaFound,if(slhaValExists("FRBlock",1,4),slhaVal("FRBlock",0,1,4),RelFec21Def),RelFec21Def)                %RelFec21                                          
-%RelFec22      |if(slhaFound,if(slhaValExists("FRBlock",1,5),slhaVal("FRBlock",0,1,5),RelFec22Def),RelFec22Def)                %RelFec22                                          
-%RelFec23      |if(slhaFound,if(slhaValExists("FRBlock",1,6),slhaVal("FRBlock",0,1,6),RelFec23Def),RelFec23Def)                %RelFec23                                          
-%RelFec31      |if(slhaFound,if(slhaValExists("FRBlock",1,7),slhaVal("FRBlock",0,1,7),RelFec31Def),RelFec31Def)                %RelFec31                                          
-%RelFec32      |if(slhaFound,if(slhaValExists("FRBlock",1,8),slhaVal("FRBlock",0,1,8),RelFec32Def),RelFec32Def)                %RelFec32                                          
-%RelFec33      |if(slhaFound,if(slhaValExists("FRBlock",1,9),slhaVal("FRBlock",0,1,9),RelFec33Def),RelFec33Def)                %RelFec33                                          
-%ImlFec11      |if(slhaFound,if(slhaValExists("FRBlock",1,10),slhaVal("FRBlock",0,1,10),ImlFec11Def),ImlFec11Def)              %ImlFec11                                          
-%ImlFec12      |if(slhaFound,if(slhaValExists("FRBlock",1,11),slhaVal("FRBlock",0,1,11),ImlFec12Def),ImlFec12Def)              %ImlFec12                                          
-%ImlFec13      |if(slhaFound,if(slhaValExists("FRBlock",1,12),slhaVal("FRBlock",0,1,12),ImlFec13Def),ImlFec13Def)              %ImlFec13                                          
-%ImlFec21      |if(slhaFound,if(slhaValExists("FRBlock",1,13),slhaVal("FRBlock",0,1,13),ImlFec21Def),ImlFec21Def)              %ImlFec21                                          
-%ImlFec22      |if(slhaFound,if(slhaValExists("FRBlock",1,14),slhaVal("FRBlock",0,1,14),ImlFec22Def),ImlFec22Def)              %ImlFec22                                          
-%ImlFec23      |if(slhaFound,if(slhaValExists("FRBlock",1,15),slhaVal("FRBlock",0,1,15),ImlFec23Def),ImlFec23Def)              %ImlFec23                                          
-%ImlFec31      |if(slhaFound,if(slhaValExists("FRBlock",1,16),slhaVal("FRBlock",0,1,16),ImlFec31Def),ImlFec31Def)              %ImlFec31                                          
-%ImlFec32      |if(slhaFound,if(slhaValExists("FRBlock",1,17),slhaVal("FRBlock",0,1,17),ImlFec32Def),ImlFec32Def)              %ImlFec32                                          
-%ImlFec33      |if(slhaFound,if(slhaValExists("FRBlock",1,18),slhaVal("FRBlock",0,1,18),ImlFec33Def),ImlFec33Def)              %ImlFec33                                          
-%RelHXc11      |if(slhaFound,if(slhaValExists("FRBlock",1,19),slhaVal("FRBlock",0,1,19),RelHXc11Def),RelHXc11Def)              %RelHXc11                                          
-%RelHXc12      |if(slhaFound,if(slhaValExists("FRBlock",1,20),slhaVal("FRBlock",0,1,20),RelHXc12Def),RelHXc12Def)              %RelHXc12                                          
-%RelHXc13      |if(slhaFound,if(slhaValExists("FRBlock",1,21),slhaVal("FRBlock",0,1,21),RelHXc13Def),RelHXc13Def)              %RelHXc13                                          
-%RelHXc22      |if(slhaFound,if(slhaValExists("FRBlock",1,22),slhaVal("FRBlock",0,1,22),RelHXc22Def),RelHXc22Def)              %RelHXc22                                          
-%RelHXc23      |if(slhaFound,if(slhaValExists("FRBlock",1,23),slhaVal("FRBlock",0,1,23),RelHXc23Def),RelHXc23Def)              %RelHXc23                                          
-%RelHXc33      |if(slhaFound,if(slhaValExists("FRBlock",1,24),slhaVal("FRBlock",0,1,24),RelHXc33Def),RelHXc33Def)              %RelHXc33                                          
-%ImlHXc12      |if(slhaFound,if(slhaValExists("FRBlock",1,25),slhaVal("FRBlock",0,1,25),ImlHXc12Def),ImlHXc12Def)              %ImlHXc12                                          
-%ImlHXc13      |if(slhaFound,if(slhaValExists("FRBlock",1,26),slhaVal("FRBlock",0,1,26),ImlHXc13Def),ImlHXc13Def)              %ImlHXc13                                          
-%ImlHXc23      |if(slhaFound,if(slhaValExists("FRBlock",1,27),slhaVal("FRBlock",0,1,27),ImlHXc23Def),ImlHXc23Def)              %ImlHXc23                                          
-%lam2Xc        |if(slhaFound,if(slhaValExists("FRBlock",1,28),slhaVal("FRBlock",0,1,28),lam2XcDef),lam2XcDef)                  %lam2Xc                                            
-%mXc1          |if(slhaFound,if(slhaValExists("FRBlock",1,29),slhaVal("FRBlock",0,1,29),mXc1Def),mXc1Def)                      %mXc1                                              
-%mXc2          |if(slhaFound,if(slhaValExists("FRBlock",1,30),slhaVal("FRBlock",0,1,30),mXc2Def),mXc2Def)                      %mXc2                                              
-%mXc3          |if(slhaFound,if(slhaValExists("FRBlock",1,31),slhaVal("FRBlock",0,1,31),mXc3Def),mXc3Def)                      %mXc3                                              
+%lamCeRe11     |if(slhaFound,if(slhaValExists("FRBlock",1,1),slhaVal("FRBlock",0,1,1),lamCeRe11Def),lamCeRe11Def)              %lamCeRe11                                         
+%lamCeRe12     |if(slhaFound,if(slhaValExists("FRBlock",1,2),slhaVal("FRBlock",0,1,2),lamCeRe12Def),lamCeRe12Def)              %lamCeRe12                                         
+%lamCeRe13     |if(slhaFound,if(slhaValExists("FRBlock",1,3),slhaVal("FRBlock",0,1,3),lamCeRe13Def),lamCeRe13Def)              %lamCeRe13                                         
+%lamCeRe21     |if(slhaFound,if(slhaValExists("FRBlock",1,4),slhaVal("FRBlock",0,1,4),lamCeRe21Def),lamCeRe21Def)              %lamCeRe21                                         
+%lamCeRe22     |if(slhaFound,if(slhaValExists("FRBlock",1,5),slhaVal("FRBlock",0,1,5),lamCeRe22Def),lamCeRe22Def)              %lamCeRe22                                         
+%lamCeRe23     |if(slhaFound,if(slhaValExists("FRBlock",1,6),slhaVal("FRBlock",0,1,6),lamCeRe23Def),lamCeRe23Def)              %lamCeRe23                                         
+%lamCeRe31     |if(slhaFound,if(slhaValExists("FRBlock",1,7),slhaVal("FRBlock",0,1,7),lamCeRe31Def),lamCeRe31Def)              %lamCeRe31                                         
+%lamCeRe32     |if(slhaFound,if(slhaValExists("FRBlock",1,8),slhaVal("FRBlock",0,1,8),lamCeRe32Def),lamCeRe32Def)              %lamCeRe32                                         
+%lamCeRe33     |if(slhaFound,if(slhaValExists("FRBlock",1,9),slhaVal("FRBlock",0,1,9),lamCeRe33Def),lamCeRe33Def)              %lamCeRe33                                         
+%lamCeIm11     |if(slhaFound,if(slhaValExists("FRBlock",1,10),slhaVal("FRBlock",0,1,10),lamCeIm11Def),lamCeIm11Def)            %lamCeIm11                                         
+%lamCeIm12     |if(slhaFound,if(slhaValExists("FRBlock",1,11),slhaVal("FRBlock",0,1,11),lamCeIm12Def),lamCeIm12Def)            %lamCeIm12                                         
+%lamCeIm13     |if(slhaFound,if(slhaValExists("FRBlock",1,12),slhaVal("FRBlock",0,1,12),lamCeIm13Def),lamCeIm13Def)            %lamCeIm13                                         
+%lamCeIm21     |if(slhaFound,if(slhaValExists("FRBlock",1,13),slhaVal("FRBlock",0,1,13),lamCeIm21Def),lamCeIm21Def)            %lamCeIm21                                         
+%lamCeIm22     |if(slhaFound,if(slhaValExists("FRBlock",1,14),slhaVal("FRBlock",0,1,14),lamCeIm22Def),lamCeIm22Def)            %lamCeIm22                                         
+%lamCeIm23     |if(slhaFound,if(slhaValExists("FRBlock",1,15),slhaVal("FRBlock",0,1,15),lamCeIm23Def),lamCeIm23Def)            %lamCeIm23                                         
+%lamCeIm31     |if(slhaFound,if(slhaValExists("FRBlock",1,16),slhaVal("FRBlock",0,1,16),lamCeIm31Def),lamCeIm31Def)            %lamCeIm31                                         
+%lamCeIm32     |if(slhaFound,if(slhaValExists("FRBlock",1,17),slhaVal("FRBlock",0,1,17),lamCeIm32Def),lamCeIm32Def)            %lamCeIm32                                         
+%lamCeIm33     |if(slhaFound,if(slhaValExists("FRBlock",1,18),slhaVal("FRBlock",0,1,18),lamCeIm33Def),lamCeIm33Def)            %lamCeIm33                                         
+%lamCHRe11     |if(slhaFound,if(slhaValExists("FRBlock",1,19),slhaVal("FRBlock",0,1,19),lamCHRe11Def),lamCHRe11Def)            %lamCHRe11                                         
+%lamCHRe12     |if(slhaFound,if(slhaValExists("FRBlock",1,20),slhaVal("FRBlock",0,1,20),lamCHRe12Def),lamCHRe12Def)            %lamCHRe12                                         
+%lamCHRe13     |if(slhaFound,if(slhaValExists("FRBlock",1,21),slhaVal("FRBlock",0,1,21),lamCHRe13Def),lamCHRe13Def)            %lamCHRe13                                         
+%lamCHRe22     |if(slhaFound,if(slhaValExists("FRBlock",1,22),slhaVal("FRBlock",0,1,22),lamCHRe22Def),lamCHRe22Def)            %lamCHRe22                                         
+%lamCHRe23     |if(slhaFound,if(slhaValExists("FRBlock",1,23),slhaVal("FRBlock",0,1,23),lamCHRe23Def),lamCHRe23Def)            %lamCHRe23                                         
+%lamCHRe33     |if(slhaFound,if(slhaValExists("FRBlock",1,24),slhaVal("FRBlock",0,1,24),lamCHRe33Def),lamCHRe33Def)            %lamCHRe33                                         
+%lamCHIm12     |if(slhaFound,if(slhaValExists("FRBlock",1,25),slhaVal("FRBlock",0,1,25),lamCHIm12Def),lamCHIm12Def)            %lamCHIm12                                         
+%lamCHIm13     |if(slhaFound,if(slhaValExists("FRBlock",1,26),slhaVal("FRBlock",0,1,26),lamCHIm13Def),lamCHIm13Def)            %lamCHIm13                                         
+%lamCHIm23     |if(slhaFound,if(slhaValExists("FRBlock",1,27),slhaVal("FRBlock",0,1,27),lamCHIm23Def),lamCHIm23Def)            %lamCHIm23                                         
+%lam2C         |if(slhaFound,if(slhaValExists("FRBlock",1,28),slhaVal("FRBlock",0,1,28),lam2CDef),lam2CDef)                    %lam2C                                             
 %MZ            |if(slhaFound,if(slhaValExists("MASS",1,23),slhaVal("MASS",0,1,23),MZDef),MZDef)                                %Mass of G0.                                       
 %Me            |if(slhaFound,if(slhaValExists("MASS",1,11),slhaVal("MASS",0,1,11),MeDef),MeDef)                                %Mass of e.                                        
 %MMU           |if(slhaFound,if(slhaValExists("MASS",1,13),slhaVal("MASS",0,1,13),MMUDef),MMUDef)                              %Mass of mu.                                       
@@ -58,13 +55,16 @@ Complex_e
 %MS            |if(slhaFound,if(slhaValExists("MASS",1,3),slhaVal("MASS",0,1,3),MSDef),MSDef)                                  %Mass of s.                                        
 %MB            |if(slhaFound,if(slhaValExists("MASS",1,5),slhaVal("MASS",0,1,5),MBDef),MBDef)                                  %Mass of b.                                        
 %MH            |if(slhaFound,if(slhaValExists("MASS",1,25),slhaVal("MASS",0,1,25),MHDef),MHDef)                                %Mass of H.                                        
+%MXC1          |if(slhaFound,if(slhaValExists("MASS",1,9000005),slhaVal("MASS",0,1,9000005),MXC1Def),MXC1Def)                  %Mass of XC1.                                      
+%MXC2          |if(slhaFound,if(slhaValExists("MASS",1,9000006),slhaVal("MASS",0,1,9000006),MXC2Def),MXC2Def)                  %Mass of XC2.                                      
+%MXC3          |if(slhaFound,if(slhaValExists("MASS",1,9000007),slhaVal("MASS",0,1,9000007),MXC3Def),MXC3Def)                  %Mass of XC3.                                      
 %MYFe          |if(slhaFound,if(slhaValExists("MASS",1,9000008),slhaVal("MASS",0,1,9000008),MYFeDef),MYFeDef)                  %Mass of yFe.                                      
 %WZ            |if(slhaFound,if(1+slhaDecayExists(23),slhaWidth(23),WZDef),WZDef)                                              %Width of G0.                                      
 %WW            |if(slhaFound,if(1+slhaDecayExists(24),slhaWidth(24),WWDef),WWDef)                                              %Width of GP.                                      
 %WT            |if(slhaFound,if(1+slhaDecayExists(6),slhaWidth(6),WTDef),WTDef)                                                %Width of t.                                       
 %WH            |if(slhaFound,if(1+slhaDecayExists(25),slhaWidth(25),WHDef),WHDef)                                              %Width of H.                                       
-%wXc1          |if(slhaFound,if(1+slhaDecayExists(9000005),slhaWidth(9000005),wXc1Def),wXc1Def)                                %Width of Xc1.                                     
-%wXc2          |if(slhaFound,if(1+slhaDecayExists(9000006),slhaWidth(9000006),wXc2Def),wXc2Def)                                %Width of Xc2.                                     
+%wXC1          |if(slhaFound,if(1+slhaDecayExists(9000005),slhaWidth(9000005),wXC1Def),wXC1Def)                                %Width of XC1.                                     
+%wXC2          |if(slhaFound,if(1+slhaDecayExists(9000006),slhaWidth(9000006),wXC2Def),wXC2Def)                                %Width of XC2.                                     
 %WYFe          |if(slhaFound,if(1+slhaDecayExists(9000008),slhaWidth(9000008),WYFeDef),WYFeDef)                                %Width of yFe.                                     
 aEW            |pow(aEWM1,-1)                                                                                                  % Electroweak coupling contant                      
 MW             |pow(pow(MZ,2)/2.+pow(-(aEW*Pi*pow(2,-0.5)*pow(Gf,-1)*pow(MZ,2))+pow(MZ,4)/4.,0.5),0.5)                         % W mass                                            
@@ -95,45 +95,42 @@ CKM2x3         |0                                                               
 CKM3x1         |0                                                                                                              % CKM-Matrix ( CKM3x1 )                             
 CKM3x2         |0                                                                                                              % CKM-Matrix ( CKM3x2 )                             
 CKM3x3         |1                                                                                                              % CKM-Matrix ( CKM3x3 )                             
-RelFec1x1      |RelFec11                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-RelFec1x2      |RelFec12                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-RelFec1x3      |RelFec13                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-RelFec2x1      |RelFec21                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-RelFec2x2      |RelFec22                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-RelFec2x3      |RelFec23                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-RelFec3x1      |RelFec31                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-RelFec3x2      |RelFec32                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-RelFec3x3      |RelFec33                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-ImlFec1x1      |ImlFec11                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-ImlFec1x2      |ImlFec12                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-ImlFec1x3      |ImlFec13                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-ImlFec2x1      |ImlFec21                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-ImlFec2x2      |ImlFec22                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-ImlFec2x3      |ImlFec23                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-ImlFec3x1      |ImlFec31                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-ImlFec3x2      |ImlFec32                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-ImlFec3x3      |ImlFec33                                                                                                       % Fermion mediator coupling complex scalar DM to rig
-RelHXc1x1      |RelHXc11                                                                                                       % Coupling complex scalar DM to Higgs ( RelHXc1x1 ) 
-RelHXc1x2      |RelHXc12                                                                                                       % Coupling complex scalar DM to Higgs ( RelHXc1x2 ) 
-RelHXc1x3      |RelHXc13                                                                                                       % Coupling complex scalar DM to Higgs ( RelHXc1x3 ) 
-RelHXc2x1      |RelHXc12                                                                                                       % Coupling complex scalar DM to Higgs ( RelHXc2x1 ) 
-RelHXc2x2      |RelHXc22                                                                                                       % Coupling complex scalar DM to Higgs ( RelHXc2x2 ) 
-RelHXc2x3      |RelHXc23                                                                                                       % Coupling complex scalar DM to Higgs ( RelHXc2x3 ) 
-RelHXc3x1      |RelHXc13                                                                                                       % Coupling complex scalar DM to Higgs ( RelHXc3x1 ) 
-RelHXc3x2      |RelHXc23                                                                                                       % Coupling complex scalar DM to Higgs ( RelHXc3x2 ) 
-RelHXc3x3      |RelHXc33                                                                                                       % Coupling complex scalar DM to Higgs ( RelHXc3x3 ) 
-ImlHXc1x1      |0                                                                                                              % Coupling complex scalar DM to Higgs ( ImlHXc1x1 ) 
-ImlHXc1x2      |ImlHXc12                                                                                                       % Coupling complex scalar DM to Higgs ( ImlHXc1x2 ) 
-ImlHXc1x3      |ImlHXc13                                                                                                       % Coupling complex scalar DM to Higgs ( ImlHXc1x3 ) 
-ImlHXc2x1      |-ImlHXc12                                                                                                      % Coupling complex scalar DM to Higgs ( ImlHXc2x1 ) 
-ImlHXc2x2      |0                                                                                                              % Coupling complex scalar DM to Higgs ( ImlHXc2x2 ) 
-ImlHXc2x3      |ImlHXc23                                                                                                       % Coupling complex scalar DM to Higgs ( ImlHXc2x3 ) 
-ImlHXc3x1      |-ImlHXc13                                                                                                      % Coupling complex scalar DM to Higgs ( ImlHXc3x1 ) 
-ImlHXc3x2      |-ImlHXc23                                                                                                      % Coupling complex scalar DM to Higgs ( ImlHXc3x2 ) 
-ImlHXc3x3      |0                                                                                                              % Coupling complex scalar DM to Higgs ( ImlHXc3x3 ) 
-MXc1           |pow(pow(mXc1,2)+(lamHXc1*pow(vev,2))/2.,0.5)                                                                   % MXc1                                              
-MXc2           |pow(pow(mXc2,2)+(lamHXc2*pow(vev,2))/2.,0.5)                                                                   % MXc2                                              
-MXc3           |pow(pow(mXc3,2)+(lamHXc3*pow(vev,2))/2.,0.5)                                                                   % MXc3                                              
+lamCeRe1x1     |lamCeRe11                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeRe1x2     |lamCeRe12                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeRe1x3     |lamCeRe13                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeRe2x1     |lamCeRe21                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeRe2x2     |lamCeRe22                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeRe2x3     |lamCeRe23                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeRe3x1     |lamCeRe31                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeRe3x2     |lamCeRe32                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeRe3x3     |lamCeRe33                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeIm1x1     |lamCeIm11                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeIm1x2     |lamCeIm12                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeIm1x3     |lamCeIm13                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeIm2x1     |lamCeIm21                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeIm2x2     |lamCeIm22                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeIm2x3     |lamCeIm23                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeIm3x1     |lamCeIm31                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeIm3x2     |lamCeIm32                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCeIm3x3     |lamCeIm33                                                                                                      % Fermion mediator coupling complex scalar DM to rig
+lamCHRe1x1     |lamCHRe11                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHRe1x1 )
+lamCHRe1x2     |lamCHRe12                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHRe1x2 )
+lamCHRe1x3     |lamCHRe13                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHRe1x3 )
+lamCHRe2x1     |lamCHRe12                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHRe2x1 )
+lamCHRe2x2     |lamCHRe22                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHRe2x2 )
+lamCHRe2x3     |lamCHRe23                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHRe2x3 )
+lamCHRe3x1     |lamCHRe13                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHRe3x1 )
+lamCHRe3x2     |lamCHRe23                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHRe3x2 )
+lamCHRe3x3     |lamCHRe33                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHRe3x3 )
+lamCHIm1x1     |0                                                                                                              % Coupling complex scalar DM to Higgs ( lamCHIm1x1 )
+lamCHIm1x2     |lamCHIm12                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHIm1x2 )
+lamCHIm1x3     |lamCHIm13                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHIm1x3 )
+lamCHIm2x1     |-lamCHIm12                                                                                                     % Coupling complex scalar DM to Higgs ( lamCHIm2x1 )
+lamCHIm2x2     |0                                                                                                              % Coupling complex scalar DM to Higgs ( lamCHIm2x2 )
+lamCHIm2x3     |lamCHIm23                                                                                                      % Coupling complex scalar DM to Higgs ( lamCHIm2x3 )
+lamCHIm3x1     |-lamCHIm13                                                                                                     % Coupling complex scalar DM to Higgs ( lamCHIm3x1 )
+lamCHIm3x2     |-lamCHIm23                                                                                                     % Coupling complex scalar DM to Higgs ( lamCHIm3x2 )
+lamCHIm3x3     |0                                                                                                              % Coupling complex scalar DM to Higgs ( lamCHIm3x3 )
 x1x0           |-6*lam                                                                                                         % Z.f  Z.f  Z.f  Z.f   coupling.
 x2x0           |-2*lam                                                                                                         % Z.f  Z.f  W+.f W-.f  coupling.
 x3x0           |-4*lam                                                                                                         % W+.f W+.f W-.f W-.f  coupling.
@@ -143,9 +140,9 @@ x6x0           |-6*lam                                                          
 x7x0           |-2*lam*vev                                                                                                     % Z.f  Z.f  H     coupling.
 x8x0           |-2*lam*vev                                                                                                     % W+.f W-.f H     coupling.
 x9x0           |-6*lam*vev                                                                                                     % H    H    H     coupling.
-x10x0          |4*lam2Xc                                                                                                       % ~Xc1 ~Xc1 ~Xc1~~Xc1~ coupling.
-x11x0          |4*lam2Xc                                                                                                       % ~Xc2 ~Xc2 ~Xc2~~Xc2~ coupling.
-x12x0          |4*lam2Xc                                                                                                       % ~Xc3 ~Xc3 ~Xc3~~Xc3~ coupling.
+x10x0          |4*lam2C                                                                                                        % ~XC1 ~XC1 ~XC1~~XC1~ coupling.
+x11x0          |4*lam2C                                                                                                        % ~XC2 ~XC2 ~XC2~~XC2~ coupling.
+x12x0          |4*lam2C                                                                                                        % ~XC3 ~XC3 ~XC3~~XC3~ coupling.
 x13x0          |2                                                                                                              % a    a    W+.f W-.f  coupling.
 x14x0          |-1                                                                                                             % a    W+.f W-.f  coupling.
 x15x0          |1                                                                                                              % a.C  W-.c W+    coupling.
@@ -175,114 +172,114 @@ x38x0          |1                                                               
 x39x0          |1                                                                                                              % g    g    g     coupling.
 x40x           |-pow(2,-0.5)                                                                                                   % g    g    g        coupling.
 x41x0          |-1                                                                                                             % a    ~YFe~~YFe  coupling.
-x42x0          |1                                                                                                              % Z.f  Z.f  ~Xc1 ~Xc1~ coupling.
-x42x1          |RelHXc1x1                                                                                                      
-x42x2          |ImlHXc1x1                                                                                                      
-x43x0          |1                                                                                                              % W+.f W-.f ~Xc1 ~Xc1~ coupling.
-x43x1          |RelHXc1x1                                                                                                      
-x43x2          |ImlHXc1x1                                                                                                      
-x44x0          |1                                                                                                              % H    H    ~Xc1 ~Xc1~ coupling.
-x44x1          |RelHXc1x1                                                                                                      
-x44x2          |ImlHXc1x1                                                                                                      
-x45x0          |vev                                                                                                            % H    ~Xc1 ~Xc1~ coupling.
-x45x1          |RelHXc1x1                                                                                                      
-x45x2          |ImlHXc1x1                                                                                                      
-x46x0          |1                                                                                                              % Z.f  Z.f  ~Xc1~~Xc2  coupling.
-x46x1          |RelHXc1x2                                                                                                      
-x46x2          |ImlHXc1x2                                                                                                      
-x47x0          |1                                                                                                              % W+.f W-.f ~Xc1~~Xc2  coupling.
-x47x1          |RelHXc1x2                                                                                                      
-x47x2          |ImlHXc1x2                                                                                                      
-x48x0          |1                                                                                                              % H    H    ~Xc1~~Xc2  coupling.
-x48x1          |RelHXc1x2                                                                                                      
-x48x2          |ImlHXc1x2                                                                                                      
-x49x0          |vev                                                                                                            % H    ~Xc1~~Xc2  coupling.
-x49x1          |RelHXc1x2                                                                                                      
-x49x2          |ImlHXc1x2                                                                                                      
-x50x0          |1                                                                                                              % Z.f  Z.f  ~Xc1~~Xc3  coupling.
-x50x1          |RelHXc1x3                                                                                                      
-x50x2          |ImlHXc1x3                                                                                                      
-x51x0          |1                                                                                                              % W+.f W-.f ~Xc1~~Xc3  coupling.
-x51x1          |RelHXc1x3                                                                                                      
-x51x2          |ImlHXc1x3                                                                                                      
-x52x0          |1                                                                                                              % H    H    ~Xc1~~Xc3  coupling.
-x52x1          |RelHXc1x3                                                                                                      
-x52x2          |ImlHXc1x3                                                                                                      
-x53x0          |vev                                                                                                            % H    ~Xc1~~Xc3  coupling.
-x53x1          |RelHXc1x3                                                                                                      
-x53x2          |ImlHXc1x3                                                                                                      
-x54x0          |1                                                                                                              % Z.f  Z.f  ~Xc1 ~Xc2~ coupling.
-x54x1          |RelHXc2x1                                                                                                      
-x54x2          |ImlHXc2x1                                                                                                      
-x55x0          |1                                                                                                              % W+.f W-.f ~Xc1 ~Xc2~ coupling.
-x55x1          |RelHXc2x1                                                                                                      
-x55x2          |ImlHXc2x1                                                                                                      
-x56x0          |1                                                                                                              % H    H    ~Xc1 ~Xc2~ coupling.
-x56x1          |RelHXc2x1                                                                                                      
-x56x2          |ImlHXc2x1                                                                                                      
-x57x0          |vev                                                                                                            % H    ~Xc1 ~Xc2~ coupling.
-x57x1          |RelHXc2x1                                                                                                      
-x57x2          |ImlHXc2x1                                                                                                      
-x58x0          |1                                                                                                              % Z.f  Z.f  ~Xc2 ~Xc2~ coupling.
-x58x1          |RelHXc2x2                                                                                                      
-x58x2          |ImlHXc2x2                                                                                                      
-x59x0          |1                                                                                                              % W+.f W-.f ~Xc2 ~Xc2~ coupling.
-x59x1          |RelHXc2x2                                                                                                      
-x59x2          |ImlHXc2x2                                                                                                      
-x60x0          |1                                                                                                              % H    H    ~Xc2 ~Xc2~ coupling.
-x60x1          |RelHXc2x2                                                                                                      
-x60x2          |ImlHXc2x2                                                                                                      
-x61x0          |vev                                                                                                            % H    ~Xc2 ~Xc2~ coupling.
-x61x1          |RelHXc2x2                                                                                                      
-x61x2          |ImlHXc2x2                                                                                                      
-x62x0          |1                                                                                                              % Z.f  Z.f  ~Xc2~~Xc3  coupling.
-x62x1          |RelHXc2x3                                                                                                      
-x62x2          |ImlHXc2x3                                                                                                      
-x63x0          |1                                                                                                              % W+.f W-.f ~Xc2~~Xc3  coupling.
-x63x1          |RelHXc2x3                                                                                                      
-x63x2          |ImlHXc2x3                                                                                                      
-x64x0          |1                                                                                                              % H    H    ~Xc2~~Xc3  coupling.
-x64x1          |RelHXc2x3                                                                                                      
-x64x2          |ImlHXc2x3                                                                                                      
-x65x0          |vev                                                                                                            % H    ~Xc2~~Xc3  coupling.
-x65x1          |RelHXc2x3                                                                                                      
-x65x2          |ImlHXc2x3                                                                                                      
-x66x0          |1                                                                                                              % Z.f  Z.f  ~Xc1 ~Xc3~ coupling.
-x66x1          |RelHXc3x1                                                                                                      
-x66x2          |ImlHXc3x1                                                                                                      
-x67x0          |1                                                                                                              % W+.f W-.f ~Xc1 ~Xc3~ coupling.
-x67x1          |RelHXc3x1                                                                                                      
-x67x2          |ImlHXc3x1                                                                                                      
-x68x0          |1                                                                                                              % H    H    ~Xc1 ~Xc3~ coupling.
-x68x1          |RelHXc3x1                                                                                                      
-x68x2          |ImlHXc3x1                                                                                                      
-x69x0          |vev                                                                                                            % H    ~Xc1 ~Xc3~ coupling.
-x69x1          |RelHXc3x1                                                                                                      
-x69x2          |ImlHXc3x1                                                                                                      
-x70x0          |1                                                                                                              % Z.f  Z.f  ~Xc2 ~Xc3~ coupling.
-x70x1          |RelHXc3x2                                                                                                      
-x70x2          |ImlHXc3x2                                                                                                      
-x71x0          |1                                                                                                              % W+.f W-.f ~Xc2 ~Xc3~ coupling.
-x71x1          |RelHXc3x2                                                                                                      
-x71x2          |ImlHXc3x2                                                                                                      
-x72x0          |1                                                                                                              % H    H    ~Xc2 ~Xc3~ coupling.
-x72x1          |RelHXc3x2                                                                                                      
-x72x2          |ImlHXc3x2                                                                                                      
-x73x0          |vev                                                                                                            % H    ~Xc2 ~Xc3~ coupling.
-x73x1          |RelHXc3x2                                                                                                      
-x73x2          |ImlHXc3x2                                                                                                      
-x74x0          |1                                                                                                              % Z.f  Z.f  ~Xc3 ~Xc3~ coupling.
-x74x1          |RelHXc3x3                                                                                                      
-x74x2          |ImlHXc3x3                                                                                                      
-x75x0          |1                                                                                                              % W+.f W-.f ~Xc3 ~Xc3~ coupling.
-x75x1          |RelHXc3x3                                                                                                      
-x75x2          |ImlHXc3x3                                                                                                      
-x76x0          |1                                                                                                              % H    H    ~Xc3 ~Xc3~ coupling.
-x76x1          |RelHXc3x3                                                                                                      
-x76x2          |ImlHXc3x3                                                                                                      
-x77x0          |vev                                                                                                            % H    ~Xc3 ~Xc3~ coupling.
-x77x1          |RelHXc3x3                                                                                                      
-x77x2          |ImlHXc3x3                                                                                                      
+x42x0          |1                                                                                                              % Z.f  Z.f  ~XC1 ~XC1~ coupling.
+x42x1          |lamCHRe1x1                                                                                                     
+x42x2          |lamCHIm1x1                                                                                                     
+x43x0          |1                                                                                                              % W+.f W-.f ~XC1 ~XC1~ coupling.
+x43x1          |lamCHRe1x1                                                                                                     
+x43x2          |lamCHIm1x1                                                                                                     
+x44x0          |1                                                                                                              % H    H    ~XC1 ~XC1~ coupling.
+x44x1          |lamCHRe1x1                                                                                                     
+x44x2          |lamCHIm1x1                                                                                                     
+x45x0          |vev                                                                                                            % H    ~XC1 ~XC1~ coupling.
+x45x1          |lamCHRe1x1                                                                                                     
+x45x2          |lamCHIm1x1                                                                                                     
+x46x0          |1                                                                                                              % Z.f  Z.f  ~XC1~~XC2  coupling.
+x46x1          |lamCHRe1x2                                                                                                     
+x46x2          |lamCHIm1x2                                                                                                     
+x47x0          |1                                                                                                              % W+.f W-.f ~XC1~~XC2  coupling.
+x47x1          |lamCHRe1x2                                                                                                     
+x47x2          |lamCHIm1x2                                                                                                     
+x48x0          |1                                                                                                              % H    H    ~XC1~~XC2  coupling.
+x48x1          |lamCHRe1x2                                                                                                     
+x48x2          |lamCHIm1x2                                                                                                     
+x49x0          |vev                                                                                                            % H    ~XC1~~XC2  coupling.
+x49x1          |lamCHRe1x2                                                                                                     
+x49x2          |lamCHIm1x2                                                                                                     
+x50x0          |1                                                                                                              % Z.f  Z.f  ~XC1~~XC3  coupling.
+x50x1          |lamCHRe1x3                                                                                                     
+x50x2          |lamCHIm1x3                                                                                                     
+x51x0          |1                                                                                                              % W+.f W-.f ~XC1~~XC3  coupling.
+x51x1          |lamCHRe1x3                                                                                                     
+x51x2          |lamCHIm1x3                                                                                                     
+x52x0          |1                                                                                                              % H    H    ~XC1~~XC3  coupling.
+x52x1          |lamCHRe1x3                                                                                                     
+x52x2          |lamCHIm1x3                                                                                                     
+x53x0          |vev                                                                                                            % H    ~XC1~~XC3  coupling.
+x53x1          |lamCHRe1x3                                                                                                     
+x53x2          |lamCHIm1x3                                                                                                     
+x54x0          |1                                                                                                              % Z.f  Z.f  ~XC1 ~XC2~ coupling.
+x54x1          |lamCHRe2x1                                                                                                     
+x54x2          |lamCHIm2x1                                                                                                     
+x55x0          |1                                                                                                              % W+.f W-.f ~XC1 ~XC2~ coupling.
+x55x1          |lamCHRe2x1                                                                                                     
+x55x2          |lamCHIm2x1                                                                                                     
+x56x0          |1                                                                                                              % H    H    ~XC1 ~XC2~ coupling.
+x56x1          |lamCHRe2x1                                                                                                     
+x56x2          |lamCHIm2x1                                                                                                     
+x57x0          |vev                                                                                                            % H    ~XC1 ~XC2~ coupling.
+x57x1          |lamCHRe2x1                                                                                                     
+x57x2          |lamCHIm2x1                                                                                                     
+x58x0          |1                                                                                                              % Z.f  Z.f  ~XC2 ~XC2~ coupling.
+x58x1          |lamCHRe2x2                                                                                                     
+x58x2          |lamCHIm2x2                                                                                                     
+x59x0          |1                                                                                                              % W+.f W-.f ~XC2 ~XC2~ coupling.
+x59x1          |lamCHRe2x2                                                                                                     
+x59x2          |lamCHIm2x2                                                                                                     
+x60x0          |1                                                                                                              % H    H    ~XC2 ~XC2~ coupling.
+x60x1          |lamCHRe2x2                                                                                                     
+x60x2          |lamCHIm2x2                                                                                                     
+x61x0          |vev                                                                                                            % H    ~XC2 ~XC2~ coupling.
+x61x1          |lamCHRe2x2                                                                                                     
+x61x2          |lamCHIm2x2                                                                                                     
+x62x0          |1                                                                                                              % Z.f  Z.f  ~XC2~~XC3  coupling.
+x62x1          |lamCHRe2x3                                                                                                     
+x62x2          |lamCHIm2x3                                                                                                     
+x63x0          |1                                                                                                              % W+.f W-.f ~XC2~~XC3  coupling.
+x63x1          |lamCHRe2x3                                                                                                     
+x63x2          |lamCHIm2x3                                                                                                     
+x64x0          |1                                                                                                              % H    H    ~XC2~~XC3  coupling.
+x64x1          |lamCHRe2x3                                                                                                     
+x64x2          |lamCHIm2x3                                                                                                     
+x65x0          |vev                                                                                                            % H    ~XC2~~XC3  coupling.
+x65x1          |lamCHRe2x3                                                                                                     
+x65x2          |lamCHIm2x3                                                                                                     
+x66x0          |1                                                                                                              % Z.f  Z.f  ~XC1 ~XC3~ coupling.
+x66x1          |lamCHRe3x1                                                                                                     
+x66x2          |lamCHIm3x1                                                                                                     
+x67x0          |1                                                                                                              % W+.f W-.f ~XC1 ~XC3~ coupling.
+x67x1          |lamCHRe3x1                                                                                                     
+x67x2          |lamCHIm3x1                                                                                                     
+x68x0          |1                                                                                                              % H    H    ~XC1 ~XC3~ coupling.
+x68x1          |lamCHRe3x1                                                                                                     
+x68x2          |lamCHIm3x1                                                                                                     
+x69x0          |vev                                                                                                            % H    ~XC1 ~XC3~ coupling.
+x69x1          |lamCHRe3x1                                                                                                     
+x69x2          |lamCHIm3x1                                                                                                     
+x70x0          |1                                                                                                              % Z.f  Z.f  ~XC2 ~XC3~ coupling.
+x70x1          |lamCHRe3x2                                                                                                     
+x70x2          |lamCHIm3x2                                                                                                     
+x71x0          |1                                                                                                              % W+.f W-.f ~XC2 ~XC3~ coupling.
+x71x1          |lamCHRe3x2                                                                                                     
+x71x2          |lamCHIm3x2                                                                                                     
+x72x0          |1                                                                                                              % H    H    ~XC2 ~XC3~ coupling.
+x72x1          |lamCHRe3x2                                                                                                     
+x72x2          |lamCHIm3x2                                                                                                     
+x73x0          |vev                                                                                                            % H    ~XC2 ~XC3~ coupling.
+x73x1          |lamCHRe3x2                                                                                                     
+x73x2          |lamCHIm3x2                                                                                                     
+x74x0          |1                                                                                                              % Z.f  Z.f  ~XC3 ~XC3~ coupling.
+x74x1          |lamCHRe3x3                                                                                                     
+x74x2          |lamCHIm3x3                                                                                                     
+x75x0          |1                                                                                                              % W+.f W-.f ~XC3 ~XC3~ coupling.
+x75x1          |lamCHRe3x3                                                                                                     
+x75x2          |lamCHIm3x3                                                                                                     
+x76x0          |1                                                                                                              % H    H    ~XC3 ~XC3~ coupling.
+x76x1          |lamCHRe3x3                                                                                                     
+x76x2          |lamCHIm3x3                                                                                                     
+x77x0          |vev                                                                                                            % H    ~XC3 ~XC3~ coupling.
+x77x1          |lamCHRe3x3                                                                                                     
+x77x2          |lamCHIm3x3                                                                                                     
 x78x0          |CKM2x3/2.                                                                                                      % W-.f b~   c     coupling.
 x78x1          |-yb+yc                                                                                                         % W-.f b~   c        coupling.
 x78x2          |yb+yc                                                                                                          % W-.f b~   c        coupling.
@@ -358,96 +355,96 @@ x113x0         |yup*pow(2,-0.5)                                                 
 x114x0         |-(yc*pow(2,-0.5))                                                                                              % H    c~   c     coupling.
 x115x0         |-(yt*pow(2,-0.5))                                                                                              % H    t~   t     coupling.
 x116x0         |-(yup*pow(2,-0.5))                                                                                             % H    u~   u     coupling.
-x117x0         |-0.5                                                                                                           % ~Xc1 e+   ~YFe  coupling.
-x117x1         |-RelFec1x1                                                                                                     % ~Xc1 e+   ~YFe     coupling.
-x117x2         |-ImlFec1x1                                                                                                     % ~Xc1 e+   ~YFe     coupling.
-x117x3         |RelFec1x1                                                                                                      % ~Xc1 e+   ~YFe     coupling.
-x117x4         |ImlFec1x1                                                                                                      % ~Xc1 e+   ~YFe     coupling.
-x118x0         |-0.5                                                                                                           % ~Xc2 e+   ~YFe  coupling.
-x118x1         |-RelFec1x2                                                                                                     % ~Xc2 e+   ~YFe     coupling.
-x118x2         |-ImlFec1x2                                                                                                     % ~Xc2 e+   ~YFe     coupling.
-x118x3         |RelFec1x2                                                                                                      % ~Xc2 e+   ~YFe     coupling.
-x118x4         |ImlFec1x2                                                                                                      % ~Xc2 e+   ~YFe     coupling.
-x119x0         |-0.5                                                                                                           % ~Xc3 e+   ~YFe  coupling.
-x119x1         |-RelFec1x3                                                                                                     % ~Xc3 e+   ~YFe     coupling.
-x119x2         |-ImlFec1x3                                                                                                     % ~Xc3 e+   ~YFe     coupling.
-x119x3         |RelFec1x3                                                                                                      % ~Xc3 e+   ~YFe     coupling.
-x119x4         |ImlFec1x3                                                                                                      % ~Xc3 e+   ~YFe     coupling.
-x120x0         |-0.5                                                                                                           % ~Xc1 mu+  ~YFe  coupling.
-x120x1         |-RelFec2x1                                                                                                     % ~Xc1 mu+  ~YFe     coupling.
-x120x2         |-ImlFec2x1                                                                                                     % ~Xc1 mu+  ~YFe     coupling.
-x120x3         |RelFec2x1                                                                                                      % ~Xc1 mu+  ~YFe     coupling.
-x120x4         |ImlFec2x1                                                                                                      % ~Xc1 mu+  ~YFe     coupling.
-x121x0         |-0.5                                                                                                           % ~Xc2 mu+  ~YFe  coupling.
-x121x1         |-RelFec2x2                                                                                                     % ~Xc2 mu+  ~YFe     coupling.
-x121x2         |-ImlFec2x2                                                                                                     % ~Xc2 mu+  ~YFe     coupling.
-x121x3         |RelFec2x2                                                                                                      % ~Xc2 mu+  ~YFe     coupling.
-x121x4         |ImlFec2x2                                                                                                      % ~Xc2 mu+  ~YFe     coupling.
-x122x0         |-0.5                                                                                                           % ~Xc3 mu+  ~YFe  coupling.
-x122x1         |-RelFec2x3                                                                                                     % ~Xc3 mu+  ~YFe     coupling.
-x122x2         |-ImlFec2x3                                                                                                     % ~Xc3 mu+  ~YFe     coupling.
-x122x3         |RelFec2x3                                                                                                      % ~Xc3 mu+  ~YFe     coupling.
-x122x4         |ImlFec2x3                                                                                                      % ~Xc3 mu+  ~YFe     coupling.
-x123x0         |-0.5                                                                                                           % ~Xc1 ta+  ~YFe  coupling.
-x123x1         |-RelFec3x1                                                                                                     % ~Xc1 ta+  ~YFe     coupling.
-x123x2         |-ImlFec3x1                                                                                                     % ~Xc1 ta+  ~YFe     coupling.
-x123x3         |RelFec3x1                                                                                                      % ~Xc1 ta+  ~YFe     coupling.
-x123x4         |ImlFec3x1                                                                                                      % ~Xc1 ta+  ~YFe     coupling.
-x124x0         |-0.5                                                                                                           % ~Xc2 ta+  ~YFe  coupling.
-x124x1         |-RelFec3x2                                                                                                     % ~Xc2 ta+  ~YFe     coupling.
-x124x2         |-ImlFec3x2                                                                                                     % ~Xc2 ta+  ~YFe     coupling.
-x124x3         |RelFec3x2                                                                                                      % ~Xc2 ta+  ~YFe     coupling.
-x124x4         |ImlFec3x2                                                                                                      % ~Xc2 ta+  ~YFe     coupling.
-x125x0         |-0.5                                                                                                           % ~Xc3 ta+  ~YFe  coupling.
-x125x1         |-RelFec3x3                                                                                                     % ~Xc3 ta+  ~YFe     coupling.
-x125x2         |-ImlFec3x3                                                                                                     % ~Xc3 ta+  ~YFe     coupling.
-x125x3         |RelFec3x3                                                                                                      % ~Xc3 ta+  ~YFe     coupling.
-x125x4         |ImlFec3x3                                                                                                      % ~Xc3 ta+  ~YFe     coupling.
-x126x0         |-0.5                                                                                                           % ~Xc1~~YFe~e-    coupling.
-x126x1         |-RelFec1x1                                                                                                     % ~Xc1~~YFe~e-       coupling.
-x126x2         |ImlFec1x1                                                                                                      % ~Xc1~~YFe~e-       coupling.
-x126x3         |-RelFec1x1                                                                                                     % ~Xc1~~YFe~e-       coupling.
-x126x4         |ImlFec1x1                                                                                                      % ~Xc1~~YFe~e-       coupling.
-x127x0         |-0.5                                                                                                           % ~Xc2~~YFe~e-    coupling.
-x127x1         |-RelFec1x2                                                                                                     % ~Xc2~~YFe~e-       coupling.
-x127x2         |ImlFec1x2                                                                                                      % ~Xc2~~YFe~e-       coupling.
-x127x3         |-RelFec1x2                                                                                                     % ~Xc2~~YFe~e-       coupling.
-x127x4         |ImlFec1x2                                                                                                      % ~Xc2~~YFe~e-       coupling.
-x128x0         |-0.5                                                                                                           % ~Xc3~~YFe~e-    coupling.
-x128x1         |-RelFec1x3                                                                                                     % ~Xc3~~YFe~e-       coupling.
-x128x2         |ImlFec1x3                                                                                                      % ~Xc3~~YFe~e-       coupling.
-x128x3         |-RelFec1x3                                                                                                     % ~Xc3~~YFe~e-       coupling.
-x128x4         |ImlFec1x3                                                                                                      % ~Xc3~~YFe~e-       coupling.
-x129x0         |-0.5                                                                                                           % ~Xc1~~YFe~mu-   coupling.
-x129x1         |-RelFec2x1                                                                                                     % ~Xc1~~YFe~mu-      coupling.
-x129x2         |ImlFec2x1                                                                                                      % ~Xc1~~YFe~mu-      coupling.
-x129x3         |-RelFec2x1                                                                                                     % ~Xc1~~YFe~mu-      coupling.
-x129x4         |ImlFec2x1                                                                                                      % ~Xc1~~YFe~mu-      coupling.
-x130x0         |-0.5                                                                                                           % ~Xc2~~YFe~mu-   coupling.
-x130x1         |-RelFec2x2                                                                                                     % ~Xc2~~YFe~mu-      coupling.
-x130x2         |ImlFec2x2                                                                                                      % ~Xc2~~YFe~mu-      coupling.
-x130x3         |-RelFec2x2                                                                                                     % ~Xc2~~YFe~mu-      coupling.
-x130x4         |ImlFec2x2                                                                                                      % ~Xc2~~YFe~mu-      coupling.
-x131x0         |-0.5                                                                                                           % ~Xc3~~YFe~mu-   coupling.
-x131x1         |-RelFec2x3                                                                                                     % ~Xc3~~YFe~mu-      coupling.
-x131x2         |ImlFec2x3                                                                                                      % ~Xc3~~YFe~mu-      coupling.
-x131x3         |-RelFec2x3                                                                                                     % ~Xc3~~YFe~mu-      coupling.
-x131x4         |ImlFec2x3                                                                                                      % ~Xc3~~YFe~mu-      coupling.
-x132x0         |-0.5                                                                                                           % ~Xc1~~YFe~ta-   coupling.
-x132x1         |-RelFec3x1                                                                                                     % ~Xc1~~YFe~ta-      coupling.
-x132x2         |ImlFec3x1                                                                                                      % ~Xc1~~YFe~ta-      coupling.
-x132x3         |-RelFec3x1                                                                                                     % ~Xc1~~YFe~ta-      coupling.
-x132x4         |ImlFec3x1                                                                                                      % ~Xc1~~YFe~ta-      coupling.
-x133x0         |-0.5                                                                                                           % ~Xc2~~YFe~ta-   coupling.
-x133x1         |-RelFec3x2                                                                                                     % ~Xc2~~YFe~ta-      coupling.
-x133x2         |ImlFec3x2                                                                                                      % ~Xc2~~YFe~ta-      coupling.
-x133x3         |-RelFec3x2                                                                                                     % ~Xc2~~YFe~ta-      coupling.
-x133x4         |ImlFec3x2                                                                                                      % ~Xc2~~YFe~ta-      coupling.
-x134x0         |-0.5                                                                                                           % ~Xc3~~YFe~ta-   coupling.
-x134x1         |-RelFec3x3                                                                                                     % ~Xc3~~YFe~ta-      coupling.
-x134x2         |ImlFec3x3                                                                                                      % ~Xc3~~YFe~ta-      coupling.
-x134x3         |-RelFec3x3                                                                                                     % ~Xc3~~YFe~ta-      coupling.
-x134x4         |ImlFec3x3                                                                                                      % ~Xc3~~YFe~ta-      coupling.
+x117x0         |-0.5                                                                                                           % ~XC1 e+   ~YFe  coupling.
+x117x1         |-lamCeRe1x1                                                                                                    % ~XC1 e+   ~YFe     coupling.
+x117x2         |-lamCeIm1x1                                                                                                    % ~XC1 e+   ~YFe     coupling.
+x117x3         |lamCeRe1x1                                                                                                     % ~XC1 e+   ~YFe     coupling.
+x117x4         |lamCeIm1x1                                                                                                     % ~XC1 e+   ~YFe     coupling.
+x118x0         |-0.5                                                                                                           % ~XC2 e+   ~YFe  coupling.
+x118x1         |-lamCeRe1x2                                                                                                    % ~XC2 e+   ~YFe     coupling.
+x118x2         |-lamCeIm1x2                                                                                                    % ~XC2 e+   ~YFe     coupling.
+x118x3         |lamCeRe1x2                                                                                                     % ~XC2 e+   ~YFe     coupling.
+x118x4         |lamCeIm1x2                                                                                                     % ~XC2 e+   ~YFe     coupling.
+x119x0         |-0.5                                                                                                           % ~XC3 e+   ~YFe  coupling.
+x119x1         |-lamCeRe1x3                                                                                                    % ~XC3 e+   ~YFe     coupling.
+x119x2         |-lamCeIm1x3                                                                                                    % ~XC3 e+   ~YFe     coupling.
+x119x3         |lamCeRe1x3                                                                                                     % ~XC3 e+   ~YFe     coupling.
+x119x4         |lamCeIm1x3                                                                                                     % ~XC3 e+   ~YFe     coupling.
+x120x0         |-0.5                                                                                                           % ~XC1 mu+  ~YFe  coupling.
+x120x1         |-lamCeRe2x1                                                                                                    % ~XC1 mu+  ~YFe     coupling.
+x120x2         |-lamCeIm2x1                                                                                                    % ~XC1 mu+  ~YFe     coupling.
+x120x3         |lamCeRe2x1                                                                                                     % ~XC1 mu+  ~YFe     coupling.
+x120x4         |lamCeIm2x1                                                                                                     % ~XC1 mu+  ~YFe     coupling.
+x121x0         |-0.5                                                                                                           % ~XC2 mu+  ~YFe  coupling.
+x121x1         |-lamCeRe2x2                                                                                                    % ~XC2 mu+  ~YFe     coupling.
+x121x2         |-lamCeIm2x2                                                                                                    % ~XC2 mu+  ~YFe     coupling.
+x121x3         |lamCeRe2x2                                                                                                     % ~XC2 mu+  ~YFe     coupling.
+x121x4         |lamCeIm2x2                                                                                                     % ~XC2 mu+  ~YFe     coupling.
+x122x0         |-0.5                                                                                                           % ~XC3 mu+  ~YFe  coupling.
+x122x1         |-lamCeRe2x3                                                                                                    % ~XC3 mu+  ~YFe     coupling.
+x122x2         |-lamCeIm2x3                                                                                                    % ~XC3 mu+  ~YFe     coupling.
+x122x3         |lamCeRe2x3                                                                                                     % ~XC3 mu+  ~YFe     coupling.
+x122x4         |lamCeIm2x3                                                                                                     % ~XC3 mu+  ~YFe     coupling.
+x123x0         |-0.5                                                                                                           % ~XC1 ta+  ~YFe  coupling.
+x123x1         |-lamCeRe3x1                                                                                                    % ~XC1 ta+  ~YFe     coupling.
+x123x2         |-lamCeIm3x1                                                                                                    % ~XC1 ta+  ~YFe     coupling.
+x123x3         |lamCeRe3x1                                                                                                     % ~XC1 ta+  ~YFe     coupling.
+x123x4         |lamCeIm3x1                                                                                                     % ~XC1 ta+  ~YFe     coupling.
+x124x0         |-0.5                                                                                                           % ~XC2 ta+  ~YFe  coupling.
+x124x1         |-lamCeRe3x2                                                                                                    % ~XC2 ta+  ~YFe     coupling.
+x124x2         |-lamCeIm3x2                                                                                                    % ~XC2 ta+  ~YFe     coupling.
+x124x3         |lamCeRe3x2                                                                                                     % ~XC2 ta+  ~YFe     coupling.
+x124x4         |lamCeIm3x2                                                                                                     % ~XC2 ta+  ~YFe     coupling.
+x125x0         |-0.5                                                                                                           % ~XC3 ta+  ~YFe  coupling.
+x125x1         |-lamCeRe3x3                                                                                                    % ~XC3 ta+  ~YFe     coupling.
+x125x2         |-lamCeIm3x3                                                                                                    % ~XC3 ta+  ~YFe     coupling.
+x125x3         |lamCeRe3x3                                                                                                     % ~XC3 ta+  ~YFe     coupling.
+x125x4         |lamCeIm3x3                                                                                                     % ~XC3 ta+  ~YFe     coupling.
+x126x0         |-0.5                                                                                                           % ~XC1~~YFe~e-    coupling.
+x126x1         |-lamCeRe1x1                                                                                                    % ~XC1~~YFe~e-       coupling.
+x126x2         |lamCeIm1x1                                                                                                     % ~XC1~~YFe~e-       coupling.
+x126x3         |-lamCeRe1x1                                                                                                    % ~XC1~~YFe~e-       coupling.
+x126x4         |lamCeIm1x1                                                                                                     % ~XC1~~YFe~e-       coupling.
+x127x0         |-0.5                                                                                                           % ~XC2~~YFe~e-    coupling.
+x127x1         |-lamCeRe1x2                                                                                                    % ~XC2~~YFe~e-       coupling.
+x127x2         |lamCeIm1x2                                                                                                     % ~XC2~~YFe~e-       coupling.
+x127x3         |-lamCeRe1x2                                                                                                    % ~XC2~~YFe~e-       coupling.
+x127x4         |lamCeIm1x2                                                                                                     % ~XC2~~YFe~e-       coupling.
+x128x0         |-0.5                                                                                                           % ~XC3~~YFe~e-    coupling.
+x128x1         |-lamCeRe1x3                                                                                                    % ~XC3~~YFe~e-       coupling.
+x128x2         |lamCeIm1x3                                                                                                     % ~XC3~~YFe~e-       coupling.
+x128x3         |-lamCeRe1x3                                                                                                    % ~XC3~~YFe~e-       coupling.
+x128x4         |lamCeIm1x3                                                                                                     % ~XC3~~YFe~e-       coupling.
+x129x0         |-0.5                                                                                                           % ~XC1~~YFe~mu-   coupling.
+x129x1         |-lamCeRe2x1                                                                                                    % ~XC1~~YFe~mu-      coupling.
+x129x2         |lamCeIm2x1                                                                                                     % ~XC1~~YFe~mu-      coupling.
+x129x3         |-lamCeRe2x1                                                                                                    % ~XC1~~YFe~mu-      coupling.
+x129x4         |lamCeIm2x1                                                                                                     % ~XC1~~YFe~mu-      coupling.
+x130x0         |-0.5                                                                                                           % ~XC2~~YFe~mu-   coupling.
+x130x1         |-lamCeRe2x2                                                                                                    % ~XC2~~YFe~mu-      coupling.
+x130x2         |lamCeIm2x2                                                                                                     % ~XC2~~YFe~mu-      coupling.
+x130x3         |-lamCeRe2x2                                                                                                    % ~XC2~~YFe~mu-      coupling.
+x130x4         |lamCeIm2x2                                                                                                     % ~XC2~~YFe~mu-      coupling.
+x131x0         |-0.5                                                                                                           % ~XC3~~YFe~mu-   coupling.
+x131x1         |-lamCeRe2x3                                                                                                    % ~XC3~~YFe~mu-      coupling.
+x131x2         |lamCeIm2x3                                                                                                     % ~XC3~~YFe~mu-      coupling.
+x131x3         |-lamCeRe2x3                                                                                                    % ~XC3~~YFe~mu-      coupling.
+x131x4         |lamCeIm2x3                                                                                                     % ~XC3~~YFe~mu-      coupling.
+x132x0         |-0.5                                                                                                           % ~XC1~~YFe~ta-   coupling.
+x132x1         |-lamCeRe3x1                                                                                                    % ~XC1~~YFe~ta-      coupling.
+x132x2         |lamCeIm3x1                                                                                                     % ~XC1~~YFe~ta-      coupling.
+x132x3         |-lamCeRe3x1                                                                                                    % ~XC1~~YFe~ta-      coupling.
+x132x4         |lamCeIm3x1                                                                                                     % ~XC1~~YFe~ta-      coupling.
+x133x0         |-0.5                                                                                                           % ~XC2~~YFe~ta-   coupling.
+x133x1         |-lamCeRe3x2                                                                                                    % ~XC2~~YFe~ta-      coupling.
+x133x2         |lamCeIm3x2                                                                                                     % ~XC2~~YFe~ta-      coupling.
+x133x3         |-lamCeRe3x2                                                                                                    % ~XC2~~YFe~ta-      coupling.
+x133x4         |lamCeIm3x2                                                                                                     % ~XC2~~YFe~ta-      coupling.
+x134x0         |-0.5                                                                                                           % ~XC3~~YFe~ta-   coupling.
+x134x1         |-lamCeRe3x3                                                                                                    % ~XC3~~YFe~ta-      coupling.
+x134x2         |lamCeIm3x3                                                                                                     % ~XC3~~YFe~ta-      coupling.
+x134x3         |-lamCeRe3x3                                                                                                    % ~XC3~~YFe~ta-      coupling.
+x134x4         |lamCeIm3x3                                                                                                     % ~XC3~~YFe~ta-      coupling.
 x135x0         |-0.5*pow(sw,-1)                                                                                                % a    Z.f  W-.f W+    coupling.
 x136x0         |pow(sw,-1)/2.                                                                                                  % a    W-.f H    W+    coupling.
 x137x0         |(vev*pow(sw,-1))/2.                                                                                            % a    W-.f W+    coupling.

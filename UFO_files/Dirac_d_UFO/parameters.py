@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.49
 # Mathematica version: 13.0.0 for Mac OS X ARM (64-bit) (December 3, 2021)
-# Date: Thu 6 Mar 2025 15:27:47
+# Date: Fri 14 Mar 2025 17:30:53
 
 
 
@@ -121,173 +121,165 @@ ymtau = Parameter(name = 'ymtau',
                   lhablock = 'YUKAWA',
                   lhacode = [ 15 ])
 
-RelSdd11 = Parameter(name = 'RelSdd11',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{RelSdd11}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 1 ])
+lamDdRe11 = Parameter(name = 'lamDdRe11',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdRe11}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 1 ])
 
-RelSdd12 = Parameter(name = 'RelSdd12',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{RelSdd12}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 2 ])
+lamDdRe12 = Parameter(name = 'lamDdRe12',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdRe12}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 2 ])
 
-RelSdd13 = Parameter(name = 'RelSdd13',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{RelSdd13}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 3 ])
+lamDdRe13 = Parameter(name = 'lamDdRe13',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdRe13}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 3 ])
 
-RelSdd21 = Parameter(name = 'RelSdd21',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{RelSdd21}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 4 ])
+lamDdRe21 = Parameter(name = 'lamDdRe21',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdRe21}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 4 ])
 
-RelSdd22 = Parameter(name = 'RelSdd22',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{RelSdd22}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 5 ])
+lamDdRe22 = Parameter(name = 'lamDdRe22',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdRe22}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 5 ])
 
-RelSdd23 = Parameter(name = 'RelSdd23',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{RelSdd23}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 6 ])
+lamDdRe23 = Parameter(name = 'lamDdRe23',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdRe23}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 6 ])
 
-RelSdd31 = Parameter(name = 'RelSdd31',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{RelSdd31}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 7 ])
+lamDdRe31 = Parameter(name = 'lamDdRe31',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdRe31}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 7 ])
 
-RelSdd32 = Parameter(name = 'RelSdd32',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{RelSdd32}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 8 ])
+lamDdRe32 = Parameter(name = 'lamDdRe32',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdRe32}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 8 ])
 
-RelSdd33 = Parameter(name = 'RelSdd33',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{RelSdd33}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 9 ])
+lamDdRe33 = Parameter(name = 'lamDdRe33',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdRe33}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 9 ])
 
-ImlSdd11 = Parameter(name = 'ImlSdd11',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{ImlSdd11}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 10 ])
+lamDdIm11 = Parameter(name = 'lamDdIm11',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdIm11}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 10 ])
 
-ImlSdd12 = Parameter(name = 'ImlSdd12',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{ImlSdd12}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 11 ])
+lamDdIm12 = Parameter(name = 'lamDdIm12',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdIm12}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 11 ])
 
-ImlSdd13 = Parameter(name = 'ImlSdd13',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{ImlSdd13}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 12 ])
+lamDdIm13 = Parameter(name = 'lamDdIm13',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdIm13}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 12 ])
 
-ImlSdd21 = Parameter(name = 'ImlSdd21',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{ImlSdd21}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 13 ])
+lamDdIm21 = Parameter(name = 'lamDdIm21',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdIm21}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 13 ])
 
-ImlSdd22 = Parameter(name = 'ImlSdd22',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{ImlSdd22}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 14 ])
+lamDdIm22 = Parameter(name = 'lamDdIm22',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdIm22}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 14 ])
 
-ImlSdd23 = Parameter(name = 'ImlSdd23',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{ImlSdd23}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 15 ])
+lamDdIm23 = Parameter(name = 'lamDdIm23',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdIm23}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 15 ])
 
-ImlSdd31 = Parameter(name = 'ImlSdd31',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{ImlSdd31}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 16 ])
+lamDdIm31 = Parameter(name = 'lamDdIm31',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdIm31}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 16 ])
 
-ImlSdd32 = Parameter(name = 'ImlSdd32',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{ImlSdd32}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 17 ])
+lamDdIm32 = Parameter(name = 'lamDdIm32',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdIm32}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 17 ])
 
-ImlSdd33 = Parameter(name = 'ImlSdd33',
-                     nature = 'external',
-                     type = 'real',
-                     value = 1,
-                     texname = '\\text{ImlSdd33}',
-                     lhablock = 'FRBlock',
-                     lhacode = [ 18 ])
+lamDdIm33 = Parameter(name = 'lamDdIm33',
+                      nature = 'external',
+                      type = 'real',
+                      value = 1,
+                      texname = '\\text{lamDdIm33}',
+                      lhablock = 'FRBlock',
+                      lhacode = [ 18 ])
 
-lamHSd = Parameter(name = 'lamHSd',
+lamYHd = Parameter(name = 'lamYHd',
                    nature = 'external',
                    type = 'real',
                    value = 0.1,
-                   texname = '\\text{lamHSd}',
+                   texname = '\\text{lamYHd}',
                    lhablock = 'FRBlock',
                    lhacode = [ 19 ])
 
-lam2Sd = Parameter(name = 'lam2Sd',
+lam2Yd = Parameter(name = 'lam2Yd',
                    nature = 'external',
                    type = 'real',
                    value = 0.1,
-                   texname = '\\text{lam2Sd}',
+                   texname = '\\text{lam2Yd}',
                    lhablock = 'FRBlock',
                    lhacode = [ 20 ])
-
-mYSd = Parameter(name = 'mYSd',
-                 nature = 'external',
-                 type = 'real',
-                 value = 500,
-                 texname = '\\text{mYSd}',
-                 lhablock = 'FRBlock',
-                 lhacode = [ 21 ])
 
 MZ = Parameter(name = 'MZ',
                nature = 'external',
@@ -377,29 +369,37 @@ MH = Parameter(name = 'MH',
                lhablock = 'MASS',
                lhacode = [ 25 ])
 
-MXd1 = Parameter(name = 'MXd1',
+MXD1 = Parameter(name = 'MXD1',
                  nature = 'external',
                  type = 'real',
                  value = 300,
-                 texname = '\\text{MXd1}',
+                 texname = '\\text{MXD1}',
                  lhablock = 'MASS',
                  lhacode = [ 9000005 ])
 
-MXd2 = Parameter(name = 'MXd2',
+MXD2 = Parameter(name = 'MXD2',
                  nature = 'external',
                  type = 'real',
                  value = 200,
-                 texname = '\\text{MXd2}',
+                 texname = '\\text{MXD2}',
                  lhablock = 'MASS',
                  lhacode = [ 9000006 ])
 
-MXd3 = Parameter(name = 'MXd3',
+MXD3 = Parameter(name = 'MXD3',
                  nature = 'external',
                  type = 'real',
                  value = 100,
-                 texname = '\\text{MXd3}',
+                 texname = '\\text{MXD3}',
                  lhablock = 'MASS',
                  lhacode = [ 9000007 ])
+
+MYSd = Parameter(name = 'MYSd',
+                 nature = 'external',
+                 type = 'real',
+                 value = 500,
+                 texname = '\\text{MYSd}',
+                 lhablock = 'MASS',
+                 lhacode = [ 9000008 ])
 
 WZ = Parameter(name = 'WZ',
                nature = 'external',
@@ -433,19 +433,19 @@ WH = Parameter(name = 'WH',
                lhablock = 'DECAY',
                lhacode = [ 25 ])
 
-wXd1 = Parameter(name = 'wXd1',
+wXD1 = Parameter(name = 'wXD1',
                  nature = 'external',
                  type = 'real',
                  value = 1,
-                 texname = '\\text{wXd1}',
+                 texname = '\\text{wXD1}',
                  lhablock = 'DECAY',
                  lhacode = [ 9000005 ])
 
-wXd2 = Parameter(name = 'wXd2',
+wXD2 = Parameter(name = 'wXD2',
                  nature = 'external',
                  type = 'real',
                  value = 1,
-                 texname = '\\text{wXd2}',
+                 texname = '\\text{wXD2}',
                  lhablock = 'DECAY',
                  lhacode = [ 9000006 ])
 
@@ -523,113 +523,113 @@ CKM3x3 = Parameter(name = 'CKM3x3',
                    value = '1',
                    texname = '\\text{CKM3x3}')
 
-RelSdd1x1 = Parameter(name = 'RelSdd1x1',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'RelSdd11',
-                      texname = '\\text{RelSdd1x1}')
+lamDdRe1x1 = Parameter(name = 'lamDdRe1x1',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdRe11',
+                       texname = '\\text{lamDdRe1x1}')
 
-RelSdd1x2 = Parameter(name = 'RelSdd1x2',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'RelSdd12',
-                      texname = '\\text{RelSdd1x2}')
+lamDdRe1x2 = Parameter(name = 'lamDdRe1x2',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdRe12',
+                       texname = '\\text{lamDdRe1x2}')
 
-RelSdd1x3 = Parameter(name = 'RelSdd1x3',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'RelSdd13',
-                      texname = '\\text{RelSdd1x3}')
+lamDdRe1x3 = Parameter(name = 'lamDdRe1x3',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdRe13',
+                       texname = '\\text{lamDdRe1x3}')
 
-RelSdd2x1 = Parameter(name = 'RelSdd2x1',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'RelSdd21',
-                      texname = '\\text{RelSdd2x1}')
+lamDdRe2x1 = Parameter(name = 'lamDdRe2x1',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdRe21',
+                       texname = '\\text{lamDdRe2x1}')
 
-RelSdd2x2 = Parameter(name = 'RelSdd2x2',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'RelSdd22',
-                      texname = '\\text{RelSdd2x2}')
+lamDdRe2x2 = Parameter(name = 'lamDdRe2x2',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdRe22',
+                       texname = '\\text{lamDdRe2x2}')
 
-RelSdd2x3 = Parameter(name = 'RelSdd2x3',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'RelSdd23',
-                      texname = '\\text{RelSdd2x3}')
+lamDdRe2x3 = Parameter(name = 'lamDdRe2x3',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdRe23',
+                       texname = '\\text{lamDdRe2x3}')
 
-RelSdd3x1 = Parameter(name = 'RelSdd3x1',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'RelSdd31',
-                      texname = '\\text{RelSdd3x1}')
+lamDdRe3x1 = Parameter(name = 'lamDdRe3x1',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdRe31',
+                       texname = '\\text{lamDdRe3x1}')
 
-RelSdd3x2 = Parameter(name = 'RelSdd3x2',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'RelSdd32',
-                      texname = '\\text{RelSdd3x2}')
+lamDdRe3x2 = Parameter(name = 'lamDdRe3x2',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdRe32',
+                       texname = '\\text{lamDdRe3x2}')
 
-RelSdd3x3 = Parameter(name = 'RelSdd3x3',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'RelSdd33',
-                      texname = '\\text{RelSdd3x3}')
+lamDdRe3x3 = Parameter(name = 'lamDdRe3x3',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdRe33',
+                       texname = '\\text{lamDdRe3x3}')
 
-ImlSdd1x1 = Parameter(name = 'ImlSdd1x1',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'ImlSdd11',
-                      texname = '\\text{ImlSdd1x1}')
+lamDdIm1x1 = Parameter(name = 'lamDdIm1x1',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdIm11',
+                       texname = '\\text{lamDdIm1x1}')
 
-ImlSdd1x2 = Parameter(name = 'ImlSdd1x2',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'ImlSdd12',
-                      texname = '\\text{ImlSdd1x2}')
+lamDdIm1x2 = Parameter(name = 'lamDdIm1x2',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdIm12',
+                       texname = '\\text{lamDdIm1x2}')
 
-ImlSdd1x3 = Parameter(name = 'ImlSdd1x3',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'ImlSdd13',
-                      texname = '\\text{ImlSdd1x3}')
+lamDdIm1x3 = Parameter(name = 'lamDdIm1x3',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdIm13',
+                       texname = '\\text{lamDdIm1x3}')
 
-ImlSdd2x1 = Parameter(name = 'ImlSdd2x1',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'ImlSdd21',
-                      texname = '\\text{ImlSdd2x1}')
+lamDdIm2x1 = Parameter(name = 'lamDdIm2x1',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdIm21',
+                       texname = '\\text{lamDdIm2x1}')
 
-ImlSdd2x2 = Parameter(name = 'ImlSdd2x2',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'ImlSdd22',
-                      texname = '\\text{ImlSdd2x2}')
+lamDdIm2x2 = Parameter(name = 'lamDdIm2x2',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdIm22',
+                       texname = '\\text{lamDdIm2x2}')
 
-ImlSdd2x3 = Parameter(name = 'ImlSdd2x3',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'ImlSdd23',
-                      texname = '\\text{ImlSdd2x3}')
+lamDdIm2x3 = Parameter(name = 'lamDdIm2x3',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdIm23',
+                       texname = '\\text{lamDdIm2x3}')
 
-ImlSdd3x1 = Parameter(name = 'ImlSdd3x1',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'ImlSdd31',
-                      texname = '\\text{ImlSdd3x1}')
+lamDdIm3x1 = Parameter(name = 'lamDdIm3x1',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdIm31',
+                       texname = '\\text{lamDdIm3x1}')
 
-ImlSdd3x2 = Parameter(name = 'ImlSdd3x2',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'ImlSdd32',
-                      texname = '\\text{ImlSdd3x2}')
+lamDdIm3x2 = Parameter(name = 'lamDdIm3x2',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdIm32',
+                       texname = '\\text{lamDdIm3x2}')
 
-ImlSdd3x3 = Parameter(name = 'ImlSdd3x3',
-                      nature = 'internal',
-                      type = 'real',
-                      value = 'ImlSdd33',
-                      texname = '\\text{ImlSdd3x3}')
+lamDdIm3x3 = Parameter(name = 'lamDdIm3x3',
+                       nature = 'internal',
+                       type = 'real',
+                       value = 'lamDdIm33',
+                       texname = '\\text{lamDdIm3x3}')
 
 MW = Parameter(name = 'MW',
                nature = 'internal',
@@ -678,12 +678,6 @@ vev = Parameter(name = 'vev',
                 type = 'real',
                 value = '(2*MW*sw)/ee',
                 texname = '\\text{vev}')
-
-MYSd = Parameter(name = 'MYSd',
-                 nature = 'internal',
-                 type = 'real',
-                 value = 'cmath.sqrt(mYSd**2 + (lamHSd*vev**2)/2.)',
-                 texname = '\\text{MYSd}')
 
 lam = Parameter(name = 'lam',
                 nature = 'internal',
