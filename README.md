@@ -1,30 +1,30 @@
 # Flavored Dark Matter Phenomenology Tool Chain 
 
-This repository contains a tool chain for calculating phenomenological constraints on flavored dark matter models using micrOMEGAs, SModelS, and flavor physics tools. The models considered involve a dark matter flavor triplet that couples to Standard Model fermions via a mediator, with different flavors of SM fermions leading to distinct phenomenological signatures.
+This repository contains a tool chain for calculating phenomenological constraints on flavored dark matter models using `micrOMEGAs` \[[2312.14894](https://arxiv.org/abs/2312.14894)\], `SModelS` \[[2409.12942](https://arxiv.org/abs/2409.12942)\], and flavor physics tools used in the paper \[[2511.10490](https://arxiv.org/pdf/2511.10490)\]. The models considered involve a dark matter flavor triplet that couples to Standard Model fermions via a mediator, with different flavors of SM fermions leading to distinct phenomenological signatures.
 
 ## Directory Structure
 
-This directory contains the code for running calculations and the input files, as well as the FeynRules, UFO, and CalcHEP model files for 20 different flavored dark matter models.
+This directory contains the code for running calculations and the input files, as well as the `FeynRules` \[[1310.1921](https://arxiv.org/abs/1310.1921)\], `UFO` \[[2304.09883](https://arxiv.org/abs/2304.09883)\], and `CalcHEP` \[[1207.6082](https://arxiv.org/abs/1207.6082)\] model files for 20 different flavored dark matter models.
 
 ### Core Files
 
 | File | Description |
 |------|-------------|
-| `job_run_micromegas.sh` | SLURM cluster script for running calculations |
-| `run_micromegas.sh` | Script called by the job runner that executes micrOMEGAs |
+| `job_run_micromegas.sh` | SLURM cluster script example for running calculations |
+| `run_micromegas.sh` | Script called by the job runner that executes `micrOMEGAs` |
 | `evaluate_scan.py` | Example script for evaluating output results |
 
 ### Directories
 
-- **`CalcHEP_files/`** - Contains CalcHEP model files for all 20 flavored dark matter models
-- **`FeynRules_files/`** - Contains FeynRules model files for all 20 flavored dark matter models
-- **`files_for_micromegas/`** - Contains the main.c file for micrOMEGAs (place in the model directory) and the settings file for SModelS (`smodels_parameters.ini`) that should be placed in the `include` directory of micrOMEGAs.
-- **`flavor/`** - Contains tools for flavor physics analysis including SMEFT matching with Matchete (`matching/`) and global likelihood analysis with smelli (`likelihood/`)
+- **`CalcHEP_files/`** - Contains `CalcHEP` model files for all 20 flavored dark matter models
+- **`FeynRules_files/`** - Contains `FeynRules` model files for all 20 flavored dark matter models
+- **`files_for_micromegas/`** - Contains the main.c file for `micrOMEGAs` (place in the model directory) and the settings file for `SModelS` (`smodels_parameters.ini`) that should be placed in the `include` directory of `micrOMEGAs`.
+- **`flavor/`** - Contains tools for flavor physics analysis including SMEFT matching with `Matchete` (`matching/`) and global likelihood analysis with `smelli` (`likelihood/`)
 - **`input_files/`** - Contains parameter files (`.dat` extension)
   - First line: header with parameter names matching the model
   - Subsequent lines: parameter values
 - **`ID_limits/`** - Indirect detection limits (one file per channel)
-- **`UFO_files/`** - Contains UFO model files for all 20 flavored dark matter models
+- **`UFO_files/`** - Contains `UFO` model files for all 20 flavored dark matter models
 
 ## Dark matter model files
 
@@ -36,7 +36,7 @@ The models are specified by the dark matter particle type (real or complex scala
 - Right-handed leptons (e)
 - Left-handed lepton doublet (l)
 
-Different dark matter models can be combined by loading two or more FeynRules model files and adding the respective Lagrangians to produce the UFO or CalcHEP file of this model.
+Different dark matter models can be combined by loading two or more `FeynRules` model files and adding the respective Lagrangians to produce the `UFO` or `CalcHEP` file of this model.
 
 All masses for the dark matter and mediator particles are expected to be given after EWSB. The couplings between the DM field, the mediator and the SM fermions is split into the real and imaginary part (indicated by Re and Im at the end of the variable name). 
 
@@ -44,7 +44,7 @@ All masses for the dark matter and mediator particles are expected to be given a
 
 ### Prerequisites
 
-> **Important:** micrOMEGAs must be installed (we used version 6.1.15) and the corresponding model directory must be set up in order to run the calculations. If multiple cores are used for parallel processing, the model directory should be created multiple times, once for each core.
+> **Important:** `micrOMEGAs` must be installed (which can be downloaded from [https://lapth.cnrs.fr/micromegas/](https://lapth.cnrs.fr/micromegas/), we used `v6.1.15`) and the corresponding model directory must be set up in order to run the calculations. If multiple cores are used for parallel processing, the model directory should be created multiple times, once for each core.
 
 Now, follow these steps to run your calculations:
 
@@ -83,7 +83,7 @@ cd flavor/
 ```
 
 Use the tools in the `flavor/` directory to perform flavor physics analysis:
-- **Matching**: Use `matching/WCxf.nb` to convert parameter points to Wilson coefficients in WCxf format
-- **Likelihood Analysis**: Use `likelihood/smelli.ipynb` to calculate global likelihood ratios and apply flavor constraints using smelli
+- **Matching**: Use `matching/WCxf.nb` to convert parameter points to Wilson coefficients in `WCxf` format
+- **Likelihood Analysis**: Use `likelihood/smelli.ipynb` to calculate global likelihood ratios and apply flavor constraints using `smelli`
 
 This step will further constrain the allowed parameter space by incorporating precision flavor physics measurements and electroweak observables. As an input for the analysis, the output `.dat` file from Step 2 should be used so that only points allowed by previous constraints are considered.
